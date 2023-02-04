@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：04-02-2023 06:50:03
+# 创建时间：04-02-2023 07:27:32
 # 使用模版：V2RaySE 默认模版
-# 节点数量：162
+# 节点数量：163
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -54,6 +54,7 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_31","type":"vmess","server":"172.66.44.197","port":443,"cipher":"auto","uuid":"fa4cb529-3ac9-4268-bb04-ed4253813508","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mR17oBKzZ7","headers":{"host":"d.pgypgykmoljklj.xyz"}}}
   - {"name":"🇨🇳_CN_@vpnclashfa_32","type":"vmess","server":"jp99.meiluletian.top","port":22993,"cipher":"auto","uuid":"d26bcfb2-aa9a-4923-a7ca-00e42f5a492b","alterId":53,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_@vpnclashfa_33","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
+  - {"name":"🇰🇷_KR_@vpnclashfa_34","type":"ss","server":"43.201.103.37","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🏳️‍🌈_UN_@vpnclashfa_35","type":"ss","server":"$*@14.29.124.168","port":24004}
   - {"name":"🇯🇵_JP_@vpnclashfa_36","type":"ss","server":"172.105.218.17","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_@vpnclashfa_37","type":"ss","server":"23.95.222.75","port":18409,"password":"eX7JLvmxBV","cipher":"aes-256-gcm"}
@@ -222,6 +223,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -390,6 +392,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -558,6 +561,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -725,6 +729,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -892,6 +897,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -1059,6 +1065,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
@@ -1243,6 +1250,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_31
       - 🇨🇳_CN_@vpnclashfa_32
       - 🇯🇵_JP_@vpnclashfa_33
+      - 🇰🇷_KR_@vpnclashfa_34
       - 🏳️‍🌈_UN_@vpnclashfa_35
       - 🇯🇵_JP_@vpnclashfa_36
       - 🇺🇸_US_@vpnclashfa_37
