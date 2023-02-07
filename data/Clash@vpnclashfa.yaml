@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：04-02-2023 22:34:59
+# 创建时间：07-02-2023 09:25:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：161
+# 节点数量：176
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,11 +21,11 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇸🇬_SG_@vpnclashfa_1","type":"ss","server":"81.90.189.49","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵_JP_@vpnclashfa_2","type":"ss","server":"172.105.218.17","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb"}
-  - {"name":"🇮🇱_IL_@vpnclashfa_3","type":"ss","server":"193.182.144.183","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_@vpnclashfa_4","type":"ss","server":"167.88.61.236","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_@vpnclashfa_5","type":"ss","server":"172.96.204.170","port":254,"password":"bwhskrskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬SG-81.90.189.49-1119\r","type":"ss","server":"81.90.189.49","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP_3337|70.67Mb\r","type":"ss","server":"172.105.218.17","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb"}
+  - {"name":"@vpnserverrr_1_2\r","type":"ss","server":"193.182.144.183","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸美国(绿头外网集团)(Public)_12\r","type":"ss","server":"167.88.61.236","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US,\r","type":"ss","server":"172.96.204.170","port":254,"password":"bwhskrskr05","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸_US_@vpnclashfa_6","type":"ss","server":"167.88.61.236","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_@vpnclashfa_7","type":"ss","server":"167.88.61.236","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_@vpnclashfa_8","type":"vmess","server":"143.204.89.121","port":443,"cipher":"auto","uuid":"654f997b-5bea-4c82-9538-35ee57b6fd72","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/654f997b-5bea-4c82-9538-35ee57b6fd72","headers":{"host":"cft.hicoom.com"}}}
@@ -34,7 +34,7 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_11","type":"vmess","server":"104.17.75.195","port":80,"cipher":"auto","uuid":"11288503-4f79-4659-a033-bf538ab14499","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wafa/","headers":{"host":"lg.iwafa.tk"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_12","type":"vmess","server":"104.17.76.195","port":80,"cipher":"auto","uuid":"11288503-4f79-4659-a033-bf538ab14499","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wafa/","headers":{"host":"lg.iwafa.tk"}}}
   - {"name":"🇹🇼_TW_@vpnclashfa_13","type":"vmess","server":"36.227.230.163","port":18001,"cipher":"auto","uuid":"26fe3b2c-1005-362b-9700-426961cbd50b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇲🇰_MK_@vpnclashfa_14","type":"ss","server":"46.183.185.15","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇲🇰MK-46.183.185.15-17913\r","type":"ss","server":"46.183.185.15","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"🇳🇿_NZ_@vpnclashfa_15","type":"vmess","server":"216.73.156.14","port":19174,"cipher":"auto","uuid":"47a50659-d077-47b9-9753-ef06af801db1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_@vpnclashfa_16","type":"vmess","server":"173.245.59.2","port":2053,"cipher":"auto","uuid":"c03a76f6-175f-474a-805e-eceecf4b87ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"suki.sprotarsha.top"}}}
   - {"name":"🇳🇱_NL_@vpnclashfa_17","type":"vmess","server":"188.114.97.82","port":2053,"cipher":"auto","uuid":"c03a76f6-175f-474a-805e-eceecf4b87ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"suki.sprotarsha.top"}}}
@@ -72,7 +72,7 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_49","type":"vmess","server":"172.67.77.95","port":443,"cipher":"auto","uuid":"1bff15f1-a71d-4f07-b8bf-9471708eff8b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fthe4gsefgtdu","headers":{"host":"nat.998808.xyz"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_50","type":"vmess","server":"172.67.79.117","port":443,"cipher":"auto","uuid":"bd014532-1f8b-4d33-b79d-50131d8d4633","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vbje5ytgwfgdrhe","headers":{"host":"www.998808.xyz"}}}
   - {"name":"🇳🇱_NL_@vpnclashfa_51","type":"vmess","server":"188.114.97.3","port":443,"cipher":"auto","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}}}
-  - {"name":"🇳🇱_NL_@vpnclashfa_52","type":"vmess","server":"188.114.97.7","port":443,"cipher":"auto","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}}}
+  - {"name":"@vpnserverrr🇸🇬_2","type":"vmess","server":"188.114.97.7","port":443,"cipher":"auto","uuid":"c3b6ebb4-8c12-447c-9865-fe3d128d5cb0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg-v.sshmax.xyz"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_53","type":"vmess","server":"104.16.59.53","port":8080,"cipher":"auto","uuid":"41aec939-5727-4826-a6f0-c3bc0f8b89cb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/laowang?ed=2048","headers":{"host":"vu.azcc.vip"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_54","type":"vmess","server":"104.16.60.53","port":8080,"cipher":"auto","uuid":"41aec939-5727-4826-a6f0-c3bc0f8b89cb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/laowang?ed=2048","headers":{"host":"vu.azcc.vip"}}}
   - {"name":"🇳🇱_NL_@vpnclashfa_55","type":"vmess","server":"188.114.96.1","port":443,"cipher":"auto","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}}}
@@ -84,7 +84,7 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_61","type":"vmess","server":"172.67.132.15","port":443,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"ming2.kiwireich.com"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_62","type":"vmess","server":"104.16.210.12","port":2053,"cipher":"auto","uuid":"ea091487-3121-44ed-b2c9-e7142248aac1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"football.sprotarsha.top"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_63","type":"vmess","server":"162.159.130.81","port":80,"cipher":"none","uuid":"fb27dd72-c04f-47fc-9eb9-096dcd9b8827","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@HioNet","headers":{"host":"hionettelegram.nexede1server.autos"}}}
-  - {"name":"🇫🇷_FR_@vpnclashfa_64","type":"trojan","server":"5.135.235.161","port":443,"udp":true,"password":"392f8755-75e7-481e-927e-0f3aae34234e","sni":"$$smtp.lemail.cloud","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_FR_@vpnclashfa_64","type":"trojan","server":"5.135.235.161","port":443,"udp":true,"password":"392f8755-75e7-481e-927e-0f3aae34234e","sni":"$$$smtp.lemail.cloud","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_@vpnclashfa_65","type":"ss","server":"38.68.135.19","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬_SG_@vpnclashfa_66","type":"vmess","server":"170.187.196.117","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}}}
   - {"name":"🇺🇸_US_@vpnclashfa_67","type":"ss","server":"38.91.107.37","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
@@ -153,15 +153,15 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_130","type":"vmess","server":"vmess.woiden.yuji2022.gq","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/E86414F638E11","headers":{"host":"vmess.woiden.yuji2022.gq"}}}
   - {"name":"🇬🇧_GB_@vpnclashfa_131","type":"ss","server":"series1.samanehha.co","port":443,"password":"74lA54frQLM6O4nv","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️‍🌈_UN_@vpnclashfa_132","type":"trojan","server":"content-provider26.cdn-delivery.akamaicd.com","port":443,"udp":true,"password":"origin","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_@vpnclashfa_133","type":"trojan","server":"kaizen-hk-14.mielink-dns2.com","port":443,"udp":true,"password":"0d4926a0-9881-3609-b6ee-4716da84e59emielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_@vpnclashfa_134","type":"trojan","server":"kaizen-hk-15.mielink-dns2.com","port":443,"udp":true,"password":"1af287d5-2f03-30b5-a2b9-c67a0a727770mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_@vpnclashfa_133","type":"trojan","server":"kaizen-hk-14.mielink-dns2.com","port":443,"udp":true,"password":"0d4926a0-9881-3609-b6ee-4716da84e59emielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_@vpnclashfa_134","type":"trojan","server":"kaizen-hk-15.mielink-dns2.com","port":443,"udp":true,"password":"1af287d5-2f03-30b5-a2b9-c67a0a727770mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦_CA_@vpnclashfa_135","type":"ss","server":"72.140.224.195","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_136","type":"ss","server":"72.140.224.195","port":811,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_137","type":"ss","server":"72.140.224.195","port":807,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_138","type":"ss","server":"72.140.224.195","port":806,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_139","type":"ss","server":"72.140.224.195","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_140","type":"ss","server":"72.140.224.195","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_@vpnclashfa_141","type":"trojan","server":"kaizen-us-5.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_@vpnclashfa_141","type":"trojan","server":"kaizen-us-5.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦_CA_@vpnclashfa_142","type":"ss","server":"72.140.224.195","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_143","type":"ss","server":"72.140.224.195","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦_CA_@vpnclashfa_144","type":"ss","server":"72.140.224.195","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
@@ -170,29 +170,44 @@ proxies:
   - {"name":"🇺🇸_US_@vpnclashfa_147","type":"ss","server":"38.91.107.72","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇨🇳_CN_@vpnclashfa_148","type":"vmess","server":"hk5.sanfen001.pics","port":443,"cipher":"auto","uuid":"3c34f264-6d9c-4234-b1da-3b84f183a931","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk5.sanfen001.pics"}}}
   - {"name":"🇨🇦_CA_@vpnclashfa_149","type":"ss","server":"72.140.224.195","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷_KR_@vpnclashfa_150","type":"trojan","server":"kaizen-kr-2.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷_KR_@vpnclashfa_150","type":"trojan","server":"kaizen-kr-2.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_@vpnclashfa_151","type":"vmess","server":"135.148.138.80","port":443,"cipher":"auto","uuid":"e1ee4de0-a0bc-11ed-b639-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0vqp3dbu","headers":{"host":"yahoo.com"}}}
   - {"name":"🇨🇦_CA_@vpnclashfa_152","type":"ss","server":"72.140.224.195","port":803,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰_HK_@vpnclashfa_153","type":"vmess","server":"hk2.sanfen001.pics","port":443,"cipher":"auto","uuid":"3c34f264-6d9c-4234-b1da-3b84f183a931","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn"}}
-  - {"name":"🇺🇸_US_@vpnclashfa_154","type":"trojan","server":"kaizen-us-02.mielink-dns2.com","port":443,"udp":true,"password":"1af287d5-2f03-30b5-a2b9-c67a0a727770mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼_TW_@vpnclashfa_155","type":"trojan","server":"kaizen-tw-2.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_@vpnclashfa_154","type":"trojan","server":"kaizen-us-02.mielink-dns2.com","port":443,"udp":true,"password":"1af287d5-2f03-30b5-a2b9-c67a0a727770mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼_TW_@vpnclashfa_155","type":"trojan","server":"kaizen-tw-2.mielink-dns2.com","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_@vpnclashfa_156","type":"ss","server":"jp-02.cn2.run","port":10000,"password":"0806a94d-b267-40f6-946d-a3a2849cb6a1","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸_US_@vpnclashfa_157","type":"ss","server":"38.91.106.51","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_@vpnclashfa_158","type":"trojan","server":"20.163.90.12","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_@vpnclashfa_158","type":"trojan","server":"20.163.90.12","port":443,"udp":true,"password":"265f092f-418b-30c9-a479-4800fd44dd19mielink","sni":"$$$paydiu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵_JP_@vpnclashfa_159","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇸🇬_SG_@vpnclashfa_160","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
   - {"name":"🇨🇳_CN_@vpnclashfa_161","type":"ssr","server":"36.156.222.25","port":30899,"password":"zztw9jk7gu","cipher":"chacha20-ietf","obfs":"http_simple","protocol":"auth_aes128_sha1"}
+  - {"name":"🇬🇧@vpnserverrr_1","type":"vmess","server":"172.67.217.89","port":8443,"cipher":"auto","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/8cda48b3","headers":{"host":"US-42-153.shoptunnel.live"}}}
+  - {"name":"🇸🇬SG-54.169.145.188-3225\r","type":"ss","server":"54.169.145.188","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本 001","type":"ss","server":"54.178.60.213","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"Relay_🇨🇳CN-🇹🇼TW_971","type":"vmess","server":"103.45.78.241","port":10004,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":1,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 117","type":"ssr","server":"3.110.36.99","port":42833,"password":"YpX2opBbrfqJzzMs","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"origin"}
+  - {"name":"🇸🇬SG-81.90.189.52-1116\r","type":"ss","server":"81.90.189.52","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国 112","type":"ssr","server":"18.142.53.97","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
+  - {"name":"@vpnserverrr🇨🇦","type":"vmess","server":"104.24.176.7","port":443,"cipher":"auto","uuid":"ee30d3ff-da14-4ea8-bcd2-02e8ee3667de","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aidapp.lifevws","headers":{"host":"hstr1675520106270.aidapp.life"}}}
+  - {"name":"马来西亚_0206009","type":"vmess","server":"38.54.112.47","port":31990,"cipher":"auto","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳CN_901","type":"vmess","server":"36.156.102.166","port":10001,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇻🇳@vpnserverrr","type":"vmess","server":"188.114.97.7","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/E86414F638E11","headers":{"host":"vmess.woiden.yuji2022.gq"}}}
+  - {"name":"🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو","type":"vmess","server":"103.21.244.82","port":8443,"cipher":"auto","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/8cda48b3","headers":{"host":"US-42-153.shoptunnel.live"}}}
+  - {"name":"🇫🇮t.me/DarkVPNpro S2","type":"vmess","server":"162.159.138.30","port":2053,"cipher":"auto","uuid":"4f40e987-5ef3-48ab-bf69-db6200168953","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"usdc.sprotarsha.top"}}}
+  - {"name":"🇫🇮t.me/DarkVPNpro S4","type":"vmess","server":"188.114.98.224","port":2053,"cipher":"auto","uuid":"4f40e987-5ef3-48ab-bf69-db6200168953","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Telegram-id-@DarkVPNpro","headers":{"host":"usdc.sprotarsha.top"}}}
+  - {"name":"🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو","type":"vmess","server":"147.139.160.130","port":80,"cipher":"auto","uuid":"b9f6ef01-a4a6-4a95-8c22-59666be14599","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"jpjoq.ftvpn.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -201,7 +216,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -239,7 +254,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -349,17 +364,32 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -368,7 +398,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -406,7 +436,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -516,17 +546,32 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -535,7 +580,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -573,7 +618,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -683,16 +728,31 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -701,7 +761,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -739,7 +799,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -849,16 +909,31 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -867,7 +942,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -905,7 +980,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -1015,16 +1090,31 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -1033,7 +1123,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -1071,7 +1161,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -1181,6 +1271,21 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1203,11 +1308,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬_SG_@vpnclashfa_1
-      - 🇯🇵_JP_@vpnclashfa_2
-      - 🇮🇱_IL_@vpnclashfa_3
-      - 🇺🇸_US_@vpnclashfa_4
-      - 🇺🇸_US_@vpnclashfa_5
+      - "🇸🇬SG-81.90.189.49-1119\r"
+      - "🇯🇵JP_3337|70.67Mb\r"
+      - "@vpnserverrr_1_2\r"
+      - "🇺🇸美国(绿头外网集团)(Public)_12\r"
+      - "🇺🇸US,\r"
       - 🇺🇸_US_@vpnclashfa_6
       - 🇺🇸_US_@vpnclashfa_7
       - 🇺🇸_US_@vpnclashfa_8
@@ -1216,7 +1321,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_11
       - 🇺🇸_US_@vpnclashfa_12
       - 🇹🇼_TW_@vpnclashfa_13
-      - 🇲🇰_MK_@vpnclashfa_14
+      - "🇲🇰MK-46.183.185.15-17913\r"
       - 🇳🇿_NZ_@vpnclashfa_15
       - 🇺🇸_US_@vpnclashfa_16
       - 🇳🇱_NL_@vpnclashfa_17
@@ -1254,7 +1359,7 @@ proxy-groups:
       - 🇺🇸_US_@vpnclashfa_49
       - 🇺🇸_US_@vpnclashfa_50
       - 🇳🇱_NL_@vpnclashfa_51
-      - 🇳🇱_NL_@vpnclashfa_52
+      - '@vpnserverrr🇸🇬_2'
       - 🇺🇸_US_@vpnclashfa_53
       - 🇺🇸_US_@vpnclashfa_54
       - 🇳🇱_NL_@vpnclashfa_55
@@ -1364,6 +1469,21 @@ proxy-groups:
       - 🇯🇵_JP_@vpnclashfa_159
       - 🇸🇬_SG_@vpnclashfa_160
       - 🇨🇳_CN_@vpnclashfa_161
+      - 🇬🇧@vpnserverrr_1
+      - "🇸🇬SG-54.169.145.188-3225\r"
+      - 日本 001
+      - Relay_🇨🇳CN-🇹🇼TW_971
+      - 美国 117
+      - "🇸🇬SG-81.90.189.52-1116\r"
+      - 美国 112
+      - '@vpnserverrr🇨🇦'
+      - 马来西亚_0206009
+      - 🇨🇳CN_901
+      - 🇻🇳@vpnserverrr
+      - 🇨🇦🌏@customv2rayکانفیگهایبیشترعضوشو
+      - 🇫🇮t.me/DarkVPNpro S2
+      - 🇫🇮t.me/DarkVPNpro S4
+      - 🇩🇪🌏 @vpnserverrr کانفیگ های بیشتر عضو شو
 
 rules:
 # 本地/局域网地址
