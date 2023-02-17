@@ -1,5 +1,3 @@
-python
-Copy code
 import re
 import urllib.request
 import sys
