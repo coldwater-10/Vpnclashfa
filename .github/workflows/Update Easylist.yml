@@ -1,0 +1,29 @@
+name: Update Easylist
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+    - name: Install Required Packages
+      run: sudo apt-get update && sudo apt-get install -y python3
+    - name: Download Easylist
+      run: curl -o easylist.txt https://easylist-downloads.adblockplus.org/easylist.txt
+    - name: Convert Easylist to Clash config
+      run: python3 easylist-to-clash.py easylist.txt > easylist.yaml
+      working-directory: ${{ github.workspace }}
+    - name: Commit Changes
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "Github Actions"
+        git add .
+        git commit -m "Update Easylist"
+    - name: Push Changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
