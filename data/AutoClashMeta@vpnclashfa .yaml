@@ -1,3 +1,4 @@
+global-client-fingerprint: chrome
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -18,6 +19,10 @@ dns:
   enable: true
   ipv6: false
   prefer-h3: true
+  nameserver-policy:
+    "geosite:ir": 
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
   default-nameserver:
     - 1.1.1.1
     - 114.114.114.114
@@ -39,6 +44,8 @@ dns:
     - 9.9.9.9
     - 119.28.28.28
     - https://1.1.1.1/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://doh.dns.sb/dns-query
     - tls://dns.rubyfish.cn:853
     - dhcp://en0
     - https://doh.pub/dns-query
