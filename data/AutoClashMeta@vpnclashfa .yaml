@@ -9,8 +9,8 @@ geodata-mode: true
 tcp-concurrent: true
 log-level: info
 external-controller: 0.0.0.0:9090
-secret: ""
-bind-address: "*"
+secret: ''
+bind-address: '*'
 unified-delay: true
 profile:
   store-selected: true
@@ -20,7 +20,7 @@ dns:
   ipv6: false
   prefer-h3: true
   nameserver-policy:
-    "geosite:ir": 
+    geosite:ir:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
   default-nameserver:
@@ -67,7 +67,7 @@ dns:
     - tcp://1.1.1.1#en0
   fallback-filter:
     geoip: true
-    geoip-code: IR 
+    geoip-code: IR
     ipcidr:
       - 10.0.0.0/8
       - 100.64.0.0/10
@@ -81,14 +81,14 @@ dns:
       - fe80::/64
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
     - time.*.com
     - time.*.gov
     - time.*.edu.cn
@@ -108,34 +108,34 @@ dns:
     - ntp5.*.com
     - ntp6.*.com
     - ntp7.*.com
-    - "*.time.edu.cn"
-    - "*.ntp.org.cn"
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
     - +.pool.ntp.org
     - time1.cloud.tencent.com
     - music.163.com
-    - "*.music.163.com"
-    - "*.126.net"
+    - '*.music.163.com'
+    - '*.126.net'
     - musicapi.taihe.com
     - music.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
-    - "*.kuwo.cn"
+    - '*.kuwo.cn'
     - api-jooxtt.sanook.com
     - api.joox.com
     - joox.com
     - y.qq.com
-    - "*.y.qq.com"
+    - '*.y.qq.com'
     - streamoc.music.tc.qq.com
     - mobileoc.music.tc.qq.com
     - isure.stream.qqmusic.qq.com
     - dl.stream.qqmusic.qq.com
     - aqqmusic.tc.qq.com
     - amobile.music.tc.qq.com
-    - "*.xiami.com"
-    - "*.music.migu.cn"
+    - '*.xiami.com'
+    - '*.music.migu.cn'
     - music.migu.cn
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
     - msftconnecttest.com
     - msftncsi.com
     - localhost.ptlogin2.qq.com
@@ -156,9 +156,9 @@ dns:
     - +.stun.*.*.*
     - +.stun.*.*.*.*
     - heartbeat.belkin.com
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '*.router.asus.com'
     - mesu.apple.com
     - swscan.apple.com
     - swquery.apple.com
@@ -168,12 +168,11 @@ dns:
     - lens.l.google.com
     - stun.l.google.com
     - +.nflxvideo.net
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
-    - "*.mcdn.bilivideo.cn"
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
-
 rule-providers:
   iran:
     type: http
@@ -202,62 +201,54 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
     interval: 432000
-
 proxy-groups:
-  
-- name: 🚀 انتخاب پروکسی
-  type: select
-  use:
-    - airports
-    - aggregator
-
-- name: ♻️ خودکار (بهترین پینگ)
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: true
-  use:
-    - airports
-    - aggregator
-
-- name: 🛑 رهگیری جهانی
-  type: select
-  proxies:
+  - name: 🚀 انتخاب پروکسی
+    type: select
+    use:
+      - airports
+      - aggregator
+  - name: ♻️ خودکار (بهترین پینگ)
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    lazy: true
+    use:
+      - airports
+      - aggregator
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
       - REJECT
       - DIRECT
       - ♻️ خودکار (بهترین پینگ)
       - 🚀 انتخاب پروکسی
-
-- name: 🍃 تصفیه برنامه
-  type: select
-  proxies:
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
       - REJECT
       - DIRECT
       - ♻️ خودکار (بهترین پینگ)
       - 🚀 انتخاب پروکسی
-
-- name: 🆎 تبلیغات
-  type: select
-  proxies:
+  - name: 🆎 تبلیغات
+    type: select
+    proxies:
       - REJECT
       - DIRECT
       - ♻️ خودکار (بهترین پینگ)
       - 🚀 انتخاب پروکسی
-
-- name: 🇮🇷 سایتای ایرانی
-  type: select
-  proxies:
+  - name: 🇮🇷 سایتای ایرانی
+    type: select
+    proxies:
       - DIRECT
       - REJECT
       - ♻️ خودکار (بهترین پینگ)
       - 🚀 انتخاب پروکسی
-
 proxy-providers:
-
   airports:
     type: http
-    url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
+    url: >-
+      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
     interval: 720
     path: ./airports.yaml
     health-check:
@@ -265,10 +256,10 @@ proxy-providers:
       interval: 600
       lazy: true
       url: http://cp.cloudflare.com/
-
   aggregator:
     type: http
-    url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+    url: >-
+      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
     interval: 1440
     path: ./aggregator.yaml
     health-check:
@@ -276,7 +267,6 @@ proxy-providers:
       interval: 600
       lazy: true
       url: http://cp.cloudflare.com/
-
 rules:
   - GEOSITE,category-ads-all,🆎 تبلیغات
   - GEOIP,private,DIRECT,no-resolve
@@ -379,4 +369,5 @@ rules:
   - IP-CIDR,223.87.182.102/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
+  - RULE-SET,Global,🛑 رهگیری جهانی
   - MATCH,🚀 انتخاب پروکسی
