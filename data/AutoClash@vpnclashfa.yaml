@@ -19,16 +19,19 @@ dns:
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
   nameserver:
-    - 8.8.8.8
-    - 1.0.0.1
-    - https://dns.google/dns-query
+    - 1.1.1.1
+    - 4.2.2.4
     - 119.29.29.29
     - 223.5.5.5
-    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
     - 114.114.114.114
     - 9.9.9.9
     - 119.28.28.28
+    - https://dns.google/dns-query
     - https://1.1.1.1/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://doh.dns.sb/dns-query
     - https://doh.pub/dns-query
     - dhcp://en0
     - tls://dns.rubyfish.cn:853
@@ -63,8 +66,8 @@ dns:
       - fc00::/7
       - fe80::/64
   default-nameserver:
-    - 8.8.8.8
     - 1.1.1.1
+    - 8.8.8.8
     - 112.215.203.254
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -255,8 +258,6 @@ proxy-providers:
       lazy: true
       url: http://cp.cloudflare.com/
 rules:
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,LAN,DIRECT,no-resolve
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
