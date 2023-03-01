@@ -34,21 +34,22 @@ dns:
   proxy-server-nameserver:
     - https://1.1.1.1/dns-query
   nameserver:
-    - 8.8.8.8
-    - 1.0.0.1
-    - https://dns.google/dns-query
+    - 1.1.1.1
+    - 4.2.2.4
     - 119.29.29.29
     - 223.5.5.5
-    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
     - 114.114.114.114
     - 9.9.9.9
     - 119.28.28.28
+    - https://dns.google/dns-query
     - https://1.1.1.1/dns-query
     - https://doh.opendns.com/dns-query
     - https://doh.dns.sb/dns-query
-    - tls://dns.rubyfish.cn:853
-    - dhcp://en0
     - https://doh.pub/dns-query
+    - dhcp://en0
+    - tls://dns.rubyfish.cn:853
     - tls://dot.pub:853
   fallback:
     - https://1.1.1.1/dns-query
@@ -269,8 +270,6 @@ proxy-providers:
       url: http://cp.cloudflare.com/
 rules:
   - GEOSITE,category-ads-all,🆎 تبلیغات
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,LAN,DIRECT,no-resolve
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
