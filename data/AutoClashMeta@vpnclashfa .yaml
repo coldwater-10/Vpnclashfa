@@ -174,6 +174,7 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
+
 rule-providers:
   iran:
     type: http
@@ -181,6 +182,12 @@ rule-providers:
     url: >-
       https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
     path: ./ruleset/iran.yaml
+    interval: 432000
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    path: ./ruleset/steam.yaml
     interval: 432000
   add:
     type: http
@@ -202,6 +209,7 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
     interval: 432000
+
 proxy-groups:
   - name: 🚀 انتخاب پروکسی
     type: select
@@ -217,6 +225,13 @@ proxy-groups:
     use:
       - airports
       - aggregator
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ♻️ خودکار (بهترین پینگ)
+      - 🚀 انتخاب پروکسی
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
@@ -348,6 +363,9 @@ rules:
   - IP-CIDR,77.162.125.199/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.165.169.108/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.193.38.148/32,🆎 تبلیغات,no-resolve
+  - DOMAIN-KEYWORD,dl20.freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,dl10.dl14r-mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
