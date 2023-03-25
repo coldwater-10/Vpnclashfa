@@ -1404,8 +1404,9 @@ rules:
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,dl20.freeserver.top,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,dl10.dl14r-mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
