@@ -178,7 +178,7 @@ proxy-providers:
   airports:
     type: http
     url: >-
-      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
+      https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_yaml.yml
     interval: 720
     path: ./airports.yaml
     health-check:
