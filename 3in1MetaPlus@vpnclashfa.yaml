@@ -1,0 +1,446 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+tcp-concurrent: true
+enable-process: true
+find-process-mode: always
+global-client-fingerprint: chrome
+geodata-mode: true
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+allow-lan: true
+log-level: info
+ipv6: true
+external-controller: 127.0.0.1:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+tun:
+  enable: true
+  stack: system 
+  dns-hijack:
+    - any:53
+  auto-redir: true 
+  auto-route: true 
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  listen: 127.0.0.1:53
+  ipv6: true
+  prefer-h3: true
+  default-nameserver: 
+    - '127.0.0.1'
+    - '1.1.1.1'
+  enhanced-mode: fake-ip
+  use-hosts: true
+  nameserver:
+    - '127.0.0.1'
+    - '1.1.1.1'
+  fallback:
+    - "https://1.1.1.1/dns-query"
+    - "https://8.8.8.8/dns-query"
+    - "https://9.9.9.9/dns-query"
+    - "https://rubyfish.cn/dns-query"
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - '0.0.0.0/8'
+      - '10.0.0.0/8'
+      - '100.64.0.0/10'
+      - '127.0.0.0/8'
+      - '169.254.0.0/16'
+      - '172.16.0.0/12'
+      - '192.0.0.0/24'
+      - '192.0.2.0/24'
+      - '192.88.99.0/24'
+      - '192.168.0.0/16'
+      - '198.18.0.0/15'
+      - '198.51.100.0/24'
+      - '203.0.113.0/24'
+      - '224.0.0.0/3'
+      - '240.0.0.0/4'
+      - '::1/128'
+      - '64:ff9b:1::/48'
+      - 'fc00::/7'
+      - 'fe80::/10'
+
+rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: >-
+      https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
+    path: ./ruleset/iran.yaml
+    interval: 432000
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    path: ./ruleset/steam.yaml
+    interval: 432000
+  add:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/add.yaml
+    path: ./ruleset/add.yaml
+    interval: 432000
+  Purification:
+    type: http
+    behavior: classical
+    url: >-
+      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
+    path: ./ruleset/Purification.yaml
+    interval: 432000
+  Global:
+    type: http
+    behavior: classical
+    url: >-
+      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
+    path: ./ruleset/Global.yaml
+    interval: 432000
+  AntiAd:
+    type: http
+    behavior: domain
+    url: >-
+      https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/AntiAd.yaml
+    interval: 432000
+
+proxy-groups:
+  - name: 📶 انتخاب نوع اتصال
+    type: select
+    proxies:
+      - 〄 Lonup - UrlTest 📍
+      - 〄 Lonup - Fallback ➡️
+      - 〄 Lonup - LoadBalance(ch) ♻️
+      - 〄 Lonup -LoadBalance(rr) ⏳
+      - 〄 Lonup - select 🤏🏻
+      - 🕊 Azadnet - UrlTest 📍
+      - 🕊 Azadnet - Fallback ➡️
+      - 🕊 Azadnet - LoadBalance(ch) ♻️
+      - 🕊 Azadnet - LoadBalance(rr) ⏳
+      - 🕊 Azadnet - select 🤏🏻
+      - 👨🏻‍💻 MahdiBland - UrlTest 📍
+      - 👨🏻‍💻 MahdiBland - Fallback ➡️
+      - 👨🏻‍💻 MahdiBland - LoadBalance(ch) ♻️
+      - 👨🏻‍💻 MahdiBland - LoadBalance(rr) ⏳
+      - 👨🏻‍💻 MahdiBland - select 🤏🏻
+      - DIRECT
+      - REJECT
+
+  - name: 👨🏻‍💻 MahdiBland - select 🤏🏻
+    type: select
+    use:
+      - aggregator
+      - airports
+
+  - name: 👨🏻‍💻 MahdiBland - UrlTest 📍
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - aggregator
+      - airports
+
+  - name: 👨🏻‍💻 MahdiBland - Fallback ➡️
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - aggregator
+      - airports
+
+  - name: 👨🏻‍💻 MahdiBland - LoadBalance(ch) ♻️
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - aggregator
+      - airports
+
+  - name: 👨🏻‍💻 MahdiBland - LoadBalance(rr) ⏳
+    type: load-balance
+    strategy: round-robin
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    use:
+      - aggregator
+      - airports
+
+  - name: 〄 Lonup - select 🤏🏻
+    type: select
+    use:
+      - lonup
+
+  - name: 〄 Lonup - UrlTest 📍
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - lonup
+
+  - name: 〄 Lonup - Fallback ➡️
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - lonup
+
+  - name: 〄 Lonup - LoadBalance(ch) ♻️
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - lonup
+
+  - name: 〄 Lonup -LoadBalance(rr) ⏳
+    type: load-balance
+    strategy: round-robin
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    use:
+      - lonup
+
+  - name: 🕊 Azadnet - select 🤏🏻
+    type: url-test
+    use:
+      - azadnet
+
+  - name: 🕊 Azadnet - UrlTest 📍
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - azadnet
+
+  - name: 🕊 Azadnet - Fallback ➡️
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - azadnet
+
+  - name: 🕊 Azadnet - LoadBalance(ch) ♻️
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - azadnet
+
+  - name: 🕊 Azadnet - LoadBalance(rr) ⏳
+    type: load-balance
+    strategy: round-robin
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    use:
+      - azadnet
+
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🆎 تبلیغات
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🇮🇷 سایتای ایرانی
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - 📶 انتخاب نوع اتصال
+
+proxy-providers:
+
+  airports:
+    type: http
+    url: >-
+      https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_yaml.yml
+    interval: 720
+    path: ./airports.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+  aggregator:
+    type: http
+    url: >-
+      https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+    interval: 1440
+    path: ./aggregator.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+  azadnet:
+    type: http
+    url: >-
+      https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_IRAN-Direct1.yml
+    interval: 1440
+    path: ./azadnet.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+  lonup:
+    type: http
+    url: >-
+      https://raw.githubusercontent.com/LonUp/NodeList/main/Clash/Node/Latest.yaml
+    interval: 1440
+    path: ./lonup.yaml
+    health-check:
+      enable: true
+      interval: 600
+      lazy: true
+      url: http://cp.cloudflare.com/
+
+rules:
+  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - GEOSITE,category-ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
+  - GEOSITE,category-ads-all,🆎 تبلیغات 
+  - RULE-SET,add,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,Purification,🍃 تصفیه برنامه
+  - RULE-SET,Global,🛑 رهگیری جهانی
+  - GEOSITE,win-spy,🛑 رهگیری جهانی
+  - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.109.87.101/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,35.232.188.118/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,37.1.209.213/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.96/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.97/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.98/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.99/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.100/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.101/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.102/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.77.227.103/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.136/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.137/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.138/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.139/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.140/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.141/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.142/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,51.89.187.143/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,162.252.214.4/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,167.99.31.227/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,167.206.10.148/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,203.195.121.11/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.89.50.180/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.91.3.114/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.234.217.11/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.234.217.12/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,23.244.43.212/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,60.190.139.164/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,103.21.91.144/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,104.197.140.120/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,104.198.198.188/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,104.203.72.254/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,104.203.214.3/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,104.233.177.93/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,107.148.199.181/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,107.165.206.26/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,107.172.176.197/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,107.183.137.18/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,107.187.122.172/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,108.171.248.234/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,119.29.207.87/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,120.27.34.156/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,121.40.25.88/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,122.114.239.160/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,134.73.54.252/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,136.0.56.196/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,137.175.69.92/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,142.0.129.74/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,146.148.85.61/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,154.196.143.171/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,156.232.37.2/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,156.246.162.2/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,163.197.136.33/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,163.197.167.236/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,164.155.185.254/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,172.121.4.251/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,172.121.4.252/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,174.139.53.195/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,180.76.171.28/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,211.167.105.131/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,213.232.113.250/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,216.172.154.226/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,220.115.251.25/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,221.204.213.222/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,222.186.12.235/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,0.0.0.1/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,35.194.26.233/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,35.239.57.233/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,45.32.105.134/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,77.162.125.199/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,185.165.169.108/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,185.193.38.148/32,🆎 تبلیغات,no-resolve
+  - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,101.227.200.28/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,101.227.97.240/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,124.192.153.42/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,117.177.248.17/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,117.177.248.41/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.176.139/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.176.176/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.180/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.182/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.184/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.43/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.47/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.177.80/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.182.101/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.182.102/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
+  - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
+  - MATCH,📶 انتخاب نوع اتصال
