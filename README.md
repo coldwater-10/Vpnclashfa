@@ -22,6 +22,6 @@
 
 منبع پروکسی‌ها از [mahdibland](https://github.com/mahdibland/V2RayAggregator) و [AzadNet](https://github.com/AzadNetCH) و [LonUp](https://github.com/LonUp) تامین و خودکار بروز می‌شه
 
-<a href="https://t.me/vpnclashfa"><img src="https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_400px.gif" alt="Telegram" width="100" height="100"></a>
+<a href="https://t.me/vpnclashfa"><img src="https://cdn.dribbble.com/users/4507400/screenshots/15420681/media/c00f77bc443cbc4ac96d138f9ac854c5.gif" alt="Telegram" width="100" height="100"></a>
 
-[![Twitter](https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_400px.gif)](https://twitter.com/coldwater_10)
+[![Twitter](https://i.imgur.com/twitter.png)](https://twitter.com/coldwater_10)
