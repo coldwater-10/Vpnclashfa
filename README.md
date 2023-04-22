@@ -1,6 +1,6 @@
 # Vpnclashfa
 
-# نوع کانفیگ:
+نوع کانفیگ:
 
 [کانفیگ کلش فقط انتخاب دستی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1%40vpnclashfa.yaml)
 
