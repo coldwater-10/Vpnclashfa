@@ -1,18 +1,26 @@
 # Vpnclashfa
 
-<div>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش - فقط انتخاب دستی</a>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Auto%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش - فقط انتخاب خودکار</a>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Plus%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش - همه نوع انتخاب</a>
-</div>
+نوع کانفیگ کلش:
 
-<div>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Meta%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش متا - فقط انتخاب دستی</a>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1AutoMeta%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش متا - فقط انتخاب خودکار</a>
-    <a href="https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1MetaPlus%40vpnclashfa.yaml" style="display: inline-block;">نوع کانفیگ کلش متا - همه نوع انتخاب</a>
-</div>
+[فقط انتخاب دستی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1%40vpnclashfa.yaml)
 
-<p>منبع پروکسی‌ها از <a href="https://github.com/mahdibland/V2RayAggregator">mahdibland</a> و <a href="https://github.com/AzadNetCH">AzadNet</a> و <a href="https://github.com/LonUp">LonUp</a> تامین و خودکار بروز می‌شه</p>
+
+[فقط انتخاب خودکار](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Auto%40vpnclashfa.yaml)
+
+
+[همه نوع انتخاب](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Plus%40vpnclashfa.yaml)
+
+نوع کانفیگ کلش متا:
+
+[فقط انتخاب دستی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Meta%40vpnclashfa.yaml)
+
+
+[فقط انتخاب خودکار](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1AutoMeta%40vpnclashfa.yaml)
+
+
+[همه نوع انتخاب](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1MetaPlus%40vpnclashfa.yaml)
+
+منبع پروکسی‌ها از [mahdibland](https://github.com/mahdibland/V2RayAggregator) و [AzadNet](https://github.com/AzadNetCH) و [LonUp](https://github.com/LonUp) تامین و خودکار بروز می‌شه
 
 <div>
     <a href="https://t.me/vpnclashfa"><img src="https://cdn.dribbble.com/users/4507400/screenshots/15420681/media/c00f77bc443cbc4ac96d138f9ac854c5.gif" alt="Telegram" width="100" height="100"></a>
