@@ -19,7 +19,7 @@
 
 [کانفیگ کلش متا همه نوع انتخاب](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1MetaPlus%40vpnclashfa.yaml)
 
-منبع پروکسی‌ها از [mahdibland](https://github.com/mahdibland/V2RayAggregator) و [AzadNet](https://t.me/AzadNet) و [LonUp](https://t.me/LonUp_M) تامین و خودکار بروز می‌شود.
+منبع پروکسی‌ها از [mahdibland](https://github.com/mahdibland/V2RayAggregator) و [AzadNet](https://t.me/AzadNet) و [LonUp](https://t.me/LonUp_M) تامین و خودکار بروز می‌شه
 
 [![Telegram](https://i.imgur.com/4Oxjxun.gif)](https://t.me/vpnclashfa)
 
