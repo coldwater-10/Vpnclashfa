@@ -1,6 +1,6 @@
 # Vpnclashfa
 
-نوع کانفیگ کلش:
+## نوع کانفیگ کلش:
 
 [فقط انتخاب دستی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1%40vpnclashfa.yaml)
 
@@ -10,7 +10,7 @@
 
 [همه نوع انتخاب](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Plus%40vpnclashfa.yaml)
 
-نوع کانفیگ کلش متا:
+## نوع کانفیگ کلش متا:
 
 [فقط انتخاب دستی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Meta%40vpnclashfa.yaml)
 
