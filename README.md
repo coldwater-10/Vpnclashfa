@@ -24,4 +24,4 @@
 
 <a href="https://t.me/vpnclashfa"><img src="https://cdn.dribbble.com/users/4507400/screenshots/15420681/media/c00f77bc443cbc4ac96d138f9ac854c5.gif" alt="Telegram" width="100" height="100"></a>
 
-<a href="https://twitter.com/coldwater_10"><img src="https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_400px.gif" alt="Twitter" width="100" height="100"></a>
+<a href="https://twitter.com/coldwater_10"><img src="https://cdn.dribbble.com/users/2652449/screenshots/14764078/media/2b620382444946ce84aac0a132c40063.gif" alt="Twitter" width="100" height="100"></a>
