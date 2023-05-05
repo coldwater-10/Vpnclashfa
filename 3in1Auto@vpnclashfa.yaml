@@ -96,79 +96,87 @@ rule-providers:
     interval: 432000
 
 proxy-groups:
-  - name: ♻️ خودکار (بهترین پینگ)
+  - name: 📶 انتخاب نوع اتصال
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://clients3.google.com/generate_204
     interval: 300
-    tolerance: 50
-    lazy: true
     proxies:
-      - 🔥 azadnet
-      - 🔥 lonup
-      - 🔥 mahdibland
+      - 〄 Lonup - خودکار (بهترین پینگ) 🤖
+      - 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
+      - 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
 
-  - name: 🔥 mahdibland
+  - name: 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://clients3.google.com/generate_204
     interval: 300
-    tolerance: 50
-    lazy: true
     use:
       - aggregator
       - airports
 
-  - name: 🔥 azadnet
+  - name: 〄 Lonup - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://clients3.google.com/generate_204
     interval: 300
-    tolerance: 50
-    lazy: true
-    use:
-      - azadnet
-
-  - name: 🔥 lonup
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    lazy: true
     use:
       - lonup
 
-  - name: 🎮 استیم
-    type: select
-    proxies:
-      - DIRECT
-      - REJECT
-      - ♻️ خودکار (بهترین پینگ)
-
-  - name: 🛑 رهگیری جهانی
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
-
-  - name: 🍃 تصفیه برنامه
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
-
-  - name: 🆎 تبلیغات
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
+  - name: 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
+    type: url-test
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    use:
+      - azadnet
 
   - name: 🇮🇷 سایتای ایرانی
     type: select
     proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🆎 تبلیغات
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛡️ بدون فیلترشکن
+    type: select
+    proxies:
       - DIRECT
+
+  - name: ⛔ قطع اینترنت
+    type: select
+    proxies:
       - REJECT
-      - ♻️ خودکار (بهترین پینگ)
+
+  - name: 🚫 اجازه ندادن
+    type: select
+    proxies:
+      - REJECT
+
 
 proxy-providers:
 
@@ -325,4 +333,4 @@ rules:
   - IP-CIDR,223.87.182.102/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
-  - MATCH,♻️ خودکار (بهترین پینگ)
+  - MATCH,📶 انتخاب نوع اتصال
