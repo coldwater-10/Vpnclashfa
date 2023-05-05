@@ -109,31 +109,31 @@ proxy-groups:
   - name: 📶 انتخاب نوع اتصال
     type: select
     proxies:
-      - 〄 Lonup - UrlTest 📍
-      - 〄 Lonup - Fallback ➡️
-      - 〄 Lonup - LoadBalance(ch) ♻️
-      - 〄 Lonup -LoadBalance(rr) ⏳
-      - 〄 Lonup - select 🤏🏻
-      - 🕊 Azadnet - UrlTest 📍
-      - 🕊 Azadnet - Fallback ➡️
-      - 🕊 Azadnet - LoadBalance(ch) ♻️
-      - 🕊 Azadnet - LoadBalance(rr) ⏳
-      - 🕊 Azadnet - select 🤏🏻
-      - 👨🏻‍💻 MahdiBland - UrlTest 📍
-      - 👨🏻‍💻 MahdiBland - Fallback ➡️
-      - 👨🏻‍💻 MahdiBland - LoadBalance(ch) ♻️
-      - 👨🏻‍💻 MahdiBland - LoadBalance(rr) ⏳
-      - 👨🏻‍💻 MahdiBland - select 🤏🏻
-      - DIRECT
-      - REJECT
+      - 〄 Lonup - خودکار (بهترین پینگ) 🤖
+      - 〄 Lonup - بازگشتی ➡️
+      - 〄 Lonup - تعادل بار (هش ثابت) ♻️
+      - 〄 Lonup - تعادل بار (زمان بندی) ⏳
+      - 〄 Lonup - دستی 🤏🏻
+      - 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
+      - 🕊 Azadnet - بازگشتی ➡️
+      - 🕊 Azadnet - تعادل بار (هش ثابت) ♻️
+      - 🕊 Azadnet - تعادل بار (زمان بندی) ⏳
+      - 🕊 Azadnet - دستی 🤏🏻
+      - 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
+      - 👨🏻‍💻 MahdiBland - بازگشتی ➡️
+      - 👨🏻‍💻 MahdiBland - تعادل بار (هش ثابت) ♻️
+      - 👨🏻‍💻 MahdiBland - تعادل بار (زمان بندی) ⏳
+      - 👨🏻‍💻 MahdiBland - دستی 🤏🏻
+      - ⛔ قطع اینترنت
+      - 🛡️ بدون فیلترشکن
 
-  - name: 👨🏻‍💻 MahdiBland - select 🤏🏻
+  - name: 👨🏻‍💻 MahdiBland - دستی 🤏🏻
     type: select
     use:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - UrlTest 📍
+  - name: 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 300
@@ -141,7 +141,7 @@ proxy-groups:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - Fallback ➡️
+  - name: 👨🏻‍💻 MahdiBland - بازگشتی ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 300
@@ -149,7 +149,7 @@ proxy-groups:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - LoadBalance(ch) ♻️
+  - name: 👨🏻‍💻 MahdiBland - تعادل بار (هش ثابت) ♻️
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
@@ -158,7 +158,7 @@ proxy-groups:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - LoadBalance(rr) ⏳
+  - name: 👨🏻‍💻 MahdiBland - تعادل بار (زمان بندی) ⏳
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
@@ -168,26 +168,26 @@ proxy-groups:
       - aggregator
       - airports
 
-  - name: 〄 Lonup - select 🤏🏻
+  - name: 〄 Lonup - دستی 🤏🏻
     type: select
     use:
       - lonup
 
-  - name: 〄 Lonup - UrlTest 📍
+  - name: 〄 Lonup - خودکار (بهترین پینگ) 🤖
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 300
     use:
       - lonup
 
-  - name: 〄 Lonup - Fallback ➡️
+  - name: 〄 Lonup - بازگشتی ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 300
     use:
       - lonup
 
-  - name: 〄 Lonup - LoadBalance(ch) ♻️
+  - name: 〄 Lonup - تعادل بار (هش ثابت) ♻️
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
@@ -195,7 +195,7 @@ proxy-groups:
     use:
       - lonup
 
-  - name: 〄 Lonup -LoadBalance(rr) ⏳
+  - name: 〄 Lonup - تعادل بار (زمان بندی) ⏳
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
@@ -204,26 +204,26 @@ proxy-groups:
     use:
       - lonup
 
-  - name: 🕊 Azadnet - select 🤏🏻
+  - name: 🕊 Azadnet - دستی 🤏🏻
     type: url-test
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - UrlTest 📍
+  - name: 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 300
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - Fallback ➡️
+  - name: 🕊 Azadnet - بازگشتی ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 300
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - LoadBalance(ch) ♻️
+  - name: 🕊 Azadnet - تعادل بار (هش ثابت) ♻️
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
@@ -231,7 +231,7 @@ proxy-groups:
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - LoadBalance(rr) ⏳
+  - name: 🕊 Azadnet - تعادل بار (زمان بندی) ⏳
     type: load-balance
     strategy: round-robin
     url: http://clients3.google.com/generate_204
@@ -240,40 +240,56 @@ proxy-groups:
     use:
       - azadnet
 
-  - name: 🎮 استیم
+  - name: 🇮🇷 سایتای ایرانی
     type: select
     proxies:
-      - DIRECT
-      - REJECT
-      - 📶 انتخاب نوع اتصال
-
-  - name: 🛑 رهگیری جهانی
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - 📶 انتخاب نوع اتصال
-
-  - name: 🍃 تصفیه برنامه
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
       - 📶 انتخاب نوع اتصال
 
   - name: 🆎 تبلیغات
     type: select
     proxies:
-      - REJECT
-      - DIRECT
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
       - 📶 انتخاب نوع اتصال
 
-  - name: 🇮🇷 سایتای ایرانی
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛡️ بدون فیلترشکن
     type: select
     proxies:
       - DIRECT
+
+  - name: ⛔ قطع اینترنت
+    type: select
+    proxies:
       - REJECT
-      - 📶 انتخاب نوع اتصال
+
+  - name: 🚫 اجازه ندادن
+    type: select
+    proxies:
+      - REJECT
+
 
 proxy-providers:
 
