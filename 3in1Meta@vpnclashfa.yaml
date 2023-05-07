@@ -33,6 +33,9 @@ dns:
   enhanced-mode: fake-ip
   use-hosts: true
   nameserver:
+    - "https://cloudflare-dns.com/dns-query"
+    - "https://dns.google/dns-query"
+    - "https://dns.quad9.net/dns-query"
     - '127.0.0.1'
     - '1.1.1.1'
   fallback:
@@ -40,6 +43,17 @@ dns:
     - "https://8.8.8.8/dns-query"
     - "https://9.9.9.9/dns-query"
     - "https://rubyfish.cn/dns-query"
+    - "https://dns.nextdns.io"
+    - "https://doh.cleanbrowsing.org/doh/security-filter/"
+    - "https://dns.adguard.com/dns-query"
+    - "https://resolver2.dns.watch/dns-query"
+    - "https://doh-de.blahdns.com/dns-query"
+    - "https://dns.surfshark.com/dns-query"
+    - "https://doh.opendns.com/dns-query"
+    - "https://freedns.controld.com/p2"
+    - "https://dns.dnswarden.com/adblock"
+    - "https://adblock.doh.mullvad.net/dns-query"
+    - "https://basic.rethinkdns.com/dns-query"
   fallback-filter:
     geoip: false
     ipcidr:
