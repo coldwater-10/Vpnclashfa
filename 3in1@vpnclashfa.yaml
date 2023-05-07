@@ -71,8 +71,7 @@ rule-providers:
   iran:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
     path: ./ruleset/iran.yaml
     interval: 432000
   steam:
