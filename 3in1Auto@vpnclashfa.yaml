@@ -107,6 +107,12 @@ rule-providers:
       https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
     path: ./ruleset/AntiAd.yaml
     interval: 432000
+  bootmortis:
+    type: http
+    behavior: domain
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
 
 proxy-groups:
   - name: 📶 انتخاب نوع اتصال
@@ -242,17 +248,15 @@ proxy-providers:
       url: http://cp.cloudflare.com/
 
 rules:
-  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
-  - RULE-SET,iran,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
-  - RULE-SET,add,🆎 تبلیغات
-  - RULE-SET,AntiAd,🆎 تبلیغات
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,Global,🛑 رهگیری جهانی
+  - RULE-SET,add,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,MoreAd,🆎 تبلیغات
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - RULE-SET,bootmortis,🇮🇷 سایتای ایرانی
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,23.109.87.101/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,35.232.188.118/32,🆎 تبلیغات,no-resolve
