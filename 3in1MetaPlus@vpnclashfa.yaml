@@ -367,6 +367,7 @@ proxy-providers:
       url: http://cp.cloudflare.com/
 
 rules:
+  - IP-CIDR,10.10.34.0/24,📶 انتخاب نوع اتصال
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - GEOSITE,category-ir,🇮🇷 سایتای ایرانی
   - RULE-SET,Purification,🍃 تصفیه برنامه
