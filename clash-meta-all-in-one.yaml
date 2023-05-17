@@ -1955,6 +1955,44 @@ proxies:
     skip-cert-verify: false
     host: cu.wfitech.net
     path: /hxYuLXH6rA9VAxnFIAPLD
+- name: Reallity_vmess free sub 443 28
+  type: vmess
+  server: sublink.ashorayiha.xyz
+  port: 443
+  alpn:
+  - h2
+  uuid: 9c3422b7-5bf1-46ac-946e-7cbfdcbe5dee
+  servername: news.google.com
+  tls: true
+  alterId: 0
+  cipher: chacha20-poly1305
+  udp: true
+  skip-cert-verify: false
+  network: tcp
+  h2-opts:
+    path: /optFYZk0GODOJxcnC7
+  reality-opts:
+    public-key: uHiBoHUU3ioK9EKeQYS55Q1epcJhT71ksgPrhIssMQk
+    short-id: 823c804c
+- name: Reallity_vmess free sub 2053 28
+  type: vmess
+  server: sublink.ashorayiha.xyz
+  port: 2053
+  alpn:
+  - h2
+  uuid: 9c3422b7-5bf1-46ac-946e-7cbfdcbe5dee
+  servername: news.google.com
+  tls: true
+  alterId: 0
+  cipher: chacha20-poly1305
+  udp: true
+  skip-cert-verify: false
+  network: tcp
+  h2-opts:
+    path: /optFYZk0GODOJxcnC7
+  reality-opts:
+    public-key: uHiBoHUU3ioK9EKeQYS55Q1epcJhT71ksgPrhIssMQk
+    short-id: 823c804c
 
 proxy-groups:
   - name: 📶 انتخاب نوع اتصال
@@ -2075,6 +2113,8 @@ proxy-groups:
       - tls_grpc_CDN_trojan cuba 443 2
       - tls_grpc_CDN_vmess cuba 443 2
       - tls_WS_CDN_v2ray cuba 443 2
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
 
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -2186,6 +2226,10 @@ proxy-groups:
       - tls_grpc_CDN_trojan cuba 443 2
       - tls_grpc_CDN_vmess cuba 443 2
       - tls_WS_CDN_v2ray cuba 443 2
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
   - name: بازگشتی ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
@@ -2296,6 +2340,8 @@ proxy-groups:
       - tls_grpc_CDN_trojan cuba 443 2
       - tls_grpc_CDN_vmess cuba 443 2
       - tls_WS_CDN_v2ray cuba 443 2
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
   - name: تعادل بار (هش ثابت) ♻️
     type: load-balance
     url: http://clients3.google.com/generate_204
@@ -2406,6 +2452,8 @@ proxy-groups:
       - tls_grpc_CDN_trojan cuba 443 2
       - tls_grpc_CDN_vmess cuba 443 2
       - tls_WS_CDN_v2ray cuba 443 2
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
     strategy: consistent-hashing
   - name: تعادل بار (زمان بندی) ⏳
     type: load-balance
@@ -2518,6 +2566,8 @@ proxy-groups:
       - tls_grpc_CDN_trojan cuba 443 2
       - tls_grpc_CDN_vmess cuba 443 2
       - tls_WS_CDN_v2ray cuba 443 2
+      - Reallity_vmess free sub 443 28
+      - Reallity_vmess free sub 2053 28
     strategy: round-robin
   - name: 🇮🇷 سایتای ایرانی
     type: select
