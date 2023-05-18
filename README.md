@@ -10,6 +10,8 @@
 
 [همه نوع انتخاب پروکسی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Plus%40vpnclashfa.yaml)
 
+[همه نوع انتخاب پروکسی کانفیگ جدید](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/clash-all-in-one.yaml)
+
 ## نوع کانفیگ کلش متا:
 
 [فقط انتخاب دستی پروکسی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1Meta%40vpnclashfa.yaml)
@@ -19,6 +21,8 @@
 
 
 [همه نوع انتخاب پروکسی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/3in1MetaPlus%40vpnclashfa.yaml)
+
+[همه نوع انتخاب پروکسی کانفیگ جدید](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/clash-meta-all-in-one.yaml)
 
 منبع پروکسی‌ها از [mahdibland](https://github.com/mahdibland/V2RayAggregator) و [AzadNet](https://github.com/AzadNetCH) و [LonUp](https://github.com/LonUp) تامین و خودکار بروز می‌شه
 
