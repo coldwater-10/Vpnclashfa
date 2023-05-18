@@ -30,9 +30,29 @@ dns:
   default-nameserver: 
     - '127.0.0.1'
     - '1.1.1.1'
+    - '8.8.8.8'
+    - '1.0.0.1'
   enhanced-mode: fake-ip
   use-hosts: true
   nameserver:
+    - "https://xtom-osa-1.edge.nextdns.io/dns-query"
+    - "https://xtom-osa-1.edge.nextdns.io/"
+    - "https://170.176.145.150/"
+    - "https://Doh1.B-Cdn.net/dns-query"
+    - "https://dns.aa.net.uk/dns-query"
+    - "https://dns.controld.com/"
+    - "https://dns.gi.co.id/dns-query"
+    - "https://dns.melalandia.tk/dns-query"
+    - "https://dns.quad9.net/dns-query"
+    - "https://ipv4-zepto-mci-1.edge.nextdns.io/"
+    - "https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query"
+    - "https://jp-kix2.doh.sb/"
+    - "https://nsc.torgues.net/"
+    - "https://nsc.torgues.net/dns-query"
+    - "https://res-acst3.absolight.net/"
+    - "https://xmission-slc-1.edge.nextdns.io/dns-query"
+    - "https://zepto-sto-1.edge.nextdns.io"
+    - "https://zepto-sto-1.edge.nextdns.io/"
     - "https://cloudflare-dns.com/dns-query"
     - "https://dns.google/dns-query"
     - "https://dns.quad9.net/dns-query"
@@ -129,9 +149,15 @@ rule-providers:
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
     path: ./ruleset/iran.yaml
     interval: 432000
+  blocked:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/blocked-sites.yml"
+    path: ./ruleset/blocked.yaml
+    interval: 432000
 
 proxy-groups:
-  - name: 📶 انتخاب نوع اتصال
+  - name: 🔀 نوع انتخاب پروکسی
     type: select
     proxies:
       - 〄 Lonup - دستی 🤏🏻
@@ -139,6 +165,12 @@ proxy-groups:
       - 👨🏻‍💻 MahdiBland - دستی 🤏🏻
       - ⛔ قطع اینترنت
       - 🛡️ بدون فیلترشکن
+
+  - name: 📶 انتخاب نوع اتصال
+    type: select
+    proxies:
+      - 🔐 فقط سایتای فیلتر شده
+      - 🌐 همه سایتا
 
   - name: 👨🏻‍💻 MahdiBland - دستی 🤏🏻
     type: select
@@ -161,35 +193,35 @@ proxy-groups:
     proxies:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
-      - 📶 انتخاب نوع اتصال
+      - 🔀 نوع انتخاب پروکسی
 
   - name: 🆎 تبلیغات
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
-      - 📶 انتخاب نوع اتصال
+      - 🔀 نوع انتخاب پروکسی
 
   - name: 🍃 تصفیه برنامه
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
-      - 📶 انتخاب نوع اتصال
+      - 🔀 نوع انتخاب پروکسی
 
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
-      - 📶 انتخاب نوع اتصال
+      - 🔀 نوع انتخاب پروکسی
 
   - name: 🎮 استیم
     type: select
     proxies:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
-      - 📶 انتخاب نوع اتصال
+      - 🔀 نوع انتخاب پروکسی
 
   - name: 🛡️ بدون فیلترشکن
     type: select
@@ -206,6 +238,15 @@ proxy-groups:
     proxies:
       - REJECT
 
+  - name: 🔐 فقط سایتای فیلتر شده
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🌐 همه سایتا
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
 
 proxy-providers:
 
@@ -258,7 +299,7 @@ proxy-providers:
       url: http://cp.cloudflare.com/
 
 rules:
-  - IP-CIDR,10.10.34.0/24,📶 انتخاب نوع اتصال
+  - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - GEOSITE,category-ir,🇮🇷 سایتای ایرانی
   - RULE-SET,Purification,🍃 تصفیه برنامه
