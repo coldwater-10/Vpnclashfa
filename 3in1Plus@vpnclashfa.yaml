@@ -1,3 +1,4 @@
+global-client-fingerprint: chrome
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -5,6 +6,9 @@ mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
 log-level: info
+cfw-latency-timeout: 6000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
 ipv6: true
 external-controller: 127.0.0.1:9090
 secret: ''
@@ -25,45 +29,68 @@ dns:
   enhanced-mode: fake-ip
   use-hosts: true
   nameserver:
-    - "https://xtom-osa-1.edge.nextdns.io/dns-query"
-    - "https://xtom-osa-1.edge.nextdns.io/"
-    - "https://170.176.145.150/"
-    - "https://Doh1.B-Cdn.net/dns-query"
-    - "https://dns.aa.net.uk/dns-query"
-    - "https://dns.controld.com/"
-    - "https://dns.gi.co.id/dns-query"
-    - "https://dns.melalandia.tk/dns-query"
-    - "https://dns.quad9.net/dns-query"
-    - "https://ipv4-zepto-mci-1.edge.nextdns.io/"
-    - "https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query"
-    - "https://jp-kix2.doh.sb/"
-    - "https://nsc.torgues.net/"
-    - "https://nsc.torgues.net/dns-query"
-    - "https://res-acst3.absolight.net/"
-    - "https://xmission-slc-1.edge.nextdns.io/dns-query"
-    - "https://zepto-sto-1.edge.nextdns.io"
-    - "https://zepto-sto-1.edge.nextdns.io/"
-    - "https://cloudflare-dns.com/dns-query"
-    - "https://dns.google/dns-query"
-    - "https://dns.quad9.net/dns-query"
-    - '127.0.0.1'
-    - '1.1.1.1'
+    - https://cloudflare-dns.com/dns-query
+    - 'https://1.1.1.1/dns-query#en0'
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns.nextdns.io
+    - https://doh.opendns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://dns.surfshark.com/dns-query
+    - https://8.8.8.8/dns-query
+    - https://9.9.9.9/dns-query
+    - https://doh.cleanbrowsing.org/doh/security-filter/
+    - https://resolver2.dns.watch/dns-query 
+    - https://doh-de.blahdns.com/dns-query
+    - https://freedns.controld.com/p2
+    - https://dns.dnswarden.com/adblock
+    - https://adblock.doh.mullvad.net/dns-query
+    - https://basic.rethinkdns.com/dns-query
+    - tls://1.0.0.1:853
+    - tls://1.1.1.1:853
+    - tls://dns.google:853
   fallback:
-    - "https://1.1.1.1/dns-query"
-    - "https://8.8.8.8/dns-query"
-    - "https://9.9.9.9/dns-query"
-    - "https://rubyfish.cn/dns-query"
-    - "https://dns.nextdns.io"
-    - "https://doh.cleanbrowsing.org/doh/security-filter/"
-    - "https://dns.adguard.com/dns-query"
-    - "https://resolver2.dns.watch/dns-query"
-    - "https://doh-de.blahdns.com/dns-query"
-    - "https://dns.surfshark.com/dns-query"
-    - "https://doh.opendns.com/dns-query"
-    - "https://freedns.controld.com/p2"
-    - "https://dns.dnswarden.com/adblock"
-    - "https://adblock.doh.mullvad.net/dns-query"
-    - "https://basic.rethinkdns.com/dns-query"
+    - https://dns.aa.net.uk/dns-query
+    - https://rubyfish.cn/dns-query
+    - https://nsc.torgues.net/dns-query
+    - https://xmission-slc-1.edge.nextdns.io/dns-query
+    - https://Doh1.B-Cdn.net/dns-query
+    - https://dns.melalandia.tk/dns-query
+    - https://jp-kix2.doh.sb/
+    - https://dns.gi.co.id/dns-query
+    - https://dns.controld.com/
+    - https://xtom-osa-1.edge.nextdns.io/dns-query
+    - https://170.176.145.150/
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
+    - https://res-acst3.absolight.net/
+    - https://zepto-sto-1.edge.nextdns.io
+    - https://xtom-osa-1.edge.nextdns.io/
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/
+    - https://nsc.torgues.net/
+    - https://zepto-sto-1.edge.nextdns.io/
+    - https://doh.dns.sb/dns-query
+    - tls://dns.rubyfish.cn:853
+    - 'tls://8.8.8.8#en0'
+    - tcp://1.1.1.1
+    - 'tcp://8.8.8.8#en0'
+    - 'tcp://1.1.1.1#en0'
+    - dhcp://en0
+    - 1.1.1.1
+    - 1.0.0.1
+    - 9.9.9.9
+    - 4.2.2.4
+    - 8.8.8.8
+    - 8.8.4.4
+    - '8.8.8.8#en0'
+    - 119.29.29.29
+    - 223.5.5.5
+    - 119.28.28.28
+    - 112.215.203.254
+    - 114.114.114.114
+    - 127.0.0.1
+    - 114.114.114.114
+    - 87.118.100.175:110
   fallback-filter:
     geoip: false
     ipcidr:
@@ -157,19 +184,19 @@ proxy-groups:
     type: select
     proxies:
       - 〄 Lonup - خودکار (بهترین پینگ) 🤖
-      - 〄 Lonup - بازگشتی (بهترین پینگ) ➡️
-      - 〄 Lonup - تعادل بار (هش ثابت) ♻️
-      - 〄 Lonup - تعادل بار (زمان بندی) ⏳
+      - 〄 Lonup - پشتیبان (بهترین پینگ) ➡️
+      - 〄 Lonup - توزیع بار (هش سازگار) ♻️
+      - 〄 Lonup - توزیع بار (یکنواخت) ⏳
       - 〄 Lonup - دستی 🤏🏻
       - 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
-      - 🕊 Azadnet - بازگشتی (بهترین پینگ) ➡️
-      - 🕊 Azadnet - تعادل بار (هش ثابت) ♻️
-      - 🕊 Azadnet - تعادل بار (زمان بندی) ⏳
+      - 🕊 Azadnet - پشتیبان (بهترین پینگ) ➡️
+      - 🕊 Azadnet - توزیع بار (هش سازگار) ♻️
+      - 🕊 Azadnet - توزیع بار (یکنواخت) ⏳
       - 🕊 Azadnet - دستی 🤏🏻
       - 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
-      - 👨🏻‍💻 MahdiBland - بازگشتی (بهترین پینگ) ➡️
-      - 👨🏻‍💻 MahdiBland - تعادل بار (هش ثابت) ♻️
-      - 👨🏻‍💻 MahdiBland - تعادل بار (زمان بندی) ⏳
+      - 👨🏻‍💻 MahdiBland - پشتیبان (بهترین پینگ) ➡️
+      - 👨🏻‍💻 MahdiBland - توزیع بار (هش سازگار) ♻️
+      - 👨🏻‍💻 MahdiBland - توزیع بار (یکنواخت) ⏳
       - 👨🏻‍💻 MahdiBland - دستی 🤏🏻
       - ⛔ قطع اینترنت
       - 🛡️ بدون فیلترشکن
@@ -188,35 +215,38 @@ proxy-groups:
 
   - name: 👨🏻‍💻 MahdiBland - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - بازگشتی (بهترین پینگ) ➡️
+  - name: 👨🏻‍💻 MahdiBland - پشتیبان (بهترین پینگ) ➡️
     type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - تعادل بار (هش ثابت) ♻️
+  - name: 👨🏻‍💻 MahdiBland - توزیع بار (هش سازگار) ♻️
     type: load-balance
     strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - aggregator
       - airports
 
-  - name: 👨🏻‍💻 MahdiBland - تعادل بار (زمان بندی) ⏳
+  - name: 👨🏻‍💻 MahdiBland - توزیع بار (یکنواخت) ⏳
     type: load-balance
     strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    tolerance: 100
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - aggregator
       - airports
@@ -228,32 +258,35 @@ proxy-groups:
 
   - name: 〄 Lonup - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - lonup
 
-  - name: 〄 Lonup - بازگشتی (بهترین پینگ) ➡️
+  - name: 〄 Lonup - پشتیبان (بهترین پینگ) ➡️
     type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - lonup
 
-  - name: 〄 Lonup - تعادل بار (هش ثابت) ♻️
+  - name: 〄 Lonup - توزیع بار (هش سازگار) ♻️
     type: load-balance
     strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - lonup
 
-  - name: 〄 Lonup - تعادل بار (زمان بندی) ⏳
+  - name: 〄 Lonup - توزیع بار (یکنواخت) ⏳
     type: load-balance
     strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    tolerance: 100
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - lonup
 
@@ -264,32 +297,35 @@ proxy-groups:
 
   - name: 🕊 Azadnet - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - بازگشتی (بهترین پینگ) ➡️
+  - name: 🕊 Azadnet - پشتیبان (بهترین پینگ) ➡️
     type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - تعادل بار (هش ثابت) ♻️
+  - name: 🕊 Azadnet - توزیع بار (هش سازگار) ♻️
     type: load-balance
     strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - azadnet
 
-  - name: 🕊 Azadnet - تعادل بار (زمان بندی) ⏳
+  - name: 🕊 Azadnet - توزیع بار (یکنواخت) ⏳
     type: load-balance
     strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    tolerance: 100
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - azadnet
 
@@ -343,7 +379,6 @@ proxy-groups:
     proxies:
       - REJECT
 
-
   - name: 🔐 فقط سایتای فیلتر شده
     type: select
     proxies:
@@ -353,7 +388,6 @@ proxy-groups:
     type: select
     proxies:
       - 🔀 نوع انتخاب پروکسی
-
 
 proxy-providers:
 
