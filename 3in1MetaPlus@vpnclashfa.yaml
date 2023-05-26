@@ -264,8 +264,9 @@ proxy-groups:
 
   - name: 〄 Lonup - خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     use:
       - lonup
 
