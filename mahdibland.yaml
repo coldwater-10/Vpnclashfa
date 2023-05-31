@@ -399,7 +399,6 @@ proxy-providers:
     health-check:
       enable: true
       interval: 3600
-      lazy: true
       url: "https://cdn.jsdelivr.net"
 
   aggregator:
