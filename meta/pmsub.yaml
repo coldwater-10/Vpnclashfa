@@ -5,10 +5,9 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
+geodata-mode: true
+tcp-concurrent: true
 log-level: info
-cfw-latency-timeout: 6000
-cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
-cfw-proxies-order: latency
 external-controller: 0.0.0.0:9090
 secret: ''
 bind-address: '*'
@@ -19,9 +18,15 @@ profile:
 dns:
   enable: true
   ipv6: true
-  use-host: true
+  prefer-h3: true
+  nameserver-policy:
+    geosite:ir:
+    - https://1.1.1.1/dns-query
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
+  use-host: true
+  proxy-server-nameserver:
+    - https://1.1.1.1/dns-query
   nameserver:
     - https://cloudflare-dns.com/dns-query
     - 'https://1.1.1.1/dns-query#en0'
@@ -44,8 +49,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://1.1.1.1:853
     - tls://dns.google:853
-    - 162.159.36.1
-    - 162.159.46.1
+  fallback:
     - https://dns.aa.net.uk/dns-query
     - https://rubyfish.cn/dns-query
     - https://nsc.torgues.net/dns-query
@@ -60,13 +64,55 @@ dns:
     - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
     - https://res-acst3.absolight.net/
     - https://zepto-sto-1.edge.nextdns.io
-    - https://xtom-osa-1.edge.nextdns.io/
     - https://ipv4-zepto-mci-1.edge.nextdns.io/
     - https://nsc.torgues.net/
     - https://zepto-sto-1.edge.nextdns.io/
     - https://doh.dns.sb/dns-query
+    - https://xtom-osa-1.edge.nextdns.io/
     - tls://dns.rubyfish.cn:853
     - 'tls://8.8.8.8#en0'
+    - tcp://1.1.1.1
+    - 'tcp://8.8.8.8#en0'
+    - 'tcp://1.1.1.1#en0'
+    - dhcp://en0
+    - 1.1.1.1
+    - 1.0.0.1
+    - 9.9.9.9
+    - 4.2.2.4
+    - 8.8.8.8
+    - 8.8.4.4
+    - '8.8.8.8#en0'
+    - 119.29.29.29
+    - 223.5.5.5
+    - 119.28.28.28
+    - 112.215.203.254
+    - 114.114.114.114
+    - 127.0.0.1
+    - 114.114.114.114
+    - 87.118.100.175:110
+  fallback-filter:
+    geoip: true
+    geoip-code: IR
+    ipcidr:
+      - '0.0.0.0/8'
+      - '10.0.0.0/8'
+      - '100.64.0.0/10'
+      - '127.0.0.0/8'
+      - '169.254.0.0/16'
+      - '172.16.0.0/12'
+      - '192.0.0.0/24'
+      - '192.0.2.0/24'
+      - '192.88.99.0/24'
+      - '192.168.0.0/16'
+      - '198.18.0.0/15'
+      - '198.51.100.0/24'
+      - '203.0.113.0/24'
+      - '224.0.0.0/3'
+      - '240.0.0.0/4'
+      - '::1/128'
+      - '64:ff9b:1::/48'
+      - 'fc00::/7'
+      - 'fe80::/10'
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
@@ -161,6 +207,16 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
+
+#tun:
+  #enable: true
+  #stack: system # or gvisor
+  #dns-hijack:
+    #- any:53
+  #auto-redir: true # or false
+  #auto-route: true 
+  #auto-detect-interface: true
+
 rule-providers:
   iran:
     type: http
@@ -360,7 +416,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://tt.vg/freeclash
+      https://sub.pmsub.me/clash.yaml
     interval: 86400
     path: ./proxy.yaml
     health-check:
@@ -372,16 +428,19 @@ proxy-providers:
 rules:
   - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - GEOSITE,category-ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
   - RULE-SET,Purification,🍃 تصفیه برنامه
+  - GEOSITE,win-spy,🛑 رهگیری جهانی
   - RULE-SET,Global,🛑 رهگیری جهانی
   - RULE-SET,iran_ads,🆎 تبلیغات
   - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
+  - GEOSITE,category-ads-all,🆎 تبلیغات 
   - RULE-SET,add,🆎 تبلیغات
-  - RULE-SET,MoreAd,🆎 تبلیغات
   - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,MoreAd,🆎 تبلیغات
   - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
   - MATCH,📶 انتخاب نوع اتصال

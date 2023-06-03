@@ -360,7 +360,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://tt.vg/freeclash
+      https://sub.pmsub.me/clash.yaml
     interval: 86400
     path: ./proxy.yaml
     health-check:
