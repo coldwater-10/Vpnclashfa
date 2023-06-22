@@ -8,6 +8,8 @@
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/azadnet.yaml)
 
+[yebekhe](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe.yaml)
+
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/ermaozi.yaml)
 
 [GreenFish](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/GreenFish.yaml)
