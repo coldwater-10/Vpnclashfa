@@ -75,6 +75,12 @@
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/azadnet.yaml)
 
+[yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
+
+[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS)
+
+[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY)
+
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
 
 [GreenFish](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/GreenFish.yaml)
