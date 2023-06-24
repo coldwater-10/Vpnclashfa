@@ -77,9 +77,9 @@
 
 [yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
 
-[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS)
+[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS.yaml)
 
-[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY)
+[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
 
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
 
