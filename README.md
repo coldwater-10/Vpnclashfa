@@ -60,12 +60,6 @@
 
 [nodefree](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/nodefree.yaml)
 
-[janbaroon](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/janbaroon.yaml)
-
-[sahnama](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/sahnama.yaml)
-
-[twistable](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/twistable.yaml)
-
 
 ## کانفیگای کلش متا با قوانین مخصوص ایران:
 
@@ -130,13 +124,6 @@
 [clashnode](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/clashnode.yaml)
 
 [nodefree](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/nodefree.yaml)
-
-[janbaroon](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/janbaroon.yaml)
-
-[sahnama](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/sahnama.yaml)
-
-[twistable](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/twistable.yaml)
-
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 300px;">
