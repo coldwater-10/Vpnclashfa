@@ -485,7 +485,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/meta/vless.yml
+      https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/meta/vmess.yml
     interval: 86400
     path: ./proxy.yaml
     health-check:

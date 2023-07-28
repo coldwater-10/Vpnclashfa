@@ -5,9 +5,10 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
-geodata-mode: true
-tcp-concurrent: true
 log-level: info
+cfw-latency-timeout: 6000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
 external-controller: 0.0.0.0:9090
 secret: ''
 bind-address: '*'
@@ -18,15 +19,9 @@ profile:
 dns:
   enable: true
   ipv6: true
-  prefer-h3: true
-  nameserver-policy:
-    geosite:ir:
-    - https://1.1.1.1/dns-query
+  use-host: true
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
-  use-host: true
-  proxy-server-nameserver:
-    - https://1.1.1.1/dns-query
   nameserver:
     - https://cloudflare-dns.com/dns-query
     - 'https://1.1.1.1/dns-query#en0'
@@ -167,15 +162,6 @@ dns:
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
 
-#tun:
-  #enable: true
-  #stack: system # or gvisor
-  #dns-hijack:
-    #- any:53
-  #auto-redir: true # or false
-  #auto-route: true 
-  #auto-detect-interface: true
-
 rule-providers:
   iran:
     type: http
@@ -186,8 +172,7 @@ rule-providers:
   steam:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
     path: ./ruleset/steam.yaml
     interval: 432000
   add:
@@ -485,7 +470,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/meta/vless.yml
+      https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/clash/trojan.yml
     interval: 86400
     path: ./proxy.yaml
     health-check:
@@ -505,12 +490,11 @@ rules:
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
   - RULE-SET,Purification,🍃 تصفیه برنامه
-  - GEOSITE,win-spy,🛑 رهگیری جهانی
+  - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
   - RULE-SET,Global,🛑 رهگیری جهانی
+  - RULE-SET,category_ads_all,🆎 تبلیغات
   - RULE-SET,iran_ads,🆎 تبلیغات
   - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
-  - GEOSITE,category-ads-all,🆎 تبلیغات 
-  - RULE-SET,category_ads_all,🆎 تبلیغات
   - RULE-SET,add,🆎 تبلیغات
   - RULE-SET,MoreAd,🆎 تبلیغات
   - RULE-SET,AntiAd,🆎 تبلیغات

@@ -2,13 +2,19 @@
 
 ## کانفیگای کلش با قوانین مخصوص ایران:
 
+[yebekhe-mix](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-mix.yaml)
+
+[yebekhe-vmess](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-vmess.yaml)
+
+[yebekhe-trojan](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-trojan.yaml)
+
+[yebekhe-shadowSocks](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-ss.yaml)
+
 [mahdibland](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/mahdibland.yaml)
 
 [lonup](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/lonup.yaml)
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/azadnet.yaml)
-
-[yebekhe](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe.yaml)
 
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/ermaozi.yaml)
 
@@ -63,17 +69,23 @@
 
 ## کانفیگای کلش متا با قوانین مخصوص ایران:
 
+[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
+
+[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS.yaml)
+
+[yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
+
+[yebekhe-VMESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VMESS.yaml)
+
+[yebekhe-TROJAN](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-TROJAN.yaml)
+
+[yebekhe-ShadowSocks](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-SS.yaml)
+
 [mahdibland](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/mahdibland.yaml)
 
 [lonup](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/lonup.yaml)
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/azadnet.yaml)
-
-[yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
-
-[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS.yaml)
-
-[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
 
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
 
