@@ -8298,112 +8298,112 @@ rule-providers:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-ir.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
     path: ./ruleset/category_ir.yaml
     interval: 432000
   category_porn:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-porn.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-porn.yaml
     path: ./ruleset/category_porn.yaml
     interval: 432000
   category_ads_all:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-ads-all.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ads-all.yaml
     path: ./ruleset/category_ads_all.yaml
     interval: 432000
   category_public_tracker:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-public-tracker.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-public-tracker.yaml
     path: ./ruleset/category_public_tracker.yaml
     interval: 432000
   facebook:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/facebook.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/facebook.yaml
     path: ./ruleset/facebook.yaml
     interval: 432000
   youtube:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/youtube.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/youtube.yaml
     path: ./ruleset/youtube.yaml
     interval: 432000
   instagram:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/instagram.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/instagram.yaml
     path: ./ruleset/instagram.yaml
     interval: 432000
   spotify:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/spotify.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/spotify.yaml
     path: ./ruleset/spotify.yaml
     interval: 432000
   twitter:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/twitter.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitter.yaml
     path: ./ruleset/twitter.yaml
     interval: 432000
   telegram:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/telegram.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/telegram.yaml
     path: ./ruleset/telegram.yaml
     interval: 432000
   openai:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/openai.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/openai.yaml
     path: ./ruleset/openai.yaml
     interval: 432000
   whatsapp:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/whatsapp.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/whatsapp.yaml
     path: ./ruleset/whatsapp.yaml
     interval: 432000
   tiktok:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/tiktok.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/tiktok.yaml
     path: ./ruleset/tiktok.yaml
     interval: 432000
   twitch:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/twitch.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitch.yaml
     path: ./ruleset/twitch.yaml
     interval: 432000
   private:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/private.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/private.yaml
     path: ./ruleset/private.yaml
     interval: 432000
   local_ips:
     type: http
     behavior: domain
     url: >-
-      https://github.com/Kr328/V2rayDomains2Clash/blob/generated/local-ips.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/local-ips.yaml
     path: ./ruleset/local_ips.yaml
     interval: 432000
 
