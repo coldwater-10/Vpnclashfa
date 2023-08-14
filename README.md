@@ -16,6 +16,8 @@
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/azadnet.yaml)
 
+[AlienVPN402](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/AlienVPN402.yaml)
+
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/ermaozi.yaml)
 
 [GreenFish](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/GreenFish.yaml)
@@ -86,6 +88,8 @@
 [lonup](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/lonup.yaml)
 
 [azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/azadnet.yaml)
+
+[AlienVPN402](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/AlienVPN402.yaml)
 
 [ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
 
