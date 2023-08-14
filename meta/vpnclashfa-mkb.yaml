@@ -8281,6 +8281,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml"
     path: ./ruleset/tahrim.yaml
     interval: 432000
+  censor:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/censor.yaml"
+    path: ./ruleset/tahrim.yaml
+    interval: 432000
   ads_ip:
     type: http
     behavior: classical
@@ -11639,6 +11645,12 @@ proxy-groups:
       - 🔀 نوع انتخاب پروکسی
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
+  - name: 🤬 سایتای سانسوری
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
   - name: 🆎 تبلیغات
     type: select
     proxies:
@@ -11686,6 +11698,7 @@ proxy-groups:
 
 rules:
   - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
+  - RULE-SET,censor,🤬 سایتای سانسوری
   - RULE-SET,local_ips,🛡️ بدون فیلترشکن
   - RULE-SET,private,🛡️ بدون فیلترشکن
   - GEOIP,IR,🇮🇷 سایتای ایرانی

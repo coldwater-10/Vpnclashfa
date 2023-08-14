@@ -172,7 +172,8 @@ rule-providers:
   steam:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    url: >-
+      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
     path: ./ruleset/steam.yaml
     interval: 432000
   add:
@@ -232,6 +233,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml"
     path: ./ruleset/tahrim.yaml
     interval: 432000
+  censor:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/censor.yaml"
+    path: ./ruleset/tahrim.yaml
+    interval: 432000
   ads_ip:
     type: http
     behavior: classical
@@ -249,7 +256,7 @@ rule-providers:
     type: http
     behavior: domain
     url: >-
-      https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
+       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
     path: ./ruleset/category_ir.yaml
     interval: 432000
   category_porn:
@@ -420,6 +427,12 @@ proxy-groups:
       - 🔀 نوع انتخاب پروکسی
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
+  - name: 🤬 سایتای سانسوری
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
   - name: 🆎 تبلیغات
     type: select
     proxies:
@@ -481,6 +494,7 @@ proxy-providers:
 
 rules:
   - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
+  - RULE-SET,censor,🤬 سایتای سانسوری
   - RULE-SET,local_ips,🛡️ بدون فیلترشکن
   - RULE-SET,private,🛡️ بدون فیلترشکن
   - GEOIP,IR,🇮🇷 سایتای ایرانی
