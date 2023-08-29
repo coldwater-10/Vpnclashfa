@@ -1,0 +1,2385 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：29-08-2023 03:15:05
+# 使用模版：clash
+# 节点数量：304
+# 节点类型：ss, trojan, vmess
+####################################
+global-client-fingerprint: chrome
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+allow-lan: true
+log-level: info
+cfw-latency-timeout: 8000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: true
+  use-host: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+    - https://cloudflare-dns.com/dns-query
+    - https://1.1.1.1/dns-query#en0
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns.nextdns.io
+    - https://doh.opendns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://dns.surfshark.com/dns-query
+    - https://8.8.8.8/dns-query
+    - https://9.9.9.9/dns-query
+    - https://doh.cleanbrowsing.org/doh/security-filter/
+    - https://resolver2.dns.watch/dns-query
+    - https://doh-de.blahdns.com/dns-query
+    - https://freedns.controld.com/p2
+    - https://dns.dnswarden.com/adblock
+    - https://adblock.doh.mullvad.net/dns-query
+    - https://basic.rethinkdns.com/dns-query
+    - tls://1.0.0.1:853
+    - tls://1.1.1.1:853
+    - tls://dns.google:853
+    - 162.159.36.1
+    - 162.159.46.1
+    - https://dns.aa.net.uk/dns-query
+    - https://rubyfish.cn/dns-query
+    - https://nsc.torgues.net/dns-query
+    - https://xmission-slc-1.edge.nextdns.io/dns-query
+    - https://Doh1.B-Cdn.net/dns-query
+    - https://dns.melalandia.tk/dns-query
+    - https://jp-kix2.doh.sb/
+    - https://dns.gi.co.id/dns-query
+    - https://dns.controld.com/
+    - https://xtom-osa-1.edge.nextdns.io/dns-query
+    - https://170.176.145.150/
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
+    - https://res-acst3.absolight.net/
+    - https://zepto-sto-1.edge.nextdns.io
+    - https://doh.dns.sb/dns-query
+    - tls://dns.rubyfish.cn:853
+    - tls://8.8.8.8#en0
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '*.router.asus.com'
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.mcdn.bilivideo.cn'
+    - +.media.dssott.com
+
+proxies:
+  - {"name":"🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1","type":"ss","server":"205.134.180.143","port":443,"password":"R9Xc4dHXGv3c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2","type":"ss","server":"23.150.248.191","port":9098,"password":"ksjfuw!sop#","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3","type":"ss","server":"37.218.241.130","port":443,"password":"j4wkIrreHEdC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4","type":"ss","server":"51.178.87.37","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5","type":"ss","server":"69.50.95.251","port":9098,"password":"ksjfuw!sop#","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6","type":"ss","server":"205.134.180.147","port":443,"password":"9Bvkw5aupNy8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_🈯58@oneclickvpnkeys\r_7","type":"ss","server":"140.99.6.58","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷_@ProxyCom10\r_1_9","type":"ss","server":"51.178.87.37","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧_🟢41@oneclickvpnkeys\r_10","type":"ss","server":"51.141.8.141","port":26031,"password":"obKv8lzsLDmEYSpq5mOiJ8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_🟢140@oneclickvpnkeys\r_11","type":"ss","server":"140.99.6.194","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12","type":"ss","server":"140.99.53.242","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧_@V2rayNG_account_free🇬���\r_13","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪_5_+@ARGOTAZ\r_14","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_🟢02@oneclickvpnk\r_15","type":"ss","server":"38.143.66.112","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧_🟩19@oneclickvpnkeys\r_16","type":"ss","server":"51.141.11.19","port":39550,"password":"FljusGXaWhe8mAFaqwotpO","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18","type":"ss","server":"92.38.163.53","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇹🇷_@ProxyCom10\r_2_19","type":"ss","server":"45.89.52.66","port":9041,"password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+  - {"name":"🇹🇷_tr.premium.reserve__@IP\r_20","type":"ss","server":"103.215.218.32","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_🇺🇸_US_美国\r_1_21","type":"ss","server":"140.99.202.42","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_@ProxyCom10  | MCI\r_22","type":"ss","server":"205.134.180.145","port":443,"password":"hgLCgfLRgB6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇷_ar.premium__@IP\r_23","type":"ss","server":"190.103.176.29","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24","type":"ss","server":"92.243.27.51","port":9802,"password":"Kq3iQqtVlyPJBPcD6QpnGE","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇴_ee.premium__@IP\r_25","type":"ss","server":"165.231.120.102","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26","type":"ss","server":"5.181.77.86","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27","type":"ss","server":"77.72.5.113","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28","type":"ss","server":"51.178.87.37","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_🇺🇸_US_美国\r_2_29","type":"ss","server":"34.219.163.138","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30","type":"ss","server":"140.99.6.42","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31","type":"ss","server":"31.172.67.43","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇷_@v2rayfa\r_32","type":"ss","server":"138.59.16.146","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_TOR.premium__@IP\r_33","type":"ss","server":"162.19.239.4","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34","type":"ss","server":"43.201.61.124","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35","type":"ss","server":"3.28.178.166","port":443,"password":"sgjJsZJHLlhmdvUk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36","type":"ss","server":"168.119.57.171","port":51348,"password":"FkXPJMfds54jkJ8PROC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_🟧63@oneclickvpnkeys\r_37","type":"ss","server":"37.220.84.163","port":63838,"password":"ObkmzA14iNHp9lFQK8pVIg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38","type":"ss","server":"93.170.73.59","port":51348,"password":"hoc67HGF68Hesujlid","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇴_no.premium__@IP\r_39","type":"ss","server":"185.90.61.153","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40","type":"ss","server":"51.142.86.156","port":19348,"password":"u0OPeIuUnTtPK7v2zoXNM3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41","type":"ss","server":"121.127.46.147","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇾_cy.premium__@IP\r_42","type":"ss","server":"213.169.137.221","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43","type":"ss","server":"145.239.6.202","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬_@hkaa0||新加��\r_44","type":"ss","server":"103.172.116.43","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket","mux":false}}
+  - {"name":"🇰🇪_ke.premium__@IP\r_45","type":"ss","server":"62.12.116.66","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_3_+@ARGO\r_46","type":"ss","server":"816.outline-vpn.cloud","port":9098,"password":"ksjfuw!sop#","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇪🇸_🇪🇸_ES_西班牙\r_47","type":"ss","server":"5.188.181.201","port":9042,"password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇪_Join Telegram : ------@IP_CF------ |\r_48","type":"ss","server":"94.131.98.233","port":60365,"password":"15WZEj7NRowjviT9nxmZIW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49","type":"ss","server":"51.15.27.48","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50","type":"ss","server":"5.75.201.21","port":1080,"password":"9WdCZ7appSh2oGI251AKWw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51","type":"ss","server":"89.223.93.176","port":51348,"password":"K9Kmtr7GH65GFtqhkMKk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52","type":"ss","server":"5.188.168.183","port":51348,"password":"1dAdjtGFfg65JKZmk94M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪_proxystore11-mtn\r_53","type":"trojan","server":"5.199.143.230","port":443,"udp":true,"password":"092ab6fae1","sni":"de1.connecton.surf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_defaultName_1_54","type":"trojan","server":"51.91.11.29","port":80,"udp":true,"password":"598c19f3-a48e-47cd-8451-1ba04ea094d0","sni":"speedtest.net","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇸🇬_defaultName_2_55","type":"trojan","server":"sg.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56","type":"trojan","server":"212.24.103.3","port":443,"udp":true,"password":"4f9ca636-5195-406a-b48c-0388689dd9a7","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57","type":"trojan","server":"45.159.216.33","port":443,"udp":true,"password":"5b000ca0-89fd-4f62-bd1a-a10c0b5dc026","sni":"ku8.vsaripn.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"kTqz28iTRrc3MPmiK"}}
+  - {"name":"🇯🇵_defaultName_3_58","type":"trojan","server":"swejs.stablize.top","port":443,"udp":true,"password":"f426b848-6c75-47bc-b116-c9b40f6f8bc3","sni":"swejs.stablize.top","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇯🇵_defaultName_4_59","type":"trojan","server":"vpnpool.stablize.top","port":443,"udp":true,"password":"2f8b959c-6b33-48ad-9ca6-0622c2de705b","sni":"frjs.stablize.top","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60","type":"trojan","server":"lu.stablize.top","port":443,"udp":true,"password":"3f27d6e3-2112-46f4-814c-0dc2dfb3fe23","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_defaultName_5_61","type":"trojan","server":"kh.mjt001.com","port":443,"udp":true,"password":"2f31805a-b9e0-4b7b-808f-c7971332d068","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"3f27d6e3-2112-46f4-814c-0dc2dfb3fe23","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_6_63","type":"trojan","server":"15.204.209.50","port":80,"udp":true,"password":"7ea37e4f-325b-416f-901a-67012367307f","sni":"telewebion.com","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇯🇵_defaultName_7_64","type":"trojan","server":"tw.softbank.mjj-home.com","port":443,"udp":true,"password":"share.mjj-home.com","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇯🇵_defaultName_8_65","type":"trojan","server":"ar.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇺🇸_defaultName_9_66","type":"trojan","server":"series-v1.samanehha.co","port":443,"udp":true,"password":"0b65bb06-6b28-487a-8e3c-820dda51e977","sni":"series-v1.samanehha.co","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇯🇵_defaultName_10_67","type":"trojan","server":"jpjs.stablize.top","port":443,"udp":true,"password":"f426b848-6c75-47bc-b116-c9b40f6f8bc3","sni":"jpjs.stablize.top","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇭🇰_defaultName_11_68","type":"trojan","server":"in.stablize.top","port":443,"udp":true,"password":"b88edfd4-23eb-4544-9bbc-a68914952905","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇯🇵_defaultName_12_69","type":"trojan","server":"nf.stablize.top","port":443,"udp":true,"password":"19caa9e5-8abe-401b-84a8-27d574c14509","sni":"nf.stablize.top","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70","type":"trojan","server":"52.29.21.195","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_🇯🇵_JP_日本\r_71","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"ca2daa1f-484b-49db-b088-f25b6a398d8c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪_OurChannel:@DirectVPN\r_1_72","type":"trojan","server":"34.252.69.190","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73","type":"trojan","server":"45.131.4.102","port":443,"udp":true,"password":"5b000ca0-89fd-4f62-bd1a-a10c0b5dc026","sni":"ku8.vsaripn.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"kTqz28iTRrc3MPmiK"}}
+  - {"name":"🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74","type":"trojan","server":"13.39.56.113","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺_t.me/ConfigsHub\r_1_75","type":"trojan","server":"ru1.connecton.surf","port":443,"udp":true,"password":"21520357e1","sni":"ru1.connecton.surf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76","type":"trojan","server":"54.73.45.120","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77","type":"trojan","server":"13.36.213.203","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78","type":"trojan","server":"18.195.160.206","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79","type":"trojan","server":"388.outline-vpn.cloud","port":22222,"udp":true,"password":"telegram-id-directvpn@3.10.157.32:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#🇮🇪telegram+➠+@v2rayNG_Matsurivless://123000a0-51b5-4ced-a709-1d84e6173a96","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_OurChannel:@DirectVPN\r_2_80","type":"trojan","server":"3.9.4.166","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81","type":"trojan","server":"104.31.16.65","port":443,"udp":true,"password":"efc38d48-09d3-410a-b706-dc5b6d2af3f9","sni":"cdn.lovanjok.mom","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"GVkY5t9l8eo6FUtxEo9pRQp7hi"}}
+  - {"name":"🇫🇷_OurChannel:@DirectVPN\r_3_82","type":"trojan","server":"15.188.205.112","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇪_OurChannel:@DirectVPN\r_4_83","type":"trojan","server":"13.50.58.155","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_13_85","type":"trojan","server":"104.21.48.84","port":443,"udp":true,"password":"4d706727-996f-4427-930d-60f3bd414cf9","sni":"c1mt.cdncisco2.co","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rDCYQta83d0oPABKBhcIX","headers":{"host":"c1mt.cdncisco2.co\r"}}}
+  - {"name":"🇸🇪_🇸🇪@antimeli\r_86","type":"trojan","server":"ssrsub.t21.trojan.tel","port":80,"udp":true,"password":"54c175d5-0fd0-4577-ad0b-0e163de91191","sni":"hk.jd.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_@ARGOTAZ+🇫🇷\r_87","type":"trojan","server":"ho1one.09vpn.com","port":2083,"udp":true,"password":"u7212979158","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦_trojan-@iphone02016vpn\r_88","type":"trojan","server":"134.122.45.94","port":58102,"udp":true,"password":"yyXf6C0DvI","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"speedtest.net"}}
+  - {"name":"🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89","type":"trojan","server":"16.171.202.69","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_14_90","type":"trojan","server":"104.21.19.56","port":443,"udp":true,"password":"4d706727-996f-4427-930d-60f3bd414cf9","sni":"c1mt.cdncisco2.co","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rDCYQta83d0oPABKBhcIX","headers":{"host":"c1mt.cdncisco2.co\r"}}}
+  - {"name":"🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91","type":"trojan","server":"13.36.96.145","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_@hkaa0||新加坡\r_92","type":"trojan","server":"esjs.stablize.top","port":443,"udp":true,"password":"da88864b-6aa5-4d18-8e36-ac809a24c571","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼_@hkaa0||台湾\r_93","type":"trojan","server":"gshinet1.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94","type":"trojan","server":"52.51.241.191","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95","type":"trojan","server":"16.171.202.240","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_join+ @proxy_fier\r_96","type":"trojan","server":"cnamemt1.cdncisco4.co","port":443,"udp":true,"password":"63779501-4c22-4a03-83d3-9f611b227e7b","sni":"c1mt.cdncisco4.co","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/422Kdfwzf49IxeZJa","headers":{"host":"c1mt.cdncisco4.co"}}}
+  - {"name":"🇸🇪_OurChannel:@DirectVPN\r_5_97","type":"trojan","server":"16.170.126.41","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98","type":"trojan","server":"de1.connecton.surf","port":443,"udp":true,"password":"092ab6fae1","sni":"de1.connecton.surf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇵🇱_t.me/ConfigsHub\r_2_99","type":"trojan","server":"pol2.connecton.surf","port":443,"udp":true,"password":"5d91f01a98","sni":"pol2.connecton.surf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100","type":"trojan","server":"3.68.153.4","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_@hkaa0||日本\r_101","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"db4fb0e6-0e5b-4b12-95ac-03e60f5685d7","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102","type":"trojan","server":"16.16.48.20","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_15_103","type":"trojan","server":"cnamemc.cdncisco.org","port":443,"udp":true,"password":"0ad5e311-7189-4124-ac8f-f828b681f10e","sni":"c5mc.cdncisco.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/5CSwsJSwLmxCxOCSBhOZubb","headers":{"host":"c5mc.cdncisco.org\r"}}}
+  - {"name":"🇺🇸_defaultName_16_104","type":"trojan","server":"172.67.196.38","port":443,"udp":true,"password":"0ad5e311-7189-4124-ac8f-f828b681f10e","sni":"c5mt.cdncisco.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/5CSwsJSwLmxCxOCSBhOZubb","headers":{"host":"c5mt.cdncisco.org\r"}}}
+  - {"name":"🇩🇪_OurChannel:@DirectVPN\r_6_105","type":"trojan","server":"3.75.60.122","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106","type":"trojan","server":"108.181.23.249","port":443,"udp":true,"password":"aadebd6c-5714-4e8d-886d-a442eb39950c","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇵🇱_defaultName_17_107","type":"trojan","server":"51.77.57.30","port":443,"udp":true,"password":"5d91f01a98","sni":"pol2.connecton.surf","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108","type":"trojan","server":"mci.divar.pro","port":2083,"udp":true,"password":"u3427300655@au1.09vpn.com:2083?security=tls&type=tcp#@ARGOTAZ+🇭🇲vless://ddb133fc-d277-4c27-d518-0966796c35dc","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_18_109","type":"trojan","server":"104.25.254.185","port":443,"udp":true,"password":"5de2dfab-28e4-4773-b0d3-8d43da0d9ac3","sni":"c3mc.ciscocdn1.live","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ywQ9KSLI4ZBm9wOAXUaN","headers":{"host":"c3mc.ciscocdn1.live\r"}}}
+  - {"name":"🇺🇸_defaultName_19_110","type":"trojan","server":"162.159.32.168","port":443,"udp":true,"password":"5de2dfab-28e4-4773-b0d3-8d43da0d9ac3","sni":"c3mc.ciscocdn1.live","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ywQ9KSLI4ZBm9wOAXUaN","headers":{"host":"c3mc.ciscocdn1.live\r"}}}
+  - {"name":"🇬🇧_OurChannel:@DirectVPN\r_7_111","type":"trojan","server":"18.168.172.206","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_20_112","type":"trojan","server":"482.outline-vpn.cloud","port":443,"udp":true,"password":"d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113","type":"trojan","server":"3.9.4.40","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇪🇸_defaultName_21_114","type":"trojan","server":"sp1.connecton.surf","port":443,"udp":true,"password":"41dbabe59a","sni":"sp1.connecton.surf","skip-cert-verify":true,"network":"tcp\r"}
+  - {"name":"🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115","type":"trojan","server":"51.158.146.183","port":443,"udp":true,"password":"9ca77bd0-4160-11ee-9c25-1239d0255272","sni":"speedtest.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪_OurChannel:@DirectVPN\r_8_116","type":"trojan","server":"46.137.106.67","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇼_🇹🇼_TW_台湾\r_117","type":"trojan","server":"pqhinet3.aiopen.cfd","port":443,"udp":true,"password":"ca2daa1f-484b-49db-b088-f25b6a398d8c","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_defaultName_22_118","type":"trojan","server":"104.17.238.164","port":443,"udp":true,"password":"4d706727-996f-4427-930d-60f3bd414cf9","sni":"c1mt.cdncisco2.co","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rDCYQta83d0oPABKBhcIX","headers":{"host":"c1mt.cdncisco2.co\r"}}}
+  - {"name":"🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119","type":"trojan","server":"is1kam.09vpn.com","port":2083,"udp":true,"password":"u5971153074","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120","type":"vmess","server":"b2n.ir","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇨🇳_🇨🇳CN-123.249.101.15-0884_121","type":"vmess","server":"123.249.101.15","port":19709,"cipher":"auto","uuid":"2f278a45-940a-46c1-c886-77f3b2d33987","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰_@hassan_saboorii کانال تلگرام_122","type":"vmess","server":"182.16.1.194","port":80,"cipher":"auto","uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/opt/video/images"}}
+  - {"name":"🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123","type":"vmess","server":"104.22.11.129","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124","type":"vmess","server":"discord.com","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_Telegram | @FNET00⚡_1_125","type":"vmess","server":"64.32.4.53","port":43556,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126","type":"vmess","server":"188.114.99.0","port":8443,"cipher":"auto","uuid":"aa0c4744-9568-4bee-a08b-73668a9b2a42","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudconebbb","headers":{"host":"cloudconebbb.gorgorchicken.one"}}}
+  - {"name":"🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127","type":"vmess","server":"104.31.16.46","port":2082,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme100.fun"}}}
+  - {"name":"🇺🇸_United States Multacom_1_128","type":"vmess","server":"cloudconeaaa.gorgorchicken.one","port":8443,"cipher":"auto","uuid":"1cec1ebc-b489-4769-f2d9-e079b5832a60","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudconeaaa","headers":{"host":"cloudconeaaa.gorgorchicken.one"}}}
+  - {"name":"🇺🇸_@dRIBBLE7 کانال ما_129","type":"vmess","server":"104.24.208.25","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.click"}}}
+  - {"name":"🇺🇸_@vmesskhodam🤍_130","type":"vmess","server":"104.25.134.44","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131","type":"vmess","server":"nestle.ir","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_🇺🇸 تلگرام @FreakConfig_132","type":"vmess","server":"156.225.67.151","port":46412,"cipher":"auto","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133","type":"vmess","server":"104.16.183.101","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇦🇺_🇦🇺@vpn_ocean_134","type":"vmess","server":"139.99.245.164","port":49921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135","type":"vmess","server":"104.21.36.26","port":8443,"cipher":"auto","uuid":"aa0c4744-9568-4bee-a08b-73668a9b2a42","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudconebbb","headers":{"host":"cloudconebbb.gorgorchicken.one"}}}
+  - {"name":"🇫🇷_Channel id: @ShadowProxy66🇩🇪_136","type":"vmess","server":"135.125.134.177","port":443,"cipher":"auto","uuid":"d4734bd8-906b-4426-b9ff-9dbc388d56da","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_@vless_vmess|🇩🇪|96.84_137","type":"vmess","server":"vde2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat"}}
+  - {"name":"🇺🇸_VPN_138","type":"vmess","server":"jolimolilap.com","port":2087,"cipher":"auto","uuid":"98bd45bd-ad4a-4480-87b2-84f81c09aaa8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_🌐 Server 45⚡_139","type":"vmess","server":"47.89.192.94","port":80,"cipher":"auto","uuid":"301d815f-a02a-4c2c-a424-b16cf0a241ae","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4a5yXsGODBM1cvl9TzyF0SHR3v","headers":{"host":"47.89.192.94"}}}
+  - {"name":"🇺🇸_United States Akamai_1_140","type":"vmess","server":"vus4.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus4.0bad.com"}}}
+  - {"name":"🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141","type":"vmess","server":"104.27.203.169","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_🈯4@oneclickvpnkeys_142","type":"vmess","server":"45.199.138.164","port":32301,"cipher":"auto","uuid":"65ea6727-4461-47a7-a5c4-fef2c67f2f79","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143","type":"vmess","server":"162.159.62.69","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_Telegram | @FNET00⚡_2_144","type":"vmess","server":"104.31.16.3","port":2087,"cipher":"auto","uuid":"98bd45bd-ad4a-4480-87b2-84f81c09aaa8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_Telegram | @FNET00⚡_3_145","type":"vmess","server":"199.188.111.244","port":46500,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146","type":"vmess","server":"66.81.247.222","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147","type":"vmess","server":"franc.digires.shop","port":443,"cipher":"auto","uuid":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/11201","headers":{"host":"franc.digires.shop"}}}
+  - {"name":"🇳🇱_France Scaleway_148","type":"vmess","server":"phosphorylative.aurorainiceland.com","port":443,"cipher":"auto","uuid":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/nimvws","headers":{"host":"phosphorylative.aurorainiceland.com"}}}
+  - {"name":"🇺🇸_United States Multacom_2_149","type":"vmess","server":"cloudconebbb.gorgorchicken.one","port":8443,"cipher":"auto","uuid":"aa0c4744-9568-4bee-a08b-73668a9b2a42","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cloudconebbb","headers":{"host":"cloudconebbb.gorgorchicken.one"}}}
+  - {"name":"🇺🇸_کانال : @V2rayNGvpni_1_150","type":"vmess","server":"156.225.67.101","port":53797,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷_🇰🇷KR-146.56.174.31-2646_151","type":"vmess","server":"146.56.174.31","port":8080,"cipher":"auto","uuid":"c2eb5ff8-508d-4100-e0ca-9739f4d1c52c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@herhero6"}}
+  - {"name":"🇺🇸_United States Akamai_2_152","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus5.0bad.com"}}}
+  - {"name":"🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153","type":"vmess","server":"104.24.194.105","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_Telegram | @FNET00⚡_4_154","type":"vmess","server":"137.175.58.132","port":53999,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_Japan Oracle_155","type":"vmess","server":"ming2.kiwireich.com","port":443,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"ming2.kiwireich.com"}}}
+  - {"name":"🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156","type":"vmess","server":"mci.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/b8767a6a-1c30-11ee-ba76-9ee097a90b8b","headers":{"host":"b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster"}}}
+  - {"name":"🇺🇸_🌐 Server 27⚡⚡_157","type":"vmess","server":"107.167.20.183","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/243535322906","headers":{"host":"www.22666564.xyz"}}}
+  - {"name":"🇺🇸_@v2rayng_org_158","type":"vmess","server":"129.146.46.181","port":52408,"cipher":"auto","uuid":"a797ff7b-8161-40a6-d577-1b2c213b3885","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159","type":"vmess","server":"104.31.16.65","port":443,"cipher":"auto","uuid":"4C73AF78-54D4-44E2-A060-E11D3E461876","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.bobbykotick.rip"}}}
+  - {"name":"🇬🇧_United Kingdom Akamai_160","type":"vmess","server":"vuk2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vuk2.0bad.com"}}}
+  - {"name":"🇦🇺_Australia Akamai_161","type":"vmess","server":"vau1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vau1.0bad.com"}}}
+  - {"name":"🇺🇸_کانال : @V2rayNGvpni_2_162","type":"vmess","server":"108.186.116.166","port":46605,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🉐37@oneclickvpnkeys_163","type":"vmess","server":"156.225.67.158","port":39937,"cipher":"auto","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_🇩🇪 | @FreakConfig_1_164","type":"vmess","server":"45.32.153.201","port":2096,"cipher":"auto","uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_@hkaa0||美国_1_165","type":"vmess","server":"216.24.57.1","port":443,"cipher":"auto","uuid":"a7ee85f4-2528-412e-994f-ce65f54754e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"a7ee85f4","headers":{"host":"dd2.1808.cf"}}}
+  - {"name":"🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰\nادمین ✌️🔰 @ribvarpeyman 🔰_1_166","type":"vmess","server":"ribvar.xyz","port":2885,"cipher":"auto","uuid":"22067812-f9f7-4e3f-aa54-fa725d504057","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🔴59@oneclickvpnkeys_167","type":"vmess","server":"45.199.138.159","port":48335,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺_tel channel : @v2conf_168","type":"vmess","server":"193.9.49.11","port":443,"cipher":"auto","uuid":"11C9E416-9D42-47A8-978C-78E55AEE4D59","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"lille.kotick.site"}}}
+  - {"name":"🇺🇸_@hkaa0||美国_2_169","type":"vmess","server":"142.4.109.68","port":46672,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170","type":"vmess","server":"953join.outline-vpn.cloud","port":48335,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_sshocean VIP VPN unlimited_171","type":"vmess","server":"glasCo.fx-traDer.shop","port":2087,"cipher":"auto","uuid":"b883fee3-4397-40d4-a43a-5a3b91db2e11","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇳🇱_@ClimbVpn 🇺🇸_172","type":"vmess","server":"188.114.97.3","port":443,"cipher":"auto","uuid":"6A20DFF3-61C1-47A5-BDCF-38C102764A7F","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.bobbykotick.rip"}}}
+  - {"name":"🇮🇷_@NapsternetVapp🔝\n@NapsternetVi➕_1_173","type":"vmess","server":"nextava.jetspeed.fun","port":80,"cipher":"chacha20-poly1305","uuid":"8bb01190-f127-4a5a-9845-e6adf93eccc1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_1_174","type":"vmess","server":"13.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"32af4006-0698-4910-806c-b813074f36eb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"13.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ\"_1_175","type":"vmess","server":"sw-89.116.38.178.nip.io","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||美国_3_176","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"6abfe33a-1894-4f62-8879-83b71a35e5fd","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.tk"}}}
+  - {"name":"🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177","type":"vmess","server":"172.67.242.38","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_@NapsternetV_Config کانال تلگرام ما_178","type":"vmess","server":"172.67.32.82","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179","type":"vmess","server":"47.89.229.201","port":80,"cipher":"auto","uuid":"0dce8b7e-4189-427b-95b7-93fc55d25115","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/PxcYlDIHtv3GtsBfhm1AaayIV"}}
+  - {"name":"🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180","type":"vmess","server":"7416.outline-vpn.cloud","port":8081,"cipher":"auto","uuid":"a9dbc38a-3390-4ecb-b769-35946906b0f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_2_181","type":"vmess","server":"17.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"1e36655b-7d28-4513-d7f8-5f1a0c00a07d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"17.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_@Hope_Net-join-us-on-Telegram_182","type":"vmess","server":"104.25.13.12","port":80,"cipher":"aes-128-gcm","uuid":"a7ee85f4-2528-412e-994f-ce65f54754e4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"a7ee85f4","headers":{"host":"dd2.1808.cf"}}}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_1_183","type":"vmess","server":"0000:0000:0000:0000:0000:ffff:6811:495","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_2_184","type":"vmess","server":"irancell-ir-3.rollaruby2.skin","port":443,"cipher":"auto","uuid":"11600612-cdfd-4f9c-8d41-26c76313c0aa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_@Maznet-MCI_185","type":"vmess","server":"mci.maznet.cfd","port":443,"cipher":"auto","uuid":"c1136440-30b0-451a-aadb-80aa5afc0343","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_3_186","type":"vmess","server":"104.25.193.8","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_t.me/ipV2rayNG_1_187","type":"vmess","server":"45.199.138.188","port":32138,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@Maznet-MTN_188","type":"vmess","server":"mtn.maznet.cfd","port":2083,"cipher":"auto","uuid":"b905c090-8f49-4623-9e97-156b9e8d54cc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189","type":"vmess","server":"vus3.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus3.0bad.com"}}}
+  - {"name":"🇺🇸_NO NAME_190","type":"vmess","server":"us.freebaipiao.tk","port":8443,"cipher":"auto","uuid":"03221b25-1a6a-4501-e519-1745b25f6c1f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/freebaipiao","headers":{"host":"us.freebaipiao.tk"}}}
+  - {"name":"🇺🇸_关注频道https://t.me/mftizi_191","type":"vmess","server":"64.32.4.54","port":43556,"cipher":"auto","uuid":"8653004f-de67-44c2-9cce-e0830933fb03","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🛑  @v2raying_1_192","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"aes-128-gcm","uuid":"a7ee85f4-2528-412e-994f-ce65f54754e4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"a7ee85f4","headers":{"host":"dd2.1808.cf"}}}
+  - {"name":"🇱🇺_Ios-@vmesskhodam_193","type":"vmess","server":"vmesskhodammtn1.ddns.net","port":2053,"cipher":"auto","uuid":"6ac35b24-6c11-4a3d-ed51-3c710ccbcb50","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vmesskhodam.vmesskhodam.top"}}}
+  - {"name":"🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194","type":"vmess","server":"47.254.92.41","port":80,"cipher":"auto","uuid":"4bf9b7e0-85d1-4a59-9a29-e6619dcd7c50","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pSAXxD8Ib7FZloqUMG"}}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_3_195","type":"vmess","server":"7.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"2f334fd9-98f6-4995-ba45-bb9a8a28eea2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"7.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_@IRAN_access_196","type":"vmess","server":"137.175.29.38","port":53999,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197","type":"vmess","server":"156.245.8.241","port":51246,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_🇩🇪 | @FreakConfig_2_198","type":"vmess","server":"192.248.185.182","port":2096,"cipher":"auto","uuid":"3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199","type":"vmess","server":"876join.outline-vpn.cloud","port":32138,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_Tel: @Novinology_1_200","type":"vmess","server":"47.89.231.138","port":80,"cipher":"auto","uuid":"82f58397-480e-4975-b3ec-fea904dc5912","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/O0emfe0pBfYovpz5526rhq"}}
+  - {"name":"🇺🇸_🇺🇸Los Angeles-4191_201","type":"vmess","server":"67.21.95.73","port":53314,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202","type":"vmess","server":"854.outline-vpn.cloud","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"amstd.shabijichang.com"}}}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_4_203","type":"vmess","server":"104.23.123.239","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ\"_2_204","type":"vmess","server":"sw-89.116.38.183.nip.io","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205","type":"vmess","server":"vuk1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vuk1.0bad.com"}}}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_4_206","type":"vmess","server":"18.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"79602372-640c-44b8-eb6b-2e655c3089df","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"18.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_@NapsternetVapp🔝\n@NapsternetVi➕_2_207","type":"vmess","server":"171.22.116.21","port":58082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_5_208","type":"vmess","server":"8.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"2c4db0b1-5cd9-4bad-e957-33c36e261987","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"8.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_تلگرام ما proxy_mtm_1_209","type":"vmess","server":"104.18.40.89","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_🇪🇸 西班牙_210","type":"vmess","server":"172.64.172.9","port":80,"cipher":"auto","uuid":"59053634-8362-4312-9fcb-f85757cfe02a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"","headers":{"host":"xby.daozhang.link"}}}
+  - {"name":"🇺🇸_Nira2(@Outline_Vpn)_211","type":"vmess","server":"j-oin.outline-vpn.cloud","port":2087,"cipher":"auto","uuid":"98bd45bd-ad4a-4480-87b2-84f81c09aaa8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_تلگرام ما proxy_mtm_2_212","type":"vmess","server":"172.64.150.2","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_🇭🇰 MTN 28 @NetAccount_213","type":"vmess","server":"172.64.130.176","port":8080,"cipher":"auto","uuid":"325142a2-24fe-4e67-9ef3-96b54e1d2842","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hkbn.daozhang.link"}}}
+  - {"name":"🇺🇸_@V2ray_NG_214","type":"vmess","server":"5543.outline-vpn.cloud","port":48869,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_长期更新节点@mftizi_1_215","type":"vmess","server":"23.234.198.83","port":34888,"cipher":"auto","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216","type":"vmess","server":"167.172.184.180","port":8081,"cipher":"auto","uuid":"a9dbc38a-3390-4ecb-b769-35946906b0f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217","type":"vmess","server":"45.199.138.178","port":37952,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_AbadanID(@Outline_Vpn)_218","type":"vmess","server":"637join.outline-vpn.cloud","port":37952,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219","type":"vmess","server":"47.254.89.211","port":80,"cipher":"auto","uuid":"203b2ab2-4994-4193-8193-6631a575edb0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/GSoTl9ZoYG5V2R0k4tUTGI8k"}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_1_220","type":"vmess","server":"104.20.65.33","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Lille.kotick.site","headers":{"host":"fragrant-sun-6653.walidfree6.workers.dev"}}}
+  - {"name":"🇺🇸_🇺🇸_US_美国_1_221","type":"vmess","server":"23.234.198.86","port":34888,"cipher":"auto","uuid":"a9abf3e7-87f4-473d-8d03-2f26ca4b3583","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇨🇦CA-VC-@aspeedvpn_222","type":"vmess","server":"104.31.16.27","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca5.tehme2.fun"}}}
+  - {"name":"🇩🇪_vmess+cdn+cf_223","type":"vmess","server":"188.244.122.88","port":443,"cipher":"auto","uuid":"5f6a4058-ffc8-481d-8da9-f18b6cf0cd05","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cf5e70b17f/","headers":{"host":"blog.iran-pars.top"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_2_224","type":"vmess","server":"104.18.237.21","port":443,"cipher":"auto","uuid":"795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Kansas.kotick.site","headers":{"host":"noisy-rain-d7ca.getfree8.workers.dev"}}}
+  - {"name":"🇺🇸_🟩y@oneclickvpnkeys_225","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"67a341a7-5ae7-4d92-edad-9e8db87ce165","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vcus1.vpn66.eu.org"}}}
+  - {"name":"🇺🇸_Tel: @Novinology_2_226","type":"vmess","server":"986.outline-vpn.cloud","port":46412,"cipher":"auto","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_6_227","type":"vmess","server":"3.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"0150eac1-6e49-4329-9c06-50027c0b9ad7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"3.wyhkaa0.gq"}}}
+  - {"name":"🇷🇺_all_228","type":"vmess","server":"45.144.2.113","port":80,"cipher":"auto","uuid":"c0119b07-15aa-49df-a24e-38cde4a7b7e8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2","headers":{"host":"er3.mybestjj.com"}}}
+  - {"name":"🇺🇸_🇺🇸@oneclickvpnkeys_229","type":"vmess","server":"shs.shabijichang.com","port":80,"cipher":"auto","uuid":"3ccbc585-baa6-4bc3-bd44-5b6c54406bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"shs.shabijichang.com"}}}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_7_230","type":"vmess","server":"16.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"c0fa7a10-3622-492a-e1cf-b8f8f4df3412","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"16.wyhkaa0.gq"}}}
+  - {"name":"🇫🇷_t.me/ConfigsHub_231","type":"vmess","server":"95.179.213.70","port":8443,"cipher":"auto","uuid":"56f0e0a4-ec5d-46d6-cab5-e29fcbb96b0a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇺🇸_@oneclickvpnkeys|🚩|2.93_232","type":"vmess","server":"fd.shabijichang.com","port":80,"cipher":"auto","uuid":"3ccbc585-baa6-4bc3-bd44-5b6c54406bfc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"db.shabijichang.com"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_3_233","type":"vmess","server":"104.22.45.103","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"cool-field-4b5b.walidfree18.workers.dev"}}}
+  - {"name":"🇩🇪_🇩🇪 | @FreakConfig_3_234","type":"vmess","server":"45.32.153.201","port":8443,"cipher":"auto","uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_🇮🇳印度@Msv2flyNG_235","type":"vmess","server":"yd112a.qwqa.link","port":80,"cipher":"auto","uuid":"ad615b2a-8adf-4020-a136-03f8b574e9bf","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yd112a.qwqa.link"}}}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_5_236","type":"vmess","server":"104.18.14.229","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237","type":"vmess","server":"156.225.67.89","port":48869,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇺🇸US-171.22.116.54-0081_238","type":"vmess","server":"171.22.116.54","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1691318318420","headers":{"host":"www.83993175.xyz"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_4_239","type":"vmess","server":"173.245.58.61","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Lille.kotick.site","headers":{"host":"twilight-limit-d663.bangolan052488.workers.dev"}}}
+  - {"name":"🇸🇪_🇸🇪Stockholm-2424_240","type":"vmess","server":"37.120.209.125","port":49982,"cipher":"auto","uuid":"dc0cf22d-e35c-4b77-8924-977f6844909b","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_@V2rayFa کانال تلگرام ما_241","type":"vmess","server":"136.244.88.217","port":8443,"cipher":"auto","uuid":"3d0c8ee5-3329-4252-aa1c-65f3fdaa0343","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_تلگرام proxy_mtm_1_242","type":"vmess","server":"104.17.101.35","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇬🇧_-6izaig49_243","type":"vmess","server":"miladfaryad.cf","port":40878,"cipher":"auto","uuid":"f9a361cf-4086-4410-a25c-2647f8875a83","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇺🇸_US_美国_2_244","type":"vmess","server":"137.175.9.204","port":48101,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ\"_3_245","type":"vmess","server":"8.210.128.146","port":36788,"cipher":"auto","uuid":"34ae890c-eada-4160-f7ba-a2d9fba215af","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸_长期更新节点@mftizi_2_246","type":"vmess","server":"23.108.100.103","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/footers","headers":{"host":"www.40587333.xyz"}}}
+  - {"name":"🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247","type":"vmess","server":"190.93.246.241","port":2082,"cipher":"auto","uuid":"072c695b-88d1-401e-9926-8c777404cb64","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray","headers":{"host":"de4vm.cdn-03.live"}}}
+  - {"name":"🇺🇸_🛑  @v2raying_2_248","type":"vmess","server":"941.outline-vpn.cloud","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"bl.shabijichang.com"}}}
+  - {"name":"🇺🇸_🇺🇸@Msv2flyNG_249","type":"vmess","server":"mg2.531131.xyz","port":443,"cipher":"auto","uuid":"4fc3959a-9def-4816-8bd1-93b4ec999332","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mg2","headers":{"host":"mg2.531131.xyz"}}}
+  - {"name":"🇺🇸_🇺🇸 BGP -道长_250","type":"vmess","server":"172.64.130.176","port":80,"cipher":"auto","uuid":"d4e5ffc1-0142-4bb2-ea61-93519ee94fe8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"usa.daozhang.link"}}}
+  - {"name":"🇺🇸_@Megavpn23_251","type":"vmess","server":"104.17.141.186","port":443,"cipher":"auto","uuid":"F0259D88-2331-4109-A540-B240DFA251F2","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"weathered-pine-f798.amsterdam8212.workers.dev"}}}
+  - {"name":"🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ\"_4_252","type":"vmess","server":"89.116.38.182","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@NapsternetVapp🔝\n@NapsternetVi➕_3_253","type":"vmess","server":"rtl.ircf.space","port":443,"cipher":"chacha20-poly1305","uuid":"8bb01190-f127-4a5a-9845-e6adf93eccc1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/pDDgT3v8NaAJHFPuEaDfC8t","headers":{"host":"avaspeed.jetspeed.fun"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_5_254","type":"vmess","server":"104.21.17.143","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"yellow-hill-fdc2.barmasi7.workers.dev"}}}
+  - {"name":"🇺🇸_تلگرام proxy_mtm_2_255","type":"vmess","server":"104.27.122.56","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇩🇪_@azad_intrnet_256","type":"vmess","server":"3.71.79.197","port":48793,"cipher":"auto","uuid":"f28189cc-6dda-4e6b-94fc-5ad0da17bde4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰\nادمین ✌️🔰 @ribvarpeyman 🔰_2_257","type":"vmess","server":"ribvar.xyz","port":4549,"cipher":"auto","uuid":"97f9b956-1d2f-4647-f853-dce059fe5d6c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🟩54@oneclickvpnkeys_258","type":"vmess","server":"172.67.31.254","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ld.shabijichang.com"}}}
+  - {"name":"🇺🇸_8_ @ARGOTAZ_259","type":"vmess","server":"datacenter.ct.01.biqibao.site","port":2052,"cipher":"auto","uuid":"783479b4-7c4b-4a83-a5e5-b49d86f2fe95","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/public","headers":{"host":"de.biqibao.site"}}}
+  - {"name":"🇺🇸_🇺🇸us@oneclickvpnkeys_260","type":"vmess","server":"us.xuanyi.me","port":8443,"cipher":"auto","uuid":"446c486f-923b-43b0-f864-b831e545ab01","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/e","headers":{"host":"us.xuanyi.me"}}}
+  - {"name":"🇬🇧_-h3qoalv3_261","type":"vmess","server":"94.102.63.51","port":40878,"cipher":"auto","uuid":"1cd9b089-9a2a-4b78-b578-ea3507319e31","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@iphone02016vpn_1_262","type":"vmess","server":"107.167.16.34","port":45592,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@GOODBYEFILTERING_6_263","type":"vmess","server":"104.21.55.49","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264","type":"vmess","server":"104.31.16.14","port":443,"cipher":"auto","uuid":"67825d00-423e-11ee-b639-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fa47bug5","headers":{"host":"us-1.0rd.net"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_6_265","type":"vmess","server":"104.16.40.227","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Dusseldorf.kotick.site","headers":{"host":"b.barmasi8.workers.dev"}}}
+  - {"name":"🇮🇷_Tel: @Novinology_3_266","type":"vmess","server":"91.107.251.77","port":39422,"cipher":"auto","uuid":"d7642c60-8d7d-452b-ac1e-8b14c50dd75d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_7_267","type":"vmess","server":"laravel.com","port":443,"cipher":"auto","uuid":"795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Kansas.kotick.site:443/speedtest","headers":{"host":"cool-darkness-e663.mehdipost667.workers.dev"}}}
+  - {"name":"🇺🇸_تلگرام ما proxy_mtm_3_268","type":"vmess","server":"104.20.75.10","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_8_269","type":"vmess","server":"104.16.109.45","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Kansas.kotick.site","headers":{"host":"nameless-breeze-df9a.walidfree2.workers.dev"}}}
+  - {"name":"🇺🇸_@V2ray_hub1 - Free Server_270","type":"vmess","server":"142.4.126.22","port":51715,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇺🇸_US_美国_3_271","type":"vmess","server":"15.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"d54527c2-27d6-48ab-87b1-c7e22ffd7aac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"15.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_9_272","type":"vmess","server":"162.159.254.0","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Dusseldorf.kotick.site","headers":{"host":"rapid-queen-5b2c.barmasi4.workers.dev"}}}
+  - {"name":"🇩🇪_@V2RAYROZ | همه اپراتور ها_273","type":"vmess","server":"ir.vpn_ghawi.esnpenel.site","port":10464,"cipher":"auto","uuid":"5524b054-a8b4-4a35-c3a2-34cb9467215b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||五叶专属_8_274","type":"vmess","server":"5.wyhkaa0.gq","port":2095,"cipher":"auto","uuid":"2733e8cb-b074-4d66-e7c0-99f1db465e4c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"5.wyhkaa0.gq"}}}
+  - {"name":"🇺🇸_🟩26@oneclickvpnkeys_275","type":"vmess","server":"172.67.31.226","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"amstd.shabijichang.com"}}}
+  - {"name":"🇺🇸_🇺🇸_US_美国_4_276","type":"vmess","server":"192.74.234.83","port":54983,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_تلگرام proxy_mtm_3_277","type":"vmess","server":"104.24.161.123","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇸🇪_Avam19(@ads_Central_net)_278","type":"vmess","server":"9524.outline-vpn.cloud","port":49982,"cipher":"auto","uuid":"dc0cf22d-e35c-4b77-8924-977f6844909b","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279","type":"vmess","server":"108.61.210.194","port":57445,"cipher":"auto","uuid":"4fc068cc-14c1-437f-991c-1e793f77cf8c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@vistav2ray+بیا+تو+کانال_280","type":"vmess","server":"::ffff:2dc7:8aa4","port":32301,"cipher":"auto","uuid":"65ea6727-4461-47a7-a5c4-fef2c67f2f79","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰\nادمین ✌️🔰 @ribvarpeyman 🔰_3_281","type":"vmess","server":"ribvar.xyz","port":3302,"cipher":"auto","uuid":"28222bd2-a63b-4279-a841-691f6d1591dd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇺🇸_US_美国_5_282","type":"vmess","server":"137.175.22.187","port":53999,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283","type":"vmess","server":"104.31.16.14","port":80,"cipher":"none","uuid":"9a72d150-0742-4368-beeb-90e3224d8513","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"sg2vm.cdn-03.live"}}}
+  - {"name":"🇺🇸_@NapsternetVapp🔝\n@NapsternetVi➕_4_284","type":"vmess","server":"45.86.8.37","port":40921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285","type":"vmess","server":"23.158.72.131","port":2082,"cipher":"auto","uuid":"8792e420-4265-11ee-b831-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2rayyNGvpn","headers":{"host":"ba24.ir"}}}
+  - {"name":"🇺🇸_🇺🇸_US_美国_6_286","type":"vmess","server":"23.224.202.86","port":57702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_关注频道防迷路_287","type":"vmess","server":"103.160.204.242","port":8080,"cipher":"auto","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/blue","headers":{"host":"ecc.vtcss.top"}}}
+  - {"name":"🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288","type":"vmess","server":"129.146.133.157","port":51009,"cipher":"auto","uuid":"81714cef-9bde-4a08-aa50-d6bc0172d78b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@iphone02016vpn_2_289","type":"vmess","server":"198.200.33.5","port":51041,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_@hkaa0||美国_4_290","type":"vmess","server":"156.225.67.102","port":53797,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_S3 - swed_291","type":"vmess","server":"172.64.153.211","port":443,"cipher":"auto","uuid":"6e751712-9569-5187-86ea-8f585ad99105","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api01","headers":{"host":"schereswed.softwarenews.store"}}}
+  - {"name":"🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292","type":"vmess","server":"156.225.67.153","port":46412,"cipher":"auto","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧_🈯aw@oneclickvpnkeys_293","type":"vmess","server":"13.40.6.37","port":22978,"cipher":"auto","uuid":"fdd41711-da99-4519-ca1e-7466a20b42d8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_『  Telegram id @Atvpn  』_10_294","type":"vmess","server":"smt.ircf.space","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"raspy-leaf-a6f0.lille7737.workers.dev"}}}
+  - {"name":"🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295","type":"vmess","server":"mtn.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d84ee332-1284-11ee-a5c8-8213fd3be4b9","headers":{"host":"d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"}}}
+  - {"name":"🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296","type":"vmess","server":"104.21.19.124","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
+  - {"name":"🇺🇸_不定期抽奖https://t.me/mftizi_297","type":"vmess","server":"btbu996.icu","port":443,"cipher":"auto","uuid":"16702ec2-3808-46e6-a7b5-582c062be13d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jpnat1.doinb.tk"}}}
+  - {"name":"🇺🇸_Nira3(@Outline_Vpn)_298","type":"vmess","server":"312.outline-vpn.cloud","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ld.shabijichang.com"}}}
+  - {"name":"🇩🇪_t.me/ipV2rayNG_2_299","type":"vmess","server":"139.162.131.127","port":12367,"cipher":"auto","uuid":"ef8279cf-c0b7-4d37-baa3-e43331081459","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_🟩81@oneclickvpnkeys_300","type":"vmess","server":"198.41.220.181","port":80,"cipher":"auto","uuid":"a1a676e4-016e-4bf0-96fe-4b6aaf53abc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"bl.shabijichang.com"}}}
+  - {"name":"🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301","type":"vmess","server":"51.255.49.192","port":8442,"cipher":"auto","uuid":"ee991140-622a-4290-91d1-6dd2c851c53f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302","type":"vmess","server":"190.93.246.241","port":443,"cipher":"auto","uuid":"3e54b54e-49fd-430a-8bf1-de1f87431e0c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray/@hopev2ray","headers":{"host":"de2vm.cdn-03.live"}}}
+  - {"name":"🇺🇸_@AZARBAYJAB1🇺🇸ful net_303","type":"vmess","server":"45.86.8.39","port":40921,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_t.me/v2line (s1224) (KR)_304","type":"vmess","server":"s1224.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8080,"cipher":"auto","uuid":"c2eb5ff8-508d-4100-e0ca-9739f4d1c52c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@herhero6","headers":{"host":"s1224.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"}}}
+proxy-groups:
+  - name: 🔀 نوع انتخاب پروکسی
+    type: select
+    proxies:
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (بهترین پینگ) ➡️
+      - توزیع بار (هش سازگار) ♻️
+      - توزیع بار (یکنواخت) ⏳
+      - ⛔ قطع اینترنت
+      - 🛡️ بدون فیلترشکن
+  - name: 📶 انتخاب نوع اتصال
+    type: select
+    proxies:
+      - 🌐 همه سایتا
+      - 🔐 فقط سایتای فیلتر شده
+  - name: دستی 🤏🏻
+    type: select
+    proxies:
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1"
+      - "🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3"
+      - "🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4"
+      - "🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6"
+      - "🇺🇸_🈯58@oneclickvpnkeys\r_7"
+      - "🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8"
+      - "🇫🇷_@ProxyCom10\r_1_9"
+      - "🇬🇧_🟢41@oneclickvpnkeys\r_10"
+      - "🇺🇸_🟢140@oneclickvpnkeys\r_11"
+      - "🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12"
+      - "🇬🇧_@V2rayNG_account_free🇬���\r_13"
+      - "🇦🇪_5_+@ARGOTAZ\r_14"
+      - "🇺🇸_🟢02@oneclickvpnk\r_15"
+      - "🇬🇧_🟩19@oneclickvpnkeys\r_16"
+      - "🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17"
+      - "🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18"
+      - "🇹🇷_@ProxyCom10\r_2_19"
+      - "🇹🇷_tr.premium.reserve__@IP\r_20"
+      - "🇺🇸_🇺🇸_US_美国\r_1_21"
+      - "🇺🇸_@ProxyCom10  | MCI\r_22"
+      - "🇦🇷_ar.premium__@IP\r_23"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24"
+      - "🇳🇴_ee.premium__@IP\r_25"
+      - "🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28"
+      - "🇺🇸_🇺🇸_US_美国\r_2_29"
+      - "🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31"
+      - "🇨🇷_@v2rayfa\r_32"
+      - "🇫🇷_TOR.premium__@IP\r_33"
+      - "🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34"
+      - "🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36"
+      - "🇷🇺_🟧63@oneclickvpnkeys\r_37"
+      - "🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38"
+      - "🇳🇴_no.premium__@IP\r_39"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40"
+      - "🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41"
+      - "🇨🇾_cy.premium__@IP\r_42"
+      - "🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43"
+      - "🇸🇬_@hkaa0||新加��\r_44"
+      - "🇰🇪_ke.premium__@IP\r_45"
+      - "🇺🇸_3_+@ARGO\r_46"
+      - "🇪🇸_🇪🇸_ES_西班牙\r_47"
+      - "🇸🇪_Join Telegram : ------@IP_CF------ |\r_48"
+      - "🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51"
+      - '🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52'
+      - "🇩🇪_proxystore11-mtn\r_53"
+      - 🇫🇷_defaultName_1_54
+      - 🇸🇬_defaultName_2_55
+      - "🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56"
+      - "🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57"
+      - 🇯🇵_defaultName_3_58
+      - 🇯🇵_defaultName_4_59
+      - "🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60"
+      - 🇭🇰_defaultName_5_61
+      - "🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62"
+      - 🇺🇸_defaultName_6_63
+      - 🇯🇵_defaultName_7_64
+      - 🇯🇵_defaultName_8_65
+      - 🇺🇸_defaultName_9_66
+      - 🇯🇵_defaultName_10_67
+      - 🇭🇰_defaultName_11_68
+      - 🇯🇵_defaultName_12_69
+      - "🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70"
+      - "🇯🇵_🇯🇵_JP_日本\r_71"
+      - "🇮🇪_OurChannel:@DirectVPN\r_1_72"
+      - "🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74"
+      - "🇷🇺_t.me/ConfigsHub\r_1_75"
+      - "🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77"
+      - "🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78"
+      - "🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79"
+      - "🇬🇧_OurChannel:@DirectVPN\r_2_80"
+      - "🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81"
+      - "🇫🇷_OurChannel:@DirectVPN\r_3_82"
+      - "🇸🇪_OurChannel:@DirectVPN\r_4_83"
+      - "🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84"
+      - 🇺🇸_defaultName_13_85
+      - "🇸🇪_🇸🇪@antimeli\r_86"
+      - "🇫🇷_@ARGOTAZ+🇫🇷\r_87"
+      - "🇨🇦_trojan-@iphone02016vpn\r_88"
+      - "🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89"
+      - 🇺🇸_defaultName_14_90
+      - "🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91"
+      - "🇯🇵_@hkaa0||新加坡\r_92"
+      - "🇹🇼_@hkaa0||台湾\r_93"
+      - "🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94"
+      - "🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95"
+      - "🇺🇸_join+ @proxy_fier\r_96"
+      - "🇸🇪_OurChannel:@DirectVPN\r_5_97"
+      - "🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98"
+      - "🇵🇱_t.me/ConfigsHub\r_2_99"
+      - "🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100"
+      - "🇯🇵_@hkaa0||日本\r_101"
+      - "🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102"
+      - 🇺🇸_defaultName_15_103
+      - 🇺🇸_defaultName_16_104
+      - "🇩🇪_OurChannel:@DirectVPN\r_6_105"
+      - "🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106"
+      - 🇵🇱_defaultName_17_107
+      - "🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108"
+      - 🇺🇸_defaultName_18_109
+      - 🇺🇸_defaultName_19_110
+      - "🇬🇧_OurChannel:@DirectVPN\r_7_111"
+      - 🇺🇸_defaultName_20_112
+      - "🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113"
+      - 🇪🇸_defaultName_21_114
+      - "🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115"
+      - "🇮🇪_OurChannel:@DirectVPN\r_8_116"
+      - "🇹🇼_🇹🇼_TW_台湾\r_117"
+      - 🇺🇸_defaultName_22_118
+      - 🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120
+      - 🇨🇳_🇨🇳CN-123.249.101.15-0884_121
+      - 🇭🇰_@hassan_saboorii کانال تلگرام_122
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124
+      - 🇺🇸_Telegram | @FNET00⚡_1_125
+      - 🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127
+      - 🇺🇸_United States Multacom_1_128
+      - 🇺🇸_@dRIBBLE7 کانال ما_129
+      - 🇺🇸_@vmesskhodam🤍_130
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131
+      - 🇺🇸_🇺🇸 تلگرام @FreakConfig_132
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133
+      - 🇦🇺_🇦🇺@vpn_ocean_134
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135
+      - '🇫🇷_Channel id: @ShadowProxy66🇩🇪_136'
+      - 🇩🇪_@vless_vmess|🇩🇪|96.84_137
+      - 🇺🇸_VPN_138
+      - 🇺🇸_🌐 Server 45⚡_139
+      - 🇺🇸_United States Akamai_1_140
+      - 🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141
+      - 🇺🇸_🈯4@oneclickvpnkeys_142
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143
+      - 🇺🇸_Telegram | @FNET00⚡_2_144
+      - 🇺🇸_Telegram | @FNET00⚡_3_145
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147
+      - 🇳🇱_France Scaleway_148
+      - 🇺🇸_United States Multacom_2_149
+      - '🇺🇸_کانال : @V2rayNGvpni_1_150'
+      - 🇰🇷_🇰🇷KR-146.56.174.31-2646_151
+      - 🇺🇸_United States Akamai_2_152
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153
+      - 🇺🇸_Telegram | @FNET00⚡_4_154
+      - 🇺🇸_Japan Oracle_155
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156
+      - 🇺🇸_🌐 Server 27⚡⚡_157
+      - 🇺🇸_@v2rayng_org_158
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159
+      - 🇬🇧_United Kingdom Akamai_160
+      - 🇦🇺_Australia Akamai_161
+      - '🇺🇸_کانال : @V2rayNGvpni_2_162'
+      - 🇺🇸_🉐37@oneclickvpnkeys_163
+      - 🇩🇪_🇩🇪 | @FreakConfig_1_164
+      - 🇺🇸_@hkaa0||美国_1_165
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_1_166
+      - 🇺🇸_🔴59@oneclickvpnkeys_167
+      - '🇷🇺_tel channel : @v2conf_168'
+      - 🇺🇸_@hkaa0||美国_2_169
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170'
+      - 🇺🇸_sshocean VIP VPN unlimited_171
+      - 🇳🇱_@ClimbVpn 🇺🇸_172
+      - |-
+        🇮🇷_@NapsternetVapp🔝
+        @NapsternetVi➕_1_173
+      - 🇺🇸_@hkaa0||五叶专属_1_174
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_1_175
+      - 🇺🇸_@hkaa0||美国_3_176
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177
+      - 🇺🇸_@NapsternetV_Config کانال تلگرام ما_178
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179
+      - 🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180
+      - 🇺🇸_@hkaa0||五叶专属_2_181
+      - 🇺🇸_@Hope_Net-join-us-on-Telegram_182
+      - 🇺🇸_@GOODBYEFILTERING_1_183
+      - 🇺🇸_@GOODBYEFILTERING_2_184
+      - 🇺🇸_@Maznet-MCI_185
+      - 🇺🇸_@GOODBYEFILTERING_3_186
+      - 🇺🇸_t.me/ipV2rayNG_1_187
+      - 🇺🇸_@Maznet-MTN_188
+      - 🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189
+      - 🇺🇸_NO NAME_190
+      - 🇺🇸_关注频道https://t.me/mftizi_191
+      - 🇺🇸_🛑  @v2raying_1_192
+      - 🇱🇺_Ios-@vmesskhodam_193
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194
+      - 🇺🇸_@hkaa0||五叶专属_3_195
+      - 🇺🇸_@IRAN_access_196
+      - 🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197
+      - 🇩🇪_🇩🇪 | @FreakConfig_2_198
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199'
+      - '🇺🇸_Tel: @Novinology_1_200'
+      - 🇺🇸_🇺🇸Los Angeles-4191_201
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202
+      - 🇺🇸_@GOODBYEFILTERING_4_203
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_2_204
+      - 🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205
+      - 🇺🇸_@hkaa0||五叶专属_4_206
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_2_207
+      - 🇺🇸_@hkaa0||五叶专属_5_208
+      - 🇺🇸_تلگرام ما proxy_mtm_1_209
+      - 🇺🇸_🇪🇸 西班牙_210
+      - 🇺🇸_Nira2(@Outline_Vpn)_211
+      - 🇺🇸_تلگرام ما proxy_mtm_2_212
+      - 🇺🇸_🇭🇰 MTN 28 @NetAccount_213
+      - 🇺🇸_@V2ray_NG_214
+      - 🇺🇸_长期更新节点@mftizi_1_215
+      - 🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217
+      - 🇺🇸_AbadanID(@Outline_Vpn)_218
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_1_220"
+      - 🇺🇸_🇺🇸_US_美国_1_221
+      - 🇺🇸_🇨🇦CA-VC-@aspeedvpn_222
+      - 🇩🇪_vmess+cdn+cf_223
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_2_224"
+      - 🇺🇸_🟩y@oneclickvpnkeys_225
+      - '🇺🇸_Tel: @Novinology_2_226'
+      - 🇺🇸_@hkaa0||五叶专属_6_227
+      - 🇷🇺_all_228
+      - 🇺🇸_🇺🇸@oneclickvpnkeys_229
+      - 🇺🇸_@hkaa0||五叶专属_7_230
+      - 🇫🇷_t.me/ConfigsHub_231
+      - 🇺🇸_@oneclickvpnkeys|🚩|2.93_232
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_3_233"
+      - 🇩🇪_🇩🇪 | @FreakConfig_3_234
+      - 🇺🇸_🇮🇳印度@Msv2flyNG_235
+      - 🇺🇸_@GOODBYEFILTERING_5_236
+      - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237
+      - 🇺🇸_🇺🇸US-171.22.116.54-0081_238
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_4_239"
+      - 🇸🇪_🇸🇪Stockholm-2424_240
+      - 🇩🇪_@V2rayFa کانال تلگرام ما_241
+      - 🇺🇸_تلگرام proxy_mtm_1_242
+      - 🇬🇧_-6izaig49_243
+      - 🇺🇸_🇺🇸_US_美国_2_244
+      - 🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_3_245
+      - 🇺🇸_长期更新节点@mftizi_2_246
+      - 🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247
+      - 🇺🇸_🛑  @v2raying_2_248
+      - 🇺🇸_🇺🇸@Msv2flyNG_249
+      - 🇺🇸_🇺🇸 BGP -道长_250
+      - 🇺🇸_@Megavpn23_251
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_4_252
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_3_253
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_5_254"
+      - 🇺🇸_تلگرام proxy_mtm_2_255
+      - 🇩🇪_@azad_intrnet_256
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_2_257
+      - 🇺🇸_🟩54@oneclickvpnkeys_258
+      - 🇺🇸_8_ @ARGOTAZ_259
+      - 🇺🇸_🇺🇸us@oneclickvpnkeys_260
+      - 🇬🇧_-h3qoalv3_261
+      - 🇺🇸_@iphone02016vpn_1_262
+      - 🇺🇸_@GOODBYEFILTERING_6_263
+      - 🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_6_265"
+      - '🇮🇷_Tel: @Novinology_3_266'
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_7_267"
+      - 🇺🇸_تلگرام ما proxy_mtm_3_268
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_8_269"
+      - 🇺🇸_@V2ray_hub1 - Free Server_270
+      - 🇺🇸_🇺🇸_US_美国_3_271
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_9_272"
+      - 🇩🇪_@V2RAYROZ | همه اپراتور ها_273
+      - 🇺🇸_@hkaa0||五叶专属_8_274
+      - 🇺🇸_🟩26@oneclickvpnkeys_275
+      - 🇺🇸_🇺🇸_US_美国_4_276
+      - 🇺🇸_تلگرام proxy_mtm_3_277
+      - 🇸🇪_Avam19(@ads_Central_net)_278
+      - 🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279
+      - 🇺🇸_@vistav2ray+بیا+تو+کانال_280
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_3_281
+      - 🇺🇸_🇺🇸_US_美国_5_282
+      - 🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_4_284
+      - 🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285
+      - 🇺🇸_🇺🇸_US_美国_6_286
+      - 🇭🇰_关注频道防迷路_287
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288
+      - 🇺🇸_@iphone02016vpn_2_289
+      - 🇺🇸_@hkaa0||美国_4_290
+      - 🇺🇸_S3 - swed_291
+      - 🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292
+      - 🇬🇧_🈯aw@oneclickvpnkeys_293
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_10_294"
+      - 🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296
+      - 🇺🇸_不定期抽奖https://t.me/mftizi_297
+      - 🇺🇸_Nira3(@Outline_Vpn)_298
+      - 🇩🇪_t.me/ipV2rayNG_2_299
+      - 🇺🇸_🟩81@oneclickvpnkeys_300
+      - 🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301
+      - 🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302
+      - 🇺🇸_@AZARBAYJAB1🇺🇸ful net_303
+      - 🇺🇸_t.me/v2line (s1224) (KR)_304
+  - name: خودکار (بهترین پینگ) 🤖
+    type: url-test
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1"
+      - "🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3"
+      - "🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4"
+      - "🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6"
+      - "🇺🇸_🈯58@oneclickvpnkeys\r_7"
+      - "🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8"
+      - "🇫🇷_@ProxyCom10\r_1_9"
+      - "🇬🇧_🟢41@oneclickvpnkeys\r_10"
+      - "🇺🇸_🟢140@oneclickvpnkeys\r_11"
+      - "🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12"
+      - "🇬🇧_@V2rayNG_account_free🇬���\r_13"
+      - "🇦🇪_5_+@ARGOTAZ\r_14"
+      - "🇺🇸_🟢02@oneclickvpnk\r_15"
+      - "🇬🇧_🟩19@oneclickvpnkeys\r_16"
+      - "🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17"
+      - "🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18"
+      - "🇹🇷_@ProxyCom10\r_2_19"
+      - "🇹🇷_tr.premium.reserve__@IP\r_20"
+      - "🇺🇸_🇺🇸_US_美国\r_1_21"
+      - "🇺🇸_@ProxyCom10  | MCI\r_22"
+      - "🇦🇷_ar.premium__@IP\r_23"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24"
+      - "🇳🇴_ee.premium__@IP\r_25"
+      - "🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28"
+      - "🇺🇸_🇺🇸_US_美国\r_2_29"
+      - "🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31"
+      - "🇨🇷_@v2rayfa\r_32"
+      - "🇫🇷_TOR.premium__@IP\r_33"
+      - "🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34"
+      - "🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36"
+      - "🇷🇺_🟧63@oneclickvpnkeys\r_37"
+      - "🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38"
+      - "🇳🇴_no.premium__@IP\r_39"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40"
+      - "🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41"
+      - "🇨🇾_cy.premium__@IP\r_42"
+      - "🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43"
+      - "🇸🇬_@hkaa0||新加��\r_44"
+      - "🇰🇪_ke.premium__@IP\r_45"
+      - "🇺🇸_3_+@ARGO\r_46"
+      - "🇪🇸_🇪🇸_ES_西班牙\r_47"
+      - "🇸🇪_Join Telegram : ------@IP_CF------ |\r_48"
+      - "🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51"
+      - '🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52'
+      - "🇩🇪_proxystore11-mtn\r_53"
+      - 🇫🇷_defaultName_1_54
+      - 🇸🇬_defaultName_2_55
+      - "🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56"
+      - "🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57"
+      - 🇯🇵_defaultName_3_58
+      - 🇯🇵_defaultName_4_59
+      - "🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60"
+      - 🇭🇰_defaultName_5_61
+      - "🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62"
+      - 🇺🇸_defaultName_6_63
+      - 🇯🇵_defaultName_7_64
+      - 🇯🇵_defaultName_8_65
+      - 🇺🇸_defaultName_9_66
+      - 🇯🇵_defaultName_10_67
+      - 🇭🇰_defaultName_11_68
+      - 🇯🇵_defaultName_12_69
+      - "🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70"
+      - "🇯🇵_🇯🇵_JP_日本\r_71"
+      - "🇮🇪_OurChannel:@DirectVPN\r_1_72"
+      - "🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74"
+      - "🇷🇺_t.me/ConfigsHub\r_1_75"
+      - "🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77"
+      - "🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78"
+      - "🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79"
+      - "🇬🇧_OurChannel:@DirectVPN\r_2_80"
+      - "🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81"
+      - "🇫🇷_OurChannel:@DirectVPN\r_3_82"
+      - "🇸🇪_OurChannel:@DirectVPN\r_4_83"
+      - "🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84"
+      - 🇺🇸_defaultName_13_85
+      - "🇸🇪_🇸🇪@antimeli\r_86"
+      - "🇫🇷_@ARGOTAZ+🇫🇷\r_87"
+      - "🇨🇦_trojan-@iphone02016vpn\r_88"
+      - "🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89"
+      - 🇺🇸_defaultName_14_90
+      - "🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91"
+      - "🇯🇵_@hkaa0||新加坡\r_92"
+      - "🇹🇼_@hkaa0||台湾\r_93"
+      - "🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94"
+      - "🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95"
+      - "🇺🇸_join+ @proxy_fier\r_96"
+      - "🇸🇪_OurChannel:@DirectVPN\r_5_97"
+      - "🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98"
+      - "🇵🇱_t.me/ConfigsHub\r_2_99"
+      - "🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100"
+      - "🇯🇵_@hkaa0||日本\r_101"
+      - "🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102"
+      - 🇺🇸_defaultName_15_103
+      - 🇺🇸_defaultName_16_104
+      - "🇩🇪_OurChannel:@DirectVPN\r_6_105"
+      - "🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106"
+      - 🇵🇱_defaultName_17_107
+      - "🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108"
+      - 🇺🇸_defaultName_18_109
+      - 🇺🇸_defaultName_19_110
+      - "🇬🇧_OurChannel:@DirectVPN\r_7_111"
+      - 🇺🇸_defaultName_20_112
+      - "🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113"
+      - 🇪🇸_defaultName_21_114
+      - "🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115"
+      - "🇮🇪_OurChannel:@DirectVPN\r_8_116"
+      - "🇹🇼_🇹🇼_TW_台湾\r_117"
+      - 🇺🇸_defaultName_22_118
+      - 🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120
+      - 🇨🇳_🇨🇳CN-123.249.101.15-0884_121
+      - 🇭🇰_@hassan_saboorii کانال تلگرام_122
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124
+      - 🇺🇸_Telegram | @FNET00⚡_1_125
+      - 🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127
+      - 🇺🇸_United States Multacom_1_128
+      - 🇺🇸_@dRIBBLE7 کانال ما_129
+      - 🇺🇸_@vmesskhodam🤍_130
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131
+      - 🇺🇸_🇺🇸 تلگرام @FreakConfig_132
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133
+      - 🇦🇺_🇦🇺@vpn_ocean_134
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135
+      - '🇫🇷_Channel id: @ShadowProxy66🇩🇪_136'
+      - 🇩🇪_@vless_vmess|🇩🇪|96.84_137
+      - 🇺🇸_VPN_138
+      - 🇺🇸_🌐 Server 45⚡_139
+      - 🇺🇸_United States Akamai_1_140
+      - 🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141
+      - 🇺🇸_🈯4@oneclickvpnkeys_142
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143
+      - 🇺🇸_Telegram | @FNET00⚡_2_144
+      - 🇺🇸_Telegram | @FNET00⚡_3_145
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147
+      - 🇳🇱_France Scaleway_148
+      - 🇺🇸_United States Multacom_2_149
+      - '🇺🇸_کانال : @V2rayNGvpni_1_150'
+      - 🇰🇷_🇰🇷KR-146.56.174.31-2646_151
+      - 🇺🇸_United States Akamai_2_152
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153
+      - 🇺🇸_Telegram | @FNET00⚡_4_154
+      - 🇺🇸_Japan Oracle_155
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156
+      - 🇺🇸_🌐 Server 27⚡⚡_157
+      - 🇺🇸_@v2rayng_org_158
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159
+      - 🇬🇧_United Kingdom Akamai_160
+      - 🇦🇺_Australia Akamai_161
+      - '🇺🇸_کانال : @V2rayNGvpni_2_162'
+      - 🇺🇸_🉐37@oneclickvpnkeys_163
+      - 🇩🇪_🇩🇪 | @FreakConfig_1_164
+      - 🇺🇸_@hkaa0||美国_1_165
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_1_166
+      - 🇺🇸_🔴59@oneclickvpnkeys_167
+      - '🇷🇺_tel channel : @v2conf_168'
+      - 🇺🇸_@hkaa0||美国_2_169
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170'
+      - 🇺🇸_sshocean VIP VPN unlimited_171
+      - 🇳🇱_@ClimbVpn 🇺🇸_172
+      - |-
+        🇮🇷_@NapsternetVapp🔝
+        @NapsternetVi➕_1_173
+      - 🇺🇸_@hkaa0||五叶专属_1_174
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_1_175
+      - 🇺🇸_@hkaa0||美国_3_176
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177
+      - 🇺🇸_@NapsternetV_Config کانال تلگرام ما_178
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179
+      - 🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180
+      - 🇺🇸_@hkaa0||五叶专属_2_181
+      - 🇺🇸_@Hope_Net-join-us-on-Telegram_182
+      - 🇺🇸_@GOODBYEFILTERING_1_183
+      - 🇺🇸_@GOODBYEFILTERING_2_184
+      - 🇺🇸_@Maznet-MCI_185
+      - 🇺🇸_@GOODBYEFILTERING_3_186
+      - 🇺🇸_t.me/ipV2rayNG_1_187
+      - 🇺🇸_@Maznet-MTN_188
+      - 🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189
+      - 🇺🇸_NO NAME_190
+      - 🇺🇸_关注频道https://t.me/mftizi_191
+      - 🇺🇸_🛑  @v2raying_1_192
+      - 🇱🇺_Ios-@vmesskhodam_193
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194
+      - 🇺🇸_@hkaa0||五叶专属_3_195
+      - 🇺🇸_@IRAN_access_196
+      - 🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197
+      - 🇩🇪_🇩🇪 | @FreakConfig_2_198
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199'
+      - '🇺🇸_Tel: @Novinology_1_200'
+      - 🇺🇸_🇺🇸Los Angeles-4191_201
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202
+      - 🇺🇸_@GOODBYEFILTERING_4_203
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_2_204
+      - 🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205
+      - 🇺🇸_@hkaa0||五叶专属_4_206
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_2_207
+      - 🇺🇸_@hkaa0||五叶专属_5_208
+      - 🇺🇸_تلگرام ما proxy_mtm_1_209
+      - 🇺🇸_🇪🇸 西班牙_210
+      - 🇺🇸_Nira2(@Outline_Vpn)_211
+      - 🇺🇸_تلگرام ما proxy_mtm_2_212
+      - 🇺🇸_🇭🇰 MTN 28 @NetAccount_213
+      - 🇺🇸_@V2ray_NG_214
+      - 🇺🇸_长期更新节点@mftizi_1_215
+      - 🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217
+      - 🇺🇸_AbadanID(@Outline_Vpn)_218
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_1_220"
+      - 🇺🇸_🇺🇸_US_美国_1_221
+      - 🇺🇸_🇨🇦CA-VC-@aspeedvpn_222
+      - 🇩🇪_vmess+cdn+cf_223
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_2_224"
+      - 🇺🇸_🟩y@oneclickvpnkeys_225
+      - '🇺🇸_Tel: @Novinology_2_226'
+      - 🇺🇸_@hkaa0||五叶专属_6_227
+      - 🇷🇺_all_228
+      - 🇺🇸_🇺🇸@oneclickvpnkeys_229
+      - 🇺🇸_@hkaa0||五叶专属_7_230
+      - 🇫🇷_t.me/ConfigsHub_231
+      - 🇺🇸_@oneclickvpnkeys|🚩|2.93_232
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_3_233"
+      - 🇩🇪_🇩🇪 | @FreakConfig_3_234
+      - 🇺🇸_🇮🇳印度@Msv2flyNG_235
+      - 🇺🇸_@GOODBYEFILTERING_5_236
+      - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237
+      - 🇺🇸_🇺🇸US-171.22.116.54-0081_238
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_4_239"
+      - 🇸🇪_🇸🇪Stockholm-2424_240
+      - 🇩🇪_@V2rayFa کانال تلگرام ما_241
+      - 🇺🇸_تلگرام proxy_mtm_1_242
+      - 🇬🇧_-6izaig49_243
+      - 🇺🇸_🇺🇸_US_美国_2_244
+      - 🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_3_245
+      - 🇺🇸_长期更新节点@mftizi_2_246
+      - 🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247
+      - 🇺🇸_🛑  @v2raying_2_248
+      - 🇺🇸_🇺🇸@Msv2flyNG_249
+      - 🇺🇸_🇺🇸 BGP -道长_250
+      - 🇺🇸_@Megavpn23_251
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_4_252
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_3_253
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_5_254"
+      - 🇺🇸_تلگرام proxy_mtm_2_255
+      - 🇩🇪_@azad_intrnet_256
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_2_257
+      - 🇺🇸_🟩54@oneclickvpnkeys_258
+      - 🇺🇸_8_ @ARGOTAZ_259
+      - 🇺🇸_🇺🇸us@oneclickvpnkeys_260
+      - 🇬🇧_-h3qoalv3_261
+      - 🇺🇸_@iphone02016vpn_1_262
+      - 🇺🇸_@GOODBYEFILTERING_6_263
+      - 🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_6_265"
+      - '🇮🇷_Tel: @Novinology_3_266'
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_7_267"
+      - 🇺🇸_تلگرام ما proxy_mtm_3_268
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_8_269"
+      - 🇺🇸_@V2ray_hub1 - Free Server_270
+      - 🇺🇸_🇺🇸_US_美国_3_271
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_9_272"
+      - 🇩🇪_@V2RAYROZ | همه اپراتور ها_273
+      - 🇺🇸_@hkaa0||五叶专属_8_274
+      - 🇺🇸_🟩26@oneclickvpnkeys_275
+      - 🇺🇸_🇺🇸_US_美国_4_276
+      - 🇺🇸_تلگرام proxy_mtm_3_277
+      - 🇸🇪_Avam19(@ads_Central_net)_278
+      - 🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279
+      - 🇺🇸_@vistav2ray+بیا+تو+کانال_280
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_3_281
+      - 🇺🇸_🇺🇸_US_美国_5_282
+      - 🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_4_284
+      - 🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285
+      - 🇺🇸_🇺🇸_US_美国_6_286
+      - 🇭🇰_关注频道防迷路_287
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288
+      - 🇺🇸_@iphone02016vpn_2_289
+      - 🇺🇸_@hkaa0||美国_4_290
+      - 🇺🇸_S3 - swed_291
+      - 🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292
+      - 🇬🇧_🈯aw@oneclickvpnkeys_293
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_10_294"
+      - 🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296
+      - 🇺🇸_不定期抽奖https://t.me/mftizi_297
+      - 🇺🇸_Nira3(@Outline_Vpn)_298
+      - 🇩🇪_t.me/ipV2rayNG_2_299
+      - 🇺🇸_🟩81@oneclickvpnkeys_300
+      - 🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301
+      - 🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302
+      - 🇺🇸_@AZARBAYJAB1🇺🇸ful net_303
+      - 🇺🇸_t.me/v2line (s1224) (KR)_304
+  - name: پشتیبان (بهترین پینگ) ➡️
+    type: fallback
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1"
+      - "🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3"
+      - "🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4"
+      - "🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6"
+      - "🇺🇸_🈯58@oneclickvpnkeys\r_7"
+      - "🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8"
+      - "🇫🇷_@ProxyCom10\r_1_9"
+      - "🇬🇧_🟢41@oneclickvpnkeys\r_10"
+      - "🇺🇸_🟢140@oneclickvpnkeys\r_11"
+      - "🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12"
+      - "🇬🇧_@V2rayNG_account_free🇬���\r_13"
+      - "🇦🇪_5_+@ARGOTAZ\r_14"
+      - "🇺🇸_🟢02@oneclickvpnk\r_15"
+      - "🇬🇧_🟩19@oneclickvpnkeys\r_16"
+      - "🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17"
+      - "🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18"
+      - "🇹🇷_@ProxyCom10\r_2_19"
+      - "🇹🇷_tr.premium.reserve__@IP\r_20"
+      - "🇺🇸_🇺🇸_US_美国\r_1_21"
+      - "🇺🇸_@ProxyCom10  | MCI\r_22"
+      - "🇦🇷_ar.premium__@IP\r_23"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24"
+      - "🇳🇴_ee.premium__@IP\r_25"
+      - "🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28"
+      - "🇺🇸_🇺🇸_US_美国\r_2_29"
+      - "🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31"
+      - "🇨🇷_@v2rayfa\r_32"
+      - "🇫🇷_TOR.premium__@IP\r_33"
+      - "🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34"
+      - "🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36"
+      - "🇷🇺_🟧63@oneclickvpnkeys\r_37"
+      - "🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38"
+      - "🇳🇴_no.premium__@IP\r_39"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40"
+      - "🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41"
+      - "🇨🇾_cy.premium__@IP\r_42"
+      - "🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43"
+      - "🇸🇬_@hkaa0||新加��\r_44"
+      - "🇰🇪_ke.premium__@IP\r_45"
+      - "🇺🇸_3_+@ARGO\r_46"
+      - "🇪🇸_🇪🇸_ES_西班牙\r_47"
+      - "🇸🇪_Join Telegram : ------@IP_CF------ |\r_48"
+      - "🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51"
+      - '🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52'
+      - "🇩🇪_proxystore11-mtn\r_53"
+      - 🇫🇷_defaultName_1_54
+      - 🇸🇬_defaultName_2_55
+      - "🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56"
+      - "🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57"
+      - 🇯🇵_defaultName_3_58
+      - 🇯🇵_defaultName_4_59
+      - "🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60"
+      - 🇭🇰_defaultName_5_61
+      - "🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62"
+      - 🇺🇸_defaultName_6_63
+      - 🇯🇵_defaultName_7_64
+      - 🇯🇵_defaultName_8_65
+      - 🇺🇸_defaultName_9_66
+      - 🇯🇵_defaultName_10_67
+      - 🇭🇰_defaultName_11_68
+      - 🇯🇵_defaultName_12_69
+      - "🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70"
+      - "🇯🇵_🇯🇵_JP_日本\r_71"
+      - "🇮🇪_OurChannel:@DirectVPN\r_1_72"
+      - "🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74"
+      - "🇷🇺_t.me/ConfigsHub\r_1_75"
+      - "🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77"
+      - "🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78"
+      - "🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79"
+      - "🇬🇧_OurChannel:@DirectVPN\r_2_80"
+      - "🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81"
+      - "🇫🇷_OurChannel:@DirectVPN\r_3_82"
+      - "🇸🇪_OurChannel:@DirectVPN\r_4_83"
+      - "🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84"
+      - 🇺🇸_defaultName_13_85
+      - "🇸🇪_🇸🇪@antimeli\r_86"
+      - "🇫🇷_@ARGOTAZ+🇫🇷\r_87"
+      - "🇨🇦_trojan-@iphone02016vpn\r_88"
+      - "🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89"
+      - 🇺🇸_defaultName_14_90
+      - "🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91"
+      - "🇯🇵_@hkaa0||新加坡\r_92"
+      - "🇹🇼_@hkaa0||台湾\r_93"
+      - "🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94"
+      - "🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95"
+      - "🇺🇸_join+ @proxy_fier\r_96"
+      - "🇸🇪_OurChannel:@DirectVPN\r_5_97"
+      - "🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98"
+      - "🇵🇱_t.me/ConfigsHub\r_2_99"
+      - "🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100"
+      - "🇯🇵_@hkaa0||日本\r_101"
+      - "🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102"
+      - 🇺🇸_defaultName_15_103
+      - 🇺🇸_defaultName_16_104
+      - "🇩🇪_OurChannel:@DirectVPN\r_6_105"
+      - "🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106"
+      - 🇵🇱_defaultName_17_107
+      - "🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108"
+      - 🇺🇸_defaultName_18_109
+      - 🇺🇸_defaultName_19_110
+      - "🇬🇧_OurChannel:@DirectVPN\r_7_111"
+      - 🇺🇸_defaultName_20_112
+      - "🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113"
+      - 🇪🇸_defaultName_21_114
+      - "🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115"
+      - "🇮🇪_OurChannel:@DirectVPN\r_8_116"
+      - "🇹🇼_🇹🇼_TW_台湾\r_117"
+      - 🇺🇸_defaultName_22_118
+      - 🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120
+      - 🇨🇳_🇨🇳CN-123.249.101.15-0884_121
+      - 🇭🇰_@hassan_saboorii کانال تلگرام_122
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124
+      - 🇺🇸_Telegram | @FNET00⚡_1_125
+      - 🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127
+      - 🇺🇸_United States Multacom_1_128
+      - 🇺🇸_@dRIBBLE7 کانال ما_129
+      - 🇺🇸_@vmesskhodam🤍_130
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131
+      - 🇺🇸_🇺🇸 تلگرام @FreakConfig_132
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133
+      - 🇦🇺_🇦🇺@vpn_ocean_134
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135
+      - '🇫🇷_Channel id: @ShadowProxy66🇩🇪_136'
+      - 🇩🇪_@vless_vmess|🇩🇪|96.84_137
+      - 🇺🇸_VPN_138
+      - 🇺🇸_🌐 Server 45⚡_139
+      - 🇺🇸_United States Akamai_1_140
+      - 🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141
+      - 🇺🇸_🈯4@oneclickvpnkeys_142
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143
+      - 🇺🇸_Telegram | @FNET00⚡_2_144
+      - 🇺🇸_Telegram | @FNET00⚡_3_145
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147
+      - 🇳🇱_France Scaleway_148
+      - 🇺🇸_United States Multacom_2_149
+      - '🇺🇸_کانال : @V2rayNGvpni_1_150'
+      - 🇰🇷_🇰🇷KR-146.56.174.31-2646_151
+      - 🇺🇸_United States Akamai_2_152
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153
+      - 🇺🇸_Telegram | @FNET00⚡_4_154
+      - 🇺🇸_Japan Oracle_155
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156
+      - 🇺🇸_🌐 Server 27⚡⚡_157
+      - 🇺🇸_@v2rayng_org_158
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159
+      - 🇬🇧_United Kingdom Akamai_160
+      - 🇦🇺_Australia Akamai_161
+      - '🇺🇸_کانال : @V2rayNGvpni_2_162'
+      - 🇺🇸_🉐37@oneclickvpnkeys_163
+      - 🇩🇪_🇩🇪 | @FreakConfig_1_164
+      - 🇺🇸_@hkaa0||美国_1_165
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_1_166
+      - 🇺🇸_🔴59@oneclickvpnkeys_167
+      - '🇷🇺_tel channel : @v2conf_168'
+      - 🇺🇸_@hkaa0||美国_2_169
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170'
+      - 🇺🇸_sshocean VIP VPN unlimited_171
+      - 🇳🇱_@ClimbVpn 🇺🇸_172
+      - |-
+        🇮🇷_@NapsternetVapp🔝
+        @NapsternetVi➕_1_173
+      - 🇺🇸_@hkaa0||五叶专属_1_174
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_1_175
+      - 🇺🇸_@hkaa0||美国_3_176
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177
+      - 🇺🇸_@NapsternetV_Config کانال تلگرام ما_178
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179
+      - 🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180
+      - 🇺🇸_@hkaa0||五叶专属_2_181
+      - 🇺🇸_@Hope_Net-join-us-on-Telegram_182
+      - 🇺🇸_@GOODBYEFILTERING_1_183
+      - 🇺🇸_@GOODBYEFILTERING_2_184
+      - 🇺🇸_@Maznet-MCI_185
+      - 🇺🇸_@GOODBYEFILTERING_3_186
+      - 🇺🇸_t.me/ipV2rayNG_1_187
+      - 🇺🇸_@Maznet-MTN_188
+      - 🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189
+      - 🇺🇸_NO NAME_190
+      - 🇺🇸_关注频道https://t.me/mftizi_191
+      - 🇺🇸_🛑  @v2raying_1_192
+      - 🇱🇺_Ios-@vmesskhodam_193
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194
+      - 🇺🇸_@hkaa0||五叶专属_3_195
+      - 🇺🇸_@IRAN_access_196
+      - 🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197
+      - 🇩🇪_🇩🇪 | @FreakConfig_2_198
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199'
+      - '🇺🇸_Tel: @Novinology_1_200'
+      - 🇺🇸_🇺🇸Los Angeles-4191_201
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202
+      - 🇺🇸_@GOODBYEFILTERING_4_203
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_2_204
+      - 🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205
+      - 🇺🇸_@hkaa0||五叶专属_4_206
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_2_207
+      - 🇺🇸_@hkaa0||五叶专属_5_208
+      - 🇺🇸_تلگرام ما proxy_mtm_1_209
+      - 🇺🇸_🇪🇸 西班牙_210
+      - 🇺🇸_Nira2(@Outline_Vpn)_211
+      - 🇺🇸_تلگرام ما proxy_mtm_2_212
+      - 🇺🇸_🇭🇰 MTN 28 @NetAccount_213
+      - 🇺🇸_@V2ray_NG_214
+      - 🇺🇸_长期更新节点@mftizi_1_215
+      - 🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217
+      - 🇺🇸_AbadanID(@Outline_Vpn)_218
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_1_220"
+      - 🇺🇸_🇺🇸_US_美国_1_221
+      - 🇺🇸_🇨🇦CA-VC-@aspeedvpn_222
+      - 🇩🇪_vmess+cdn+cf_223
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_2_224"
+      - 🇺🇸_🟩y@oneclickvpnkeys_225
+      - '🇺🇸_Tel: @Novinology_2_226'
+      - 🇺🇸_@hkaa0||五叶专属_6_227
+      - 🇷🇺_all_228
+      - 🇺🇸_🇺🇸@oneclickvpnkeys_229
+      - 🇺🇸_@hkaa0||五叶专属_7_230
+      - 🇫🇷_t.me/ConfigsHub_231
+      - 🇺🇸_@oneclickvpnkeys|🚩|2.93_232
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_3_233"
+      - 🇩🇪_🇩🇪 | @FreakConfig_3_234
+      - 🇺🇸_🇮🇳印度@Msv2flyNG_235
+      - 🇺🇸_@GOODBYEFILTERING_5_236
+      - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237
+      - 🇺🇸_🇺🇸US-171.22.116.54-0081_238
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_4_239"
+      - 🇸🇪_🇸🇪Stockholm-2424_240
+      - 🇩🇪_@V2rayFa کانال تلگرام ما_241
+      - 🇺🇸_تلگرام proxy_mtm_1_242
+      - 🇬🇧_-6izaig49_243
+      - 🇺🇸_🇺🇸_US_美国_2_244
+      - 🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_3_245
+      - 🇺🇸_长期更新节点@mftizi_2_246
+      - 🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247
+      - 🇺🇸_🛑  @v2raying_2_248
+      - 🇺🇸_🇺🇸@Msv2flyNG_249
+      - 🇺🇸_🇺🇸 BGP -道长_250
+      - 🇺🇸_@Megavpn23_251
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_4_252
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_3_253
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_5_254"
+      - 🇺🇸_تلگرام proxy_mtm_2_255
+      - 🇩🇪_@azad_intrnet_256
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_2_257
+      - 🇺🇸_🟩54@oneclickvpnkeys_258
+      - 🇺🇸_8_ @ARGOTAZ_259
+      - 🇺🇸_🇺🇸us@oneclickvpnkeys_260
+      - 🇬🇧_-h3qoalv3_261
+      - 🇺🇸_@iphone02016vpn_1_262
+      - 🇺🇸_@GOODBYEFILTERING_6_263
+      - 🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_6_265"
+      - '🇮🇷_Tel: @Novinology_3_266'
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_7_267"
+      - 🇺🇸_تلگرام ما proxy_mtm_3_268
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_8_269"
+      - 🇺🇸_@V2ray_hub1 - Free Server_270
+      - 🇺🇸_🇺🇸_US_美国_3_271
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_9_272"
+      - 🇩🇪_@V2RAYROZ | همه اپراتور ها_273
+      - 🇺🇸_@hkaa0||五叶专属_8_274
+      - 🇺🇸_🟩26@oneclickvpnkeys_275
+      - 🇺🇸_🇺🇸_US_美国_4_276
+      - 🇺🇸_تلگرام proxy_mtm_3_277
+      - 🇸🇪_Avam19(@ads_Central_net)_278
+      - 🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279
+      - 🇺🇸_@vistav2ray+بیا+تو+کانال_280
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_3_281
+      - 🇺🇸_🇺🇸_US_美国_5_282
+      - 🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_4_284
+      - 🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285
+      - 🇺🇸_🇺🇸_US_美国_6_286
+      - 🇭🇰_关注频道防迷路_287
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288
+      - 🇺🇸_@iphone02016vpn_2_289
+      - 🇺🇸_@hkaa0||美国_4_290
+      - 🇺🇸_S3 - swed_291
+      - 🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292
+      - 🇬🇧_🈯aw@oneclickvpnkeys_293
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_10_294"
+      - 🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296
+      - 🇺🇸_不定期抽奖https://t.me/mftizi_297
+      - 🇺🇸_Nira3(@Outline_Vpn)_298
+      - 🇩🇪_t.me/ipV2rayNG_2_299
+      - 🇺🇸_🟩81@oneclickvpnkeys_300
+      - 🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301
+      - 🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302
+      - 🇺🇸_@AZARBAYJAB1🇺🇸ful net_303
+      - 🇺🇸_t.me/v2line (s1224) (KR)_304
+  - name: توزیع بار (هش سازگار) ♻️
+    type: load-balance
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1"
+      - "🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3"
+      - "🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4"
+      - "🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6"
+      - "🇺🇸_🈯58@oneclickvpnkeys\r_7"
+      - "🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8"
+      - "🇫🇷_@ProxyCom10\r_1_9"
+      - "🇬🇧_🟢41@oneclickvpnkeys\r_10"
+      - "🇺🇸_🟢140@oneclickvpnkeys\r_11"
+      - "🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12"
+      - "🇬🇧_@V2rayNG_account_free🇬���\r_13"
+      - "🇦🇪_5_+@ARGOTAZ\r_14"
+      - "🇺🇸_🟢02@oneclickvpnk\r_15"
+      - "🇬🇧_🟩19@oneclickvpnkeys\r_16"
+      - "🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17"
+      - "🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18"
+      - "🇹🇷_@ProxyCom10\r_2_19"
+      - "🇹🇷_tr.premium.reserve__@IP\r_20"
+      - "🇺🇸_🇺🇸_US_美国\r_1_21"
+      - "🇺🇸_@ProxyCom10  | MCI\r_22"
+      - "🇦🇷_ar.premium__@IP\r_23"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24"
+      - "🇳🇴_ee.premium__@IP\r_25"
+      - "🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28"
+      - "🇺🇸_🇺🇸_US_美国\r_2_29"
+      - "🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31"
+      - "🇨🇷_@v2rayfa\r_32"
+      - "🇫🇷_TOR.premium__@IP\r_33"
+      - "🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34"
+      - "🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36"
+      - "🇷🇺_🟧63@oneclickvpnkeys\r_37"
+      - "🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38"
+      - "🇳🇴_no.premium__@IP\r_39"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40"
+      - "🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41"
+      - "🇨🇾_cy.premium__@IP\r_42"
+      - "🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43"
+      - "🇸🇬_@hkaa0||新加��\r_44"
+      - "🇰🇪_ke.premium__@IP\r_45"
+      - "🇺🇸_3_+@ARGO\r_46"
+      - "🇪🇸_🇪🇸_ES_西班牙\r_47"
+      - "🇸🇪_Join Telegram : ------@IP_CF------ |\r_48"
+      - "🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51"
+      - '🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52'
+      - "🇩🇪_proxystore11-mtn\r_53"
+      - 🇫🇷_defaultName_1_54
+      - 🇸🇬_defaultName_2_55
+      - "🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56"
+      - "🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57"
+      - 🇯🇵_defaultName_3_58
+      - 🇯🇵_defaultName_4_59
+      - "🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60"
+      - 🇭🇰_defaultName_5_61
+      - "🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62"
+      - 🇺🇸_defaultName_6_63
+      - 🇯🇵_defaultName_7_64
+      - 🇯🇵_defaultName_8_65
+      - 🇺🇸_defaultName_9_66
+      - 🇯🇵_defaultName_10_67
+      - 🇭🇰_defaultName_11_68
+      - 🇯🇵_defaultName_12_69
+      - "🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70"
+      - "🇯🇵_🇯🇵_JP_日本\r_71"
+      - "🇮🇪_OurChannel:@DirectVPN\r_1_72"
+      - "🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74"
+      - "🇷🇺_t.me/ConfigsHub\r_1_75"
+      - "🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77"
+      - "🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78"
+      - "🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79"
+      - "🇬🇧_OurChannel:@DirectVPN\r_2_80"
+      - "🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81"
+      - "🇫🇷_OurChannel:@DirectVPN\r_3_82"
+      - "🇸🇪_OurChannel:@DirectVPN\r_4_83"
+      - "🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84"
+      - 🇺🇸_defaultName_13_85
+      - "🇸🇪_🇸🇪@antimeli\r_86"
+      - "🇫🇷_@ARGOTAZ+🇫🇷\r_87"
+      - "🇨🇦_trojan-@iphone02016vpn\r_88"
+      - "🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89"
+      - 🇺🇸_defaultName_14_90
+      - "🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91"
+      - "🇯🇵_@hkaa0||新加坡\r_92"
+      - "🇹🇼_@hkaa0||台湾\r_93"
+      - "🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94"
+      - "🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95"
+      - "🇺🇸_join+ @proxy_fier\r_96"
+      - "🇸🇪_OurChannel:@DirectVPN\r_5_97"
+      - "🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98"
+      - "🇵🇱_t.me/ConfigsHub\r_2_99"
+      - "🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100"
+      - "🇯🇵_@hkaa0||日本\r_101"
+      - "🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102"
+      - 🇺🇸_defaultName_15_103
+      - 🇺🇸_defaultName_16_104
+      - "🇩🇪_OurChannel:@DirectVPN\r_6_105"
+      - "🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106"
+      - 🇵🇱_defaultName_17_107
+      - "🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108"
+      - 🇺🇸_defaultName_18_109
+      - 🇺🇸_defaultName_19_110
+      - "🇬🇧_OurChannel:@DirectVPN\r_7_111"
+      - 🇺🇸_defaultName_20_112
+      - "🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113"
+      - 🇪🇸_defaultName_21_114
+      - "🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115"
+      - "🇮🇪_OurChannel:@DirectVPN\r_8_116"
+      - "🇹🇼_🇹🇼_TW_台湾\r_117"
+      - 🇺🇸_defaultName_22_118
+      - 🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120
+      - 🇨🇳_🇨🇳CN-123.249.101.15-0884_121
+      - 🇭🇰_@hassan_saboorii کانال تلگرام_122
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124
+      - 🇺🇸_Telegram | @FNET00⚡_1_125
+      - 🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127
+      - 🇺🇸_United States Multacom_1_128
+      - 🇺🇸_@dRIBBLE7 کانال ما_129
+      - 🇺🇸_@vmesskhodam🤍_130
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131
+      - 🇺🇸_🇺🇸 تلگرام @FreakConfig_132
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133
+      - 🇦🇺_🇦🇺@vpn_ocean_134
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135
+      - '🇫🇷_Channel id: @ShadowProxy66🇩🇪_136'
+      - 🇩🇪_@vless_vmess|🇩🇪|96.84_137
+      - 🇺🇸_VPN_138
+      - 🇺🇸_🌐 Server 45⚡_139
+      - 🇺🇸_United States Akamai_1_140
+      - 🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141
+      - 🇺🇸_🈯4@oneclickvpnkeys_142
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143
+      - 🇺🇸_Telegram | @FNET00⚡_2_144
+      - 🇺🇸_Telegram | @FNET00⚡_3_145
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147
+      - 🇳🇱_France Scaleway_148
+      - 🇺🇸_United States Multacom_2_149
+      - '🇺🇸_کانال : @V2rayNGvpni_1_150'
+      - 🇰🇷_🇰🇷KR-146.56.174.31-2646_151
+      - 🇺🇸_United States Akamai_2_152
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153
+      - 🇺🇸_Telegram | @FNET00⚡_4_154
+      - 🇺🇸_Japan Oracle_155
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156
+      - 🇺🇸_🌐 Server 27⚡⚡_157
+      - 🇺🇸_@v2rayng_org_158
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159
+      - 🇬🇧_United Kingdom Akamai_160
+      - 🇦🇺_Australia Akamai_161
+      - '🇺🇸_کانال : @V2rayNGvpni_2_162'
+      - 🇺🇸_🉐37@oneclickvpnkeys_163
+      - 🇩🇪_🇩🇪 | @FreakConfig_1_164
+      - 🇺🇸_@hkaa0||美国_1_165
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_1_166
+      - 🇺🇸_🔴59@oneclickvpnkeys_167
+      - '🇷🇺_tel channel : @v2conf_168'
+      - 🇺🇸_@hkaa0||美国_2_169
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170'
+      - 🇺🇸_sshocean VIP VPN unlimited_171
+      - 🇳🇱_@ClimbVpn 🇺🇸_172
+      - |-
+        🇮🇷_@NapsternetVapp🔝
+        @NapsternetVi➕_1_173
+      - 🇺🇸_@hkaa0||五叶专属_1_174
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_1_175
+      - 🇺🇸_@hkaa0||美国_3_176
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177
+      - 🇺🇸_@NapsternetV_Config کانال تلگرام ما_178
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179
+      - 🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180
+      - 🇺🇸_@hkaa0||五叶专属_2_181
+      - 🇺🇸_@Hope_Net-join-us-on-Telegram_182
+      - 🇺🇸_@GOODBYEFILTERING_1_183
+      - 🇺🇸_@GOODBYEFILTERING_2_184
+      - 🇺🇸_@Maznet-MCI_185
+      - 🇺🇸_@GOODBYEFILTERING_3_186
+      - 🇺🇸_t.me/ipV2rayNG_1_187
+      - 🇺🇸_@Maznet-MTN_188
+      - 🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189
+      - 🇺🇸_NO NAME_190
+      - 🇺🇸_关注频道https://t.me/mftizi_191
+      - 🇺🇸_🛑  @v2raying_1_192
+      - 🇱🇺_Ios-@vmesskhodam_193
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194
+      - 🇺🇸_@hkaa0||五叶专属_3_195
+      - 🇺🇸_@IRAN_access_196
+      - 🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197
+      - 🇩🇪_🇩🇪 | @FreakConfig_2_198
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199'
+      - '🇺🇸_Tel: @Novinology_1_200'
+      - 🇺🇸_🇺🇸Los Angeles-4191_201
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202
+      - 🇺🇸_@GOODBYEFILTERING_4_203
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_2_204
+      - 🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205
+      - 🇺🇸_@hkaa0||五叶专属_4_206
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_2_207
+      - 🇺🇸_@hkaa0||五叶专属_5_208
+      - 🇺🇸_تلگرام ما proxy_mtm_1_209
+      - 🇺🇸_🇪🇸 西班牙_210
+      - 🇺🇸_Nira2(@Outline_Vpn)_211
+      - 🇺🇸_تلگرام ما proxy_mtm_2_212
+      - 🇺🇸_🇭🇰 MTN 28 @NetAccount_213
+      - 🇺🇸_@V2ray_NG_214
+      - 🇺🇸_长期更新节点@mftizi_1_215
+      - 🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217
+      - 🇺🇸_AbadanID(@Outline_Vpn)_218
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_1_220"
+      - 🇺🇸_🇺🇸_US_美国_1_221
+      - 🇺🇸_🇨🇦CA-VC-@aspeedvpn_222
+      - 🇩🇪_vmess+cdn+cf_223
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_2_224"
+      - 🇺🇸_🟩y@oneclickvpnkeys_225
+      - '🇺🇸_Tel: @Novinology_2_226'
+      - 🇺🇸_@hkaa0||五叶专属_6_227
+      - 🇷🇺_all_228
+      - 🇺🇸_🇺🇸@oneclickvpnkeys_229
+      - 🇺🇸_@hkaa0||五叶专属_7_230
+      - 🇫🇷_t.me/ConfigsHub_231
+      - 🇺🇸_@oneclickvpnkeys|🚩|2.93_232
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_3_233"
+      - 🇩🇪_🇩🇪 | @FreakConfig_3_234
+      - 🇺🇸_🇮🇳印度@Msv2flyNG_235
+      - 🇺🇸_@GOODBYEFILTERING_5_236
+      - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237
+      - 🇺🇸_🇺🇸US-171.22.116.54-0081_238
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_4_239"
+      - 🇸🇪_🇸🇪Stockholm-2424_240
+      - 🇩🇪_@V2rayFa کانال تلگرام ما_241
+      - 🇺🇸_تلگرام proxy_mtm_1_242
+      - 🇬🇧_-6izaig49_243
+      - 🇺🇸_🇺🇸_US_美国_2_244
+      - 🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_3_245
+      - 🇺🇸_长期更新节点@mftizi_2_246
+      - 🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247
+      - 🇺🇸_🛑  @v2raying_2_248
+      - 🇺🇸_🇺🇸@Msv2flyNG_249
+      - 🇺🇸_🇺🇸 BGP -道长_250
+      - 🇺🇸_@Megavpn23_251
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_4_252
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_3_253
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_5_254"
+      - 🇺🇸_تلگرام proxy_mtm_2_255
+      - 🇩🇪_@azad_intrnet_256
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_2_257
+      - 🇺🇸_🟩54@oneclickvpnkeys_258
+      - 🇺🇸_8_ @ARGOTAZ_259
+      - 🇺🇸_🇺🇸us@oneclickvpnkeys_260
+      - 🇬🇧_-h3qoalv3_261
+      - 🇺🇸_@iphone02016vpn_1_262
+      - 🇺🇸_@GOODBYEFILTERING_6_263
+      - 🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_6_265"
+      - '🇮🇷_Tel: @Novinology_3_266'
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_7_267"
+      - 🇺🇸_تلگرام ما proxy_mtm_3_268
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_8_269"
+      - 🇺🇸_@V2ray_hub1 - Free Server_270
+      - 🇺🇸_🇺🇸_US_美国_3_271
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_9_272"
+      - 🇩🇪_@V2RAYROZ | همه اپراتور ها_273
+      - 🇺🇸_@hkaa0||五叶专属_8_274
+      - 🇺🇸_🟩26@oneclickvpnkeys_275
+      - 🇺🇸_🇺🇸_US_美国_4_276
+      - 🇺🇸_تلگرام proxy_mtm_3_277
+      - 🇸🇪_Avam19(@ads_Central_net)_278
+      - 🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279
+      - 🇺🇸_@vistav2ray+بیا+تو+کانال_280
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_3_281
+      - 🇺🇸_🇺🇸_US_美国_5_282
+      - 🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_4_284
+      - 🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285
+      - 🇺🇸_🇺🇸_US_美国_6_286
+      - 🇭🇰_关注频道防迷路_287
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288
+      - 🇺🇸_@iphone02016vpn_2_289
+      - 🇺🇸_@hkaa0||美国_4_290
+      - 🇺🇸_S3 - swed_291
+      - 🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292
+      - 🇬🇧_🈯aw@oneclickvpnkeys_293
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_10_294"
+      - 🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296
+      - 🇺🇸_不定期抽奖https://t.me/mftizi_297
+      - 🇺🇸_Nira3(@Outline_Vpn)_298
+      - 🇩🇪_t.me/ipV2rayNG_2_299
+      - 🇺🇸_🟩81@oneclickvpnkeys_300
+      - 🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301
+      - 🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302
+      - 🇺🇸_@AZARBAYJAB1🇺🇸ful net_303
+      - 🇺🇸_t.me/v2line (s1224) (KR)_304
+    strategy: consistent-hashing
+  - name: توزیع بار (یکنواخت) ⏳
+    type: load-balance
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺🇲\r_1"
+      - "🇺🇸_mtn-mci+Proxy_PJ🪐جوین+بده🇺���\r_2"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_1_3"
+      - "🇫🇷_mtn+Proxy_PJ🪐جوین+بده🇫���\r_4"
+      - "🇺🇸_mci+Proxy_PJ🪐جوین+بده🇺🇲\r_5"
+      - "🇺🇸_mtn+Proxy_PJ🪐جوین+بده🇺���\r_2_6"
+      - "🇺🇸_🈯58@oneclickvpnkeys\r_7"
+      - "🇧🇭_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_mtmtrojan://092ab6fae1@de1.connecton.surf:443?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=de1.connecton.surf#@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_8"
+      - "🇫🇷_@ProxyCom10\r_1_9"
+      - "🇬🇧_🟢41@oneclickvpnkeys\r_10"
+      - "🇺🇸_🟢140@oneclickvpnkeys\r_11"
+      - "🇺🇸_🇮🇹telegram+➠+@v2rayNG_Matsuri\r_12"
+      - "🇬🇧_@V2rayNG_account_free🇬���\r_13"
+      - "🇦🇪_5_+@ARGOTAZ\r_14"
+      - "🇺🇸_🟢02@oneclickvpnk\r_15"
+      - "🇬🇧_🟩19@oneclickvpnkeys\r_16"
+      - "🇬🇧_join👉@V2rayNG_Coonfig+🌷+🙏+ᵗᵉˡᵉᵍʳᵃᵐ\r_17"
+      - "🇱🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_1_18"
+      - "🇹🇷_@ProxyCom10\r_2_19"
+      - "🇹🇷_tr.premium.reserve__@IP\r_20"
+      - "🇺🇸_🇺🇸_US_美国\r_1_21"
+      - "🇺🇸_@ProxyCom10  | MCI\r_22"
+      - "🇦🇷_ar.premium__@IP\r_23"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_1_24"
+      - "🇳🇴_ee.premium__@IP\r_25"
+      - "🇭🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_2_26"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_3_27"
+      - "🇫🇷_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_2_28"
+      - "🇺🇸_🇺🇸_US_美国\r_2_29"
+      - "🇺🇸_🇾🇪telegram+➠+@v2rayNG_Mats\r_30"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_4_31"
+      - "🇨🇷_@v2rayfa\r_32"
+      - "🇫🇷_TOR.premium__@IP\r_33"
+      - "🇰🇷_🇰🇷_KR_韩国trojan://4d706727-996f-4427-930d-60f3bd414cf9@cnamemt.ciscocdn1.live:443?type=ws&sni=c2mt.ciscocdn1.live&allowInsecure=1&path=/rDCYQta83d0oPABKBhcIX#🇺🇸_US_美国->🇵🇱_PL_波兰\r_34"
+      - "🇦🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_3_35"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_5_36"
+      - "🇷🇺_🟧63@oneclickvpnkeys\r_37"
+      - "🇰🇿_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_4_38"
+      - "🇳🇴_no.premium__@IP\r_39"
+      - "🇬🇧_💻 Channel 🆔 : @AlienVPN402 ���\r_6_40"
+      - "🇦🇫_💻 Channel 🆔 : @AlienVPN402 ���\r_7_41"
+      - "🇨🇾_cy.premium__@IP\r_42"
+      - "🇫🇷_mtn@v2rayng_dailyبیا+کانال+هروز+کانفینگ+داریم\r_43"
+      - "🇸🇬_@hkaa0||新加��\r_44"
+      - "🇰🇪_ke.premium__@IP\r_45"
+      - "🇺🇸_3_+@ARGO\r_46"
+      - "🇪🇸_🇪🇸_ES_西班牙\r_47"
+      - "🇸🇪_Join Telegram : ------@IP_CF------ |\r_48"
+      - "🇳🇱_💻 Channel 🆔 : @AlienVPN402 ���\r_8_49"
+      - "🇩🇪_💻 Channel 🆔 : @AlienVPN402 ���\r_9_50"
+      - "🇷🇺_💻 Channel 🆔 : @AlienVPN402 ���\r_10_51"
+      - '🇹🇷_💻 Channel 🆔 : @AlienVPN402 ���_52'
+      - "🇩🇪_proxystore11-mtn\r_53"
+      - 🇫🇷_defaultName_1_54
+      - 🇸🇬_defaultName_2_55
+      - "🇱🇹_(已存活1天)立陶宛-2.59MB/s(V2ray_custom:不良林)\r_56"
+      - "🇺🇸_BlueDiamondGroup_tls_grpc_CDN_trojan\r_1_57"
+      - 🇯🇵_defaultName_3_58
+      - 🇯🇵_defaultName_4_59
+      - "🇭🇰_香港-3.50MB/s(V2ray_Custom:不良林)\r_60"
+      - 🇭🇰_defaultName_5_61
+      - "🇭🇰_香港-10.88MB/s(V2ray_Custom:不良林)\r_62"
+      - 🇺🇸_defaultName_6_63
+      - 🇯🇵_defaultName_7_64
+      - 🇯🇵_defaultName_8_65
+      - 🇺🇸_defaultName_9_66
+      - 🇯🇵_defaultName_10_67
+      - 🇭🇰_defaultName_11_68
+      - 🇯🇵_defaultName_12_69
+      - "🇩🇪_🇩🇪Germany-کانالتلگرام:@V2rayweb\r_70"
+      - "🇯🇵_🇯🇵_JP_日本\r_71"
+      - "🇮🇪_OurChannel:@DirectVPN\r_1_72"
+      - "🇳🇱_BlueDiamondGroup_tls_grpc_CDN_trojan\r_2_73"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_1_74"
+      - "🇷🇺_t.me/ConfigsHub\r_1_75"
+      - "🇮🇪_🇮🇪Ireland-کانالتلگرام:@V2rayweb\r_76"
+      - "🇫🇷_🇫🇷France-کانالتلگرام:@V2rayweb\r_2_77"
+      - "🇩🇪_(S268)🇩🇪t.me/PrivateVPNs\r_78"
+      - "🇺🇸_🇮🇪telegram+➠+@v2rayNG_Matsuri\r_79"
+      - "🇬🇧_OurChannel:@DirectVPN\r_2_80"
+      - "🇺🇸_cdn_tls_h2_grpc_CDN_trojan\r_81"
+      - "🇫🇷_OurChannel:@DirectVPN\r_3_82"
+      - "🇸🇪_OurChannel:@DirectVPN\r_4_83"
+      - "🇸🇬_t.me/V2RayOpen 🇸🇬 Singapore 388\r_84"
+      - 🇺🇸_defaultName_13_85
+      - "🇸🇪_🇸🇪@antimeli\r_86"
+      - "🇫🇷_@ARGOTAZ+🇫🇷\r_87"
+      - "🇨🇦_trojan-@iphone02016vpn\r_88"
+      - "🇸🇪_🇸🇪Sweden-کانالتلگرام:@V2rayweb\r_89"
+      - 🇺🇸_defaultName_14_90
+      - "🇫🇷_(S270)🇨🇵t.me/PrivateVPNs\r_91"
+      - "🇯🇵_@hkaa0||新加坡\r_92"
+      - "🇹🇼_@hkaa0||台湾\r_93"
+      - "🇮🇪_(S275)🇨🇮t.me/PrivateVPNs\r_94"
+      - "🇸🇪_(S267)🇸🇪t.me/PrivateVPNs\r_95"
+      - "🇺🇸_join+ @proxy_fier\r_96"
+      - "🇸🇪_OurChannel:@DirectVPN\r_5_97"
+      - "🇩🇪_@proxy_mtm+@proxy_mtm+@proxy_mtm+@proxy_\r_98"
+      - "🇵🇱_t.me/ConfigsHub\r_2_99"
+      - "🇩🇪_(S269)🇩🇪t.me/PrivateVPNs\r_100"
+      - "🇯🇵_@hkaa0||日本\r_101"
+      - "🇸🇪_(S266)🇸🇪t.me/PrivateVPNs\r_102"
+      - 🇺🇸_defaultName_15_103
+      - 🇺🇸_defaultName_16_104
+      - "🇩🇪_OurChannel:@DirectVPN\r_6_105"
+      - "🇨🇦_🈯49@oneclickvpnkeysvmess://eyJhZGQiOiJ1cy0wMS5jbG91ZGxpb24ubWUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InVzLTAxLmNsb3VkbGlvbi5tZSIsImlkIjoiNzFlMDJlNTctZjkzOC00MzkzLWJmNzctY2RkNmJmNmU3YmIzIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDgyIiwicHMiOiLwn4ivdXNAb25lY2xpY2t2cG5rZXlzIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9\r_106"
+      - 🇵🇱_defaultName_17_107
+      - "🇺🇸_تمامی+اپراتورها+@ARGOTAZ\r_108"
+      - 🇺🇸_defaultName_18_109
+      - 🇺🇸_defaultName_19_110
+      - "🇬🇧_OurChannel:@DirectVPN\r_7_111"
+      - 🇺🇸_defaultName_20_112
+      - "🇬🇧_(S272)🇬🇧t.me/PrivateVPNs\r_113"
+      - 🇪🇸_defaultName_21_114
+      - "🇳🇱_🇳🇱 MTN 26 @NetAccount\r_115"
+      - "🇮🇪_OurChannel:@DirectVPN\r_8_116"
+      - "🇹🇼_🇹🇼_TW_台湾\r_117"
+      - 🇺🇸_defaultName_22_118
+      - 🇮🇱_@v2ray_napster_vpn+سرور+رایگان💛_119
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_1_120
+      - 🇨🇳_🇨🇳CN-123.249.101.15-0884_121
+      - 🇭🇰_@hassan_saboorii کانال تلگرام_122
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.18ms_123
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.05ms_124
+      - 🇺🇸_Telegram | @FNET00⚡_1_125
+      - 🇳🇱_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_1_126
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_2_127
+      - 🇺🇸_United States Multacom_1_128
+      - 🇺🇸_@dRIBBLE7 کانال ما_129
+      - 🇺🇸_@vmesskhodam🤍_130
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 6.07ms_131
+      - 🇺🇸_🇺🇸 تلگرام @FreakConfig_132
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 5.92ms (1)_133
+      - 🇦🇺_🇦🇺@vpn_ocean_134
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_3_135
+      - '🇫🇷_Channel id: @ShadowProxy66🇩🇪_136'
+      - 🇩🇪_@vless_vmess|🇩🇪|96.84_137
+      - 🇺🇸_VPN_138
+      - 🇺🇸_🌐 Server 45⚡_139
+      - 🇺🇸_United States Akamai_1_140
+      - 🇺🇸_mtn Proxy_PJ🪐جوین بده🇨🇦_141
+      - 🇺🇸_🈯4@oneclickvpnkeys_142
+      - 🇺🇸_@Vpn_Tehran ✅️ کانفیگ بیشتر در کانال_4_143
+      - 🇺🇸_Telegram | @FNET00⚡_2_144
+      - 🇺🇸_Telegram | @FNET00⚡_3_145
+      - 🇺🇸_US🇺🇸 | sandp.blanku.me-443 | 6.04ms_146
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_2_147
+      - 🇳🇱_France Scaleway_148
+      - 🇺🇸_United States Multacom_2_149
+      - '🇺🇸_کانال : @V2rayNGvpni_1_150'
+      - 🇰🇷_🇰🇷KR-146.56.174.31-2646_151
+      - 🇺🇸_United States Akamai_2_152
+      - 🇺🇸_RELAY🚩 | sandp.blanku.me-443 | 5.92ms_153
+      - 🇺🇸_Telegram | @FNET00⚡_4_154
+      - 🇺🇸_Japan Oracle_155
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_3_156
+      - 🇺🇸_🌐 Server 27⚡⚡_157
+      - 🇺🇸_@v2rayng_org_158
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_1_159
+      - 🇬🇧_United Kingdom Akamai_160
+      - 🇦🇺_Australia Akamai_161
+      - '🇺🇸_کانال : @V2rayNGvpni_2_162'
+      - 🇺🇸_🉐37@oneclickvpnkeys_163
+      - 🇩🇪_🇩🇪 | @FreakConfig_1_164
+      - 🇺🇸_@hkaa0||美国_1_165
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_1_166
+      - 🇺🇸_🔴59@oneclickvpnkeys_167
+      - '🇷🇺_tel channel : @v2conf_168'
+      - 🇺🇸_@hkaa0||美国_2_169
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_1_170'
+      - 🇺🇸_sshocean VIP VPN unlimited_171
+      - 🇳🇱_@ClimbVpn 🇺🇸_172
+      - |-
+        🇮🇷_@NapsternetVapp🔝
+        @NapsternetVi➕_1_173
+      - 🇺🇸_@hkaa0||五叶专属_1_174
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_1_175
+      - 🇺🇸_@hkaa0||美国_3_176
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_1_177
+      - 🇺🇸_@NapsternetV_Config کانال تلگرام ما_178
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_1_179
+      - 🇩🇪_سرور رایگان👈 @Outlinev2rayNG_180
+      - 🇺🇸_@hkaa0||五叶专属_2_181
+      - 🇺🇸_@Hope_Net-join-us-on-Telegram_182
+      - 🇺🇸_@GOODBYEFILTERING_1_183
+      - 🇺🇸_@GOODBYEFILTERING_2_184
+      - 🇺🇸_@Maznet-MCI_185
+      - 🇺🇸_@GOODBYEFILTERING_3_186
+      - 🇺🇸_t.me/ipV2rayNG_1_187
+      - 🇺🇸_@Maznet-MTN_188
+      - 🇺🇸_🇺🇸US-v2raybest1-hamrah aval_189
+      - 🇺🇸_NO NAME_190
+      - 🇺🇸_关注频道https://t.me/mftizi_191
+      - 🇺🇸_🛑  @v2raying_1_192
+      - 🇱🇺_Ios-@vmesskhodam_193
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_2_194
+      - 🇺🇸_@hkaa0||五叶专属_3_195
+      - 🇺🇸_@IRAN_access_196
+      - 🇭🇰_سرور رایگان 👈 @V2rayNG_Outlinee_1_197
+      - 🇩🇪_🇩🇪 | @FreakConfig_2_198
+      - '🇺🇸_🇳🇱Netherlands-کانال تلگرام: @V2rayweb_2_199'
+      - '🇺🇸_Tel: @Novinology_1_200'
+      - 🇺🇸_🇺🇸Los Angeles-4191_201
+      - 🇺🇸_@Vpn_Tehran 🔥 کانفیگ بیشتر در کانال_4_202
+      - 🇺🇸_@GOODBYEFILTERING_4_203
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_2_204
+      - 🇬🇧_✅سرورهایبیشتردرکانال:prrofile_purple@✅_205
+      - 🇺🇸_@hkaa0||五叶专属_4_206
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_2_207
+      - 🇺🇸_@hkaa0||五叶专属_5_208
+      - 🇺🇸_تلگرام ما proxy_mtm_1_209
+      - 🇺🇸_🇪🇸 西班牙_210
+      - 🇺🇸_Nira2(@Outline_Vpn)_211
+      - 🇺🇸_تلگرام ما proxy_mtm_2_212
+      - 🇺🇸_🇭🇰 MTN 28 @NetAccount_213
+      - 🇺🇸_@V2ray_NG_214
+      - 🇺🇸_长期更新节点@mftizi_1_215
+      - 🇩🇪_سرور رایگان 👈 @V2rayNG_Outlinee_2_216
+      - 🇺🇸_🇳🇱 تلگرام @FreakConfig_2_217
+      - 🇺🇸_AbadanID(@Outline_Vpn)_218
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_3_219
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_1_220"
+      - 🇺🇸_🇺🇸_US_美国_1_221
+      - 🇺🇸_🇨🇦CA-VC-@aspeedvpn_222
+      - 🇩🇪_vmess+cdn+cf_223
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_2_224"
+      - 🇺🇸_🟩y@oneclickvpnkeys_225
+      - '🇺🇸_Tel: @Novinology_2_226'
+      - 🇺🇸_@hkaa0||五叶专属_6_227
+      - 🇷🇺_all_228
+      - 🇺🇸_🇺🇸@oneclickvpnkeys_229
+      - 🇺🇸_@hkaa0||五叶专属_7_230
+      - 🇫🇷_t.me/ConfigsHub_231
+      - 🇺🇸_@oneclickvpnkeys|🚩|2.93_232
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_3_233"
+      - 🇩🇪_🇩🇪 | @FreakConfig_3_234
+      - 🇺🇸_🇮🇳印度@Msv2flyNG_235
+      - 🇺🇸_@GOODBYEFILTERING_5_236
+      - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | US🇺🇸 |_237
+      - 🇺🇸_🇺🇸US-171.22.116.54-0081_238
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_4_239"
+      - 🇸🇪_🇸🇪Stockholm-2424_240
+      - 🇩🇪_@V2rayFa کانال تلگرام ما_241
+      - 🇺🇸_تلگرام proxy_mtm_1_242
+      - 🇬🇧_-6izaig49_243
+      - 🇺🇸_🇺🇸_US_美国_2_244
+      - 🇭🇰_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_3_245
+      - 🇺🇸_长期更新节点@mftizi_2_246
+      - 🇨🇷_@hopev2ray💜برای اتصال دائمی جوین بده_247
+      - 🇺🇸_🛑  @v2raying_2_248
+      - 🇺🇸_🇺🇸@Msv2flyNG_249
+      - 🇺🇸_🇺🇸 BGP -道长_250
+      - 🇺🇸_@Megavpn23_251
+      - 🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ"_4_252
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_3_253
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_5_254"
+      - 🇺🇸_تلگرام proxy_mtm_2_255
+      - 🇩🇪_@azad_intrnet_256
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_2_257
+      - 🇺🇸_🟩54@oneclickvpnkeys_258
+      - 🇺🇸_8_ @ARGOTAZ_259
+      - 🇺🇸_🇺🇸us@oneclickvpnkeys_260
+      - 🇬🇧_-h3qoalv3_261
+      - 🇺🇸_@iphone02016vpn_1_262
+      - 🇺🇸_@GOODBYEFILTERING_6_263
+      - 🇺🇸_@hopev2ray🦋برای اتصال دائمی جوین بده_264
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_6_265"
+      - '🇮🇷_Tel: @Novinology_3_266'
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_7_267"
+      - 🇺🇸_تلگرام ما proxy_mtm_3_268
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_8_269"
+      - 🇺🇸_@V2ray_hub1 - Free Server_270
+      - 🇺🇸_🇺🇸_US_美国_3_271
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_9_272"
+      - 🇩🇪_@V2RAYROZ | همه اپراتور ها_273
+      - 🇺🇸_@hkaa0||五叶专属_8_274
+      - 🇺🇸_🟩26@oneclickvpnkeys_275
+      - 🇺🇸_🇺🇸_US_美国_4_276
+      - 🇺🇸_تلگرام proxy_mtm_3_277
+      - 🇸🇪_Avam19(@ads_Central_net)_278
+      - 🇩🇪_برای خرید سرور پر یرعت پیام بدین😁❤️Ad_alx@_279
+      - 🇺🇸_@vistav2ray+بیا+تو+کانال_280
+      - |-
+        🇬🇧_تلگرام ما ✌️🔰 @v2rayNG_ribvar 🔰
+        ادمین ✌️🔰 @ribvarpeyman 🔰_3_281
+      - 🇺🇸_🇺🇸_US_美国_5_282
+      - 🇺🇸_@hopev2ray🐥برای اتصال دائمی جوین بده_283
+      - |-
+        🇺🇸_@NapsternetVapp🔝
+        @NapsternetVi➕_4_284
+      - 🇺🇸_🇺🇸 V2RayyNGvpn کانال ما در تلگرام 🇺🇸_285
+      - 🇺🇸_🇺🇸_US_美国_6_286
+      - 🇭🇰_关注频道防迷路_287
+      - 🇺🇸_@AtlanticTeamChannel قطع شد بیا اینجا_4_288
+      - 🇺🇸_@iphone02016vpn_2_289
+      - 🇺🇸_@hkaa0||美国_4_290
+      - 🇺🇸_S3 - swed_291
+      - 🇺🇸_@AZARBAYJAB1🇺🇸همه اپراتورها_292
+      - 🇬🇧_🈯aw@oneclickvpnkeys_293
+      - "🇺🇸_『 \_Telegram id @Atvpn  』_10_294"
+      - 🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖205_295
+      - 🇺🇸_🇩🇪 تلگرام @FreakConfig_2_296
+      - 🇺🇸_不定期抽奖https://t.me/mftizi_297
+      - 🇺🇸_Nira3(@Outline_Vpn)_298
+      - 🇩🇪_t.me/ipV2rayNG_2_299
+      - 🇺🇸_🟩81@oneclickvpnkeys_300
+      - 🇫🇷_(@Mso_666) برای خرید سرور به این آیدی پیام بدی_301
+      - 🇨🇷_@hopev2ray🔥برای اتصال دائمی جوین بده_302
+      - 🇺🇸_@AZARBAYJAB1🇺🇸ful net_303
+      - 🇺🇸_t.me/v2line (s1224) (KR)_304
+    strategy: round-robin
+  - name: 🇮🇷 سایتای ایرانی
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+  - name: 🏴‍☠️ سایتای تحریمی
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+  - name: 🤬 سایتای سانسوری
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+  - name: 🆎 تبلیغات
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+  - name: 🛡️ بدون فیلترشکن
+    type: select
+    proxies:
+      - DIRECT
+  - name: ⛔ قطع اینترنت
+    type: select
+    proxies:
+      - REJECT
+  - name: 🚫 اجازه ندادن
+    type: select
+    proxies:
+      - REJECT
+  - name: 🔐 فقط سایتای فیلتر شده
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🌐 همه سایتا
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+
+rule-providers:
+  blocked:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/blocked-sites.yml
+    interval: 432000
+    path: ./ruleset/blocked.yaml
+  category_porn:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-porn.yaml
+    interval: 432000
+    path: ./ruleset/category_porn.yaml
+  facebook:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/facebook.yaml
+    interval: 432000
+    path: ./ruleset/facebook.yaml
+  youtube:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/youtube.yaml
+    interval: 432000
+    path: ./ruleset/youtube.yaml
+  instagram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/instagram.yaml
+    interval: 432000
+    path: ./ruleset/instagram.yaml
+  spotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/spotify.yaml
+    interval: 432000
+    path: ./ruleset/spotify.yaml
+  twitter:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitter.yaml
+    interval: 432000
+    path: ./ruleset/twitter.yaml
+  telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/telegram.yaml
+    interval: 432000
+    path: ./ruleset/telegram.yaml
+  openai:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/openai.yaml
+    interval: 432000
+    path: ./ruleset/openai.yaml
+  whatsapp:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/whatsapp.yaml
+    interval: 432000
+    path: ./ruleset/whatsapp.yaml
+  tiktok:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/tiktok.yaml
+    interval: 432000
+    path: ./ruleset/tiktok.yaml
+  twitch:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitch.yaml
+    interval: 432000
+    path: ./ruleset/twitch.yaml
+  censor:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/censor.yaml
+    interval: 432000
+    path: ./ruleset/tahrim.yaml
+  local_ips:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/local-ips.yaml
+    interval: 432000
+    path: ./ruleset/local_ips.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/private.yaml
+    interval: 432000
+    path: ./ruleset/private.yaml
+  category_ir:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
+    interval: 432000
+    path: ./ruleset/category_ir.yaml
+  iran:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
+    interval: 432000
+    path: ./ruleset/iran.yaml
+  iran_other:
+    type: http
+    behavior: domain
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml
+    interval: 432000
+    path: ./ruleset/iran_other.yaml
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    interval: 432000
+    path: ./ruleset/steam.yaml
+  Purification_ip:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app%20ip.yaml
+    interval: 432000
+    path: ./ruleset/Purificationip.yaml
+  ads_ip:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/ads%20ip.yaml
+    interval: 432000
+    path: ./ruleset/adsip.yaml
+  Purification:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
+    interval: 432000
+    path: ./ruleset/Purification.yaml
+  category_public_tracker:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-public-tracker.yaml
+    interval: 432000
+    path: ./ruleset/category_public_tracker.yaml
+  Global:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
+    interval: 432000
+    path: ./ruleset/Global.yaml
+  category_ads_all:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ads-all.yaml
+    interval: 432000
+    path: ./ruleset/category_ads_all.yaml
+  iran_ads:
+    type: http
+    behavior: domain
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml
+    interval: 432000
+    path: ./ruleset/iran_ads.yaml
+  add:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/add.yaml
+    interval: 432000
+    path: ./ruleset/add.yaml
+  MoreAd:
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    interval: 86400
+    path: ./providers/rule-provider_clash.yaml
+  AntiAd:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 432000
+    path: ./ruleset/AntiAd.yaml
+  tahrim:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml
+    interval: 432000
+    path: ./ruleset/tahrim.yaml
+rules:
+  - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
+  - RULE-SET,censor,🤬 سایتای سانسوری
+  - RULE-SET,local_ips,🛡️ بدون فیلترشکن
+  - RULE-SET,private,🛡️ بدون فیلترشکن
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
+  - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
+  - RULE-SET,Purification,🍃 تصفیه برنامه
+  - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
+  - RULE-SET,Global,🛑 رهگیری جهانی
+  - RULE-SET,category_ads_all,🆎 تبلیغات
+  - RULE-SET,iran_ads,🆎 تبلیغات
+  - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
+  - RULE-SET,add,🆎 تبلیغات
+  - RULE-SET,MoreAd,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
+  - RULE-SET,category_porn,🔀 نوع انتخاب پروکسی
+  - RULE-SET,facebook,🔀 نوع انتخاب پروکسی
+  - RULE-SET,youtube,🔀 نوع انتخاب پروکسی
+  - RULE-SET,instagram,🔀 نوع انتخاب پروکسی
+  - RULE-SET,spotify,🔀 نوع انتخاب پروکسی
+  - RULE-SET,twitter,🔀 نوع انتخاب پروکسی
+  - RULE-SET,telegram,🔀 نوع انتخاب پروکسی
+  - RULE-SET,openai,🔀 نوع انتخاب پروکسی
+  - RULE-SET,whatsapp,🔀 نوع انتخاب پروکسی
+  - RULE-SET,tiktok,🔀 نوع انتخاب پروکسی
+  - RULE-SET,twitch,🔀 نوع انتخاب پروکسی
+  - MATCH,📶 انتخاب نوع اتصال
