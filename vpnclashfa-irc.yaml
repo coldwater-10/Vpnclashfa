@@ -3300,6 +3300,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml
     interval: 432000
     path: ./ruleset/tahrim.yaml
+  GoodbyeAds:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/GoodbyeAds.yaml
+    interval: 432000
+    path: ./ruleset/add.yaml
 rules:
   - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
   - RULE-SET,censor,🤬 سایتای سانسوری
@@ -3320,6 +3326,7 @@ rules:
   - RULE-SET,add,🆎 تبلیغات
   - RULE-SET,MoreAd,🆎 تبلیغات
   - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,GoodbyeAds,🆎 تبلیغات
   - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
   - RULE-SET,category_porn,🔀 نوع انتخاب پروکسی
   - RULE-SET,facebook,🔀 نوع انتخاب پروکسی
