@@ -499,15 +499,6 @@ proxy-providers:
       url: "https://cdn.jsdelivr.net"
 
 rules:
-  - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
-  - RULE-SET,censor,🤬 سایتای سانسوری
-  - RULE-SET,local_ips,🛡️ بدون فیلترشکن
-  - RULE-SET,private,🛡️ بدون فیلترشکن
-  - GEOIP,IR,🇮🇷 سایتای ایرانی
-  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
-  - RULE-SET,iran,🇮🇷 سایتای ایرانی
-  - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
-  - RULE-SET,steam,🎮 استیم
   - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
@@ -519,6 +510,15 @@ rules:
   - RULE-SET,MoreAd,🆎 تبلیغات
   - RULE-SET,AntiAd,🆎 تبلیغات
   - RULE-SET,GoodbyeAds,🆎 تبلیغات
+  - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
+  - RULE-SET,censor,🤬 سایتای سانسوری
+  - RULE-SET,local_ips,🛡️ بدون فیلترشکن
+  - RULE-SET,private,🛡️ بدون فیلترشکن
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
   - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
   - RULE-SET,category_porn,🔀 نوع انتخاب پروکسی
   - RULE-SET,facebook,🔀 نوع انتخاب پروکسی
