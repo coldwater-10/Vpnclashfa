@@ -220,6 +220,12 @@ rule-providers:
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
     path: ./ruleset/iran_ads.yaml
     interval: 432000
+  PersianBlocker:
+    type: http
+    behavior: domain
+    url: "https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
+    path: ./ruleset/PersianBlocker.yaml
+    interval: 432000
   blocked:
     type: http
     behavior: classical
@@ -368,7 +374,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/GoodbyeAds.yaml
     interval: 432000
-    path: ./ruleset/add.yaml
+    path: ./ruleset/GoodbyeAds.yaml
 
 proxy-groups:
   - name: 🔀 نوع انتخاب پروکسی
@@ -538,6 +544,7 @@ rules:
   - RULE-SET,Global,🛑 رهگیری جهانی
   - RULE-SET,category_ads_all,🆎 تبلیغات
   - RULE-SET,iran_ads,🆎 تبلیغات
+  - RULE-SET,PersianBlocker,🆎 تبلیغات
   - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
   - RULE-SET,add,🆎 تبلیغات
   - RULE-SET,MoreAd,🆎 تبلیغات
