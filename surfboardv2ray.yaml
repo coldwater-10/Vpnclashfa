@@ -494,7 +494,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Falienvpn402.github.io%2FAlienVPN402-subscribe-servers-sing-box%2F&type=clash&process=full
+      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2FSurfboardv2ray%2FSubs%2Fmain%2FRaw&type=clash&process=full
     interval: 86400
     path: ./proxy.yaml
     health-check:
