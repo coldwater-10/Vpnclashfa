@@ -5,14 +5,22 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
+tcp-concurrent: true
+enable-process: true
+find-process-mode: always
+ipv6: true
 log-level: info
-cfw-latency-timeout: 6000
+cfw-latency-timeout: 8000
 cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
 cfw-proxies-order: latency
 external-controller: 0.0.0.0:9090
 secret: ''
 bind-address: '*'
 unified-delay: true
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  tracing: true
 profile:
   store-selected: true
   store-fake-ip: true
@@ -24,7 +32,7 @@ dns:
   listen: 0.0.0.0:7874
   nameserver:
     - https://cloudflare-dns.com/dns-query
-    - 'https://1.1.1.1/dns-query#en0'
+    - https://1.1.1.1/dns-query#en0
     - https://1.1.1.1/dns-query
     - https://dns.google/dns-query
     - https://dns.quad9.net/dns-query
@@ -35,7 +43,7 @@ dns:
     - https://8.8.8.8/dns-query
     - https://9.9.9.9/dns-query
     - https://doh.cleanbrowsing.org/doh/security-filter/
-    - https://resolver2.dns.watch/dns-query 
+    - https://resolver2.dns.watch/dns-query
     - https://doh-de.blahdns.com/dns-query
     - https://freedns.controld.com/p2
     - https://dns.dnswarden.com/adblock
@@ -60,13 +68,9 @@ dns:
     - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
     - https://res-acst3.absolight.net/
     - https://zepto-sto-1.edge.nextdns.io
-    - https://xtom-osa-1.edge.nextdns.io/
-    - https://ipv4-zepto-mci-1.edge.nextdns.io/
-    - https://nsc.torgues.net/
-    - https://zepto-sto-1.edge.nextdns.io/
     - https://doh.dns.sb/dns-query
     - tls://dns.rubyfish.cn:853
-    - 'tls://8.8.8.8#en0'
+    - tls://8.8.8.8#en0
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
@@ -161,220 +165,280 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
+
+sniffer:
+  enable: true
+  sniff:
+    http: { ports: [1-442, 444-8442, 8444-65535], override-destination: true }
+    tls: { ports: [1-79, 81-8079, 8081-65535], override-destination: true }
+  force-domain:
+      - "+.v2ex.com"
+      - www.google.com
+      - google.com
+  skip-domain:
+      - Mijia Cloud
+      - dlg.io.mi.com
+  sniffing:
+    - tls
+    - http
+  port-whitelist:
+    - "80"
+    - "443"
+
+tun:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  stack: gvisor
+  dns-hijack:
+     - "any:53"
+     - "tcp://any:53"
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
 rule-providers:
-  iran:
+  Purification_ip:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
-    path: ./ruleset/iran.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app%20ip.yaml
     interval: 432000
-  steam:
+    path: ./ruleset/Purificationip.yaml
+  ads_ip:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
-    path: ./ruleset/steam.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/ads%20ip.yaml
     interval: 432000
-  add:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/add.yaml
-    path: ./ruleset/add.yaml
-    interval: 432000
+    path: ./ruleset/adsip.yaml
   Purification:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
-    path: ./ruleset/Purification.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
     interval: 432000
+    path: ./ruleset/Purification.yaml
+  category_public_tracker:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-public-tracker.yaml
+    interval: 432000
+    path: ./ruleset/category_public_tracker.yaml
   Global:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
+    interval: 432000
     path: ./ruleset/Global.yaml
-    interval: 432000
-  AntiAd:
+  category_ads_all:
     type: http
     behavior: domain
-    url: >-
-      https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
-    path: ./ruleset/AntiAd.yaml
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ads-all.yaml
     interval: 432000
-  MoreAd:
-    type: http
-    behavior: domain
-    url: https://howdy.id/download/rules/clash.txt
-    path: ./providers/rule-provider_clash.yaml
-    interval: 86400
-  iran_other:
-    type: http
-    behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml"
-    path: ./ruleset/iran_other.yaml
-    interval: 432000
+    path: ./ruleset/category_ads_all.yaml
   iran_ads:
     type: http
     behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
-    path: ./ruleset/iran_ads.yaml
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml
     interval: 432000
+    path: ./ruleset/iran_ads.yaml
   PersianBlocker:
     type: http
     behavior: domain
     url: "https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
     path: ./ruleset/PersianBlocker.yaml
     interval: 432000
-  blocked:
+  add:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/blocked-sites.yml"
-    path: ./ruleset/blocked.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/add.yaml
     interval: 432000
-  tahrim:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml"
-    path: ./ruleset/tahrim.yaml
-    interval: 432000
-  censor:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/censor.yaml"
-    path: ./ruleset/tahrim.yaml
-    interval: 432000
-  ads_ip:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/ads%20ip.yaml
-    path: ./ruleset/adsip.yaml
-    interval: 432000
-  Purification_ip:
-    type: http
-    behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app%20ip.yaml
-    path: ./ruleset/Purificationip.yaml
-    interval: 432000
-  category_ir:
+    path: ./ruleset/add.yaml
+  MoreAd:
     type: http
     behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
-    path: ./ruleset/category_ir.yaml
-    interval: 432000
-  category_porn:
+    url: https://howdy.id/download/rules/clash.txt
+    interval: 86400
+    path: ./providers/rule-provider_clash.yaml
+  AntiAd:
     type: http
     behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-porn.yaml
-    path: ./ruleset/category_porn.yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
     interval: 432000
-  category_ads_all:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ads-all.yaml
-    path: ./ruleset/category_ads_all.yaml
-    interval: 432000
-  category_public_tracker:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-public-tracker.yaml
-    path: ./ruleset/category_public_tracker.yaml
-    interval: 432000
-  facebook:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/facebook.yaml
-    path: ./ruleset/facebook.yaml
-    interval: 432000
-  youtube:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/youtube.yaml
-    path: ./ruleset/youtube.yaml
-    interval: 432000
-  instagram:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/instagram.yaml
-    path: ./ruleset/instagram.yaml
-    interval: 432000
-  spotify:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/spotify.yaml
-    path: ./ruleset/spotify.yaml
-    interval: 432000
-  twitter:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitter.yaml
-    path: ./ruleset/twitter.yaml
-    interval: 432000
-  telegram:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/telegram.yaml
-    path: ./ruleset/telegram.yaml
-    interval: 432000
-  openai:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/openai.yaml
-    path: ./ruleset/openai.yaml
-    interval: 432000
-  whatsapp:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/whatsapp.yaml
-    path: ./ruleset/whatsapp.yaml
-    interval: 432000
-  tiktok:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/tiktok.yaml
-    path: ./ruleset/tiktok.yaml
-    interval: 432000
-  twitch:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitch.yaml
-    path: ./ruleset/twitch.yaml
-    interval: 432000
-  private:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/private.yaml
-    path: ./ruleset/private.yaml
-    interval: 432000
-  local_ips:
-    type: http
-    behavior: domain
-    url: >-
-       https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/local-ips.yaml
-    path: ./ruleset/local_ips.yaml
-    interval: 432000
+    path: ./ruleset/AntiAd.yaml
   GoodbyeAds:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/GoodbyeAds.yaml
     interval: 432000
-    path: ./ruleset/GoodbyeAds.yaml
+    path: ./ruleset/add.yaml
+  blocked:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/blocked-sites.yml
+    interval: 432000
+    path: ./ruleset/blocked.yaml
+  category_porn:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-porn.yaml
+    interval: 432000
+    path: ./ruleset/category_porn.yaml
+  facebook:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/facebook.yaml
+    interval: 432000
+    path: ./ruleset/facebook.yaml
+  youtube:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/youtube.yaml
+    interval: 432000
+    path: ./ruleset/youtube.yaml
+  instagram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/instagram.yaml
+    interval: 432000
+    path: ./ruleset/instagram.yaml
+  spotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/spotify.yaml
+    interval: 432000
+    path: ./ruleset/spotify.yaml
+  twitter:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitter.yaml
+    interval: 432000
+    path: ./ruleset/twitter.yaml
+  telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/telegram.yaml
+    interval: 432000
+    path: ./ruleset/telegram.yaml
+  openai:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/openai.yaml
+    interval: 432000
+    path: ./ruleset/openai.yaml
+  whatsapp:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/whatsapp.yaml
+    interval: 432000
+    path: ./ruleset/whatsapp.yaml
+  tiktok:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/tiktok.yaml
+    interval: 432000
+    path: ./ruleset/tiktok.yaml
+  twitch:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/twitch.yaml
+    interval: 432000
+    path: ./ruleset/twitch.yaml
+  censor:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/censor.yaml
+    interval: 432000
+    path: ./ruleset/tahrim.yaml
+  local_ips:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/local-ips.yaml
+    interval: 432000
+    path: ./ruleset/local_ips.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/private.yaml
+    interval: 432000
+    path: ./ruleset/private.yaml
+  category_ir:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Kr328/V2rayDomains2Clash/generated/category-ir.yaml
+    interval: 432000
+    path: ./ruleset/category_ir.yaml
+  iran:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
+    interval: 432000
+    path: ./ruleset/iran.yaml
+  iran_other:
+    type: http
+    behavior: domain
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml
+    interval: 432000
+    path: ./ruleset/iran_other.yaml
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    interval: 432000
+    path: ./ruleset/steam.yaml
+  tahrim:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml
+    interval: 432000
+    path: ./ruleset/tahrim.yaml
+  ir:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.yaml"
+    path: ./ruleset/ir.yaml
+    interval: 86400
+  ads:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/category-ads-all.yaml"
+    path: ./ruleset/ads.yaml
+    interval: 86400
+  malware:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/malware.yaml"
+    path: ./ruleset/malware.yaml
+    interval: 86400
+  phishing:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/phishing.yaml"
+    path: ./ruleset/phishing.yaml
+    interval: 86400
+  cryptominers:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/cryptominers.yaml"
+    path: ./ruleset/cryptominers.yaml
+    interval: 86400
+  apps:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/apps.yaml"
+    path: ./ruleset/apps.yaml
+    interval: 86400
+  ircidr:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ircidr.yaml"
+    path: ./ruleset/ircidr.yaml
+    interval: 86400
 
 proxy-groups:
   - name: 🔀 نوع انتخاب پروکسی
@@ -444,6 +508,12 @@ proxy-groups:
       - 🚫 اجازه ندادن
       - 🔀 نوع انتخاب پروکسی
       - 🛡️ بدون فیلترشکن
+  - name: ⚠️ سایتای مخرب
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
   - name: 🆎 تبلیغات
     type: select
     proxies:
@@ -508,7 +578,11 @@ rules:
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
   - RULE-SET,Global,🛑 رهگیری جهانی
+  - RULE-SET,malware,⚠️ سایتای مخرب
+  - RULE-SET,phishing,⚠️ سایتای مخرب
+  - RULE-SET,cryptominers,⚠️ سایتای مخرب
   - RULE-SET,category_ads_all,🆎 تبلیغات
+  - RULE-SET,ads,🆎 تبلیغات
   - RULE-SET,iran_ads,🆎 تبلیغات
   - RULE-SET,PersianBlocker,🆎 تبلیغات
   - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
@@ -520,10 +594,13 @@ rules:
   - RULE-SET,censor,🤬 سایتای سانسوری
   - RULE-SET,local_ips,🛡️ بدون فیلترشکن
   - RULE-SET,private,🛡️ بدون فیلترشکن
+  - RULE-SET,ircidr,🇮🇷 سایتای ایرانی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
+  - RULE-SET,ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,apps,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
   - RULE-SET,category_porn,🔀 نوع انتخاب پروکسی
