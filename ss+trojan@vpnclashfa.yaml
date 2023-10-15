@@ -569,7 +569,7 @@ proxy-providers:
   ss:
     type: http
     url: >-
-      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub%2Fmain%2FSplit%2FBase64%2Fshadowsocks&type=clash&process=full
+      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub1%2Fmain%2FSplit%2FBase64%2Fshadowsocks&type=clash&process=full
     interval: 86400
     path: ./v2ray.yaml
     health-check:
@@ -580,7 +580,7 @@ proxy-providers:
   trojan:
     type: http
     url: >-
-      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub2%2Fmain%2FSplit%2FBase64%2Ftrojan&type=clash&process=full
+      https://yebekhe.link/api/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub1%2Fmain%2FSplit%2FBase64%2Ftrojan&type=clash&process=full
     interval: 86400
     path: ./trojan.yaml
     health-check:
