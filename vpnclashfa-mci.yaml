@@ -484,7 +484,7 @@ proxies:
   - {"name":"🇺🇸_telegram proxy_mtm_268","type":"vmess","server":"104.24.208.25","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.click"}}}
   - {"name":"🇺🇸_join👉@V2rayNG_Coonfig 🌷 🙏 ᵗᵉˡᵉᵍʳᵃᵐ\"_1_269","type":"vmess","server":"104.24.208.25","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.click"}}}
   - {"name":"🇺🇸_🆔@LuxyNet💎❖🇺🇸❖US❖1934_270","type":"vmess","server":"104.17.77.94","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.click"}}}
-  - {"name":"🇮🇷_@v2rayRb6 | 1000G | سرعت عالی 🫰_271","type":"vmess","server":"free.rbvpn.cloud","port":20515,"cipher":"auto","uuid":"b68345c6-25fb-40a3-a808-7acc5286bd12","alterId":0,"tls":false,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇮🇷_@v2rayRb6 | 1000G | سرعت عالی 🫰_271","type":"vmess","server":"free.rbvpn.cloud","port":20515,"cipher":"auto","uuid":"b68345c6-25fb-40a3-a808-7acc5286bd12","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
   - {"name":"🇺🇸_YD|@Zyw_Channel_1_272","type":"vmess","server":"104.20.231.210","port":80,"cipher":"auto","uuid":"72d46152-ee0b-4610-efb1-ffb0f786b848","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"my.designlion.buzz"}}}
   - {"name":"🇺🇸_💻 Channel 🆔 : @AlienVPN402 👽_2_273","type":"vmess","server":"172.67.40.156","port":2082,"cipher":"auto","uuid":"8c188497-269f-4aa0-cd19-63e93a83d6da","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wdsk","headers":{"host":"jd001.mianfenyun012.eu.org"}}}
   - {"name":"🇺🇸_🇺🇸_US_美国_1_274","type":"vmess","server":"172.64.229.116","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/XQ2WCa29jfDMGBcbnQ","headers":{"host":"netherlands.yj2022.gq"}}}
@@ -535,7 +535,6 @@ proxies:
   - {"name":"🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319","type":"vmess","server":"cdn.narutos.top","port":8880,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/SMNxcwVdTTzcou9yQftDyZcCGQui9a","headers":{"host":"paris.yj2022.gq"}}}
   - {"name":"🇺🇸_🗳️ Freenet (5)_320","type":"vmess","server":"104.31.16.216","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
   - {"name":"🇺🇸_@ConfingsFather_1_321","type":"vmess","server":"octavi.cfd","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"octavi.cfd"}}}
-  - {"name":"🇺🇸_t.me/Config_Station_3_322","type":"vmess","server":"159.112.235.203","port":2053,"cipher":"auto","uuid":"join_V2rayNGFreee","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
   - {"name":"🇺🇸_4Sarina-8743_323","type":"vmess","server":"172.67.187.109","port":80,"cipher":"auto","uuid":"2e87cebc-977b-4fec-b079-b1ddc55b19c8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
   - {"name":"🇺🇸_🗳️ Freenet (15)_324","type":"vmess","server":"104.18.200.220","port":443,"cipher":"auto","uuid":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss51068","headers":{"host":"sand.blanku.me"}}}
   - {"name":"🇺🇸_🏁RELAY-104.21.4.29-1446_325","type":"vmess","server":"104.21.4.29","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"oliv.beauty"}}}
@@ -2166,7 +2165,6 @@ proxy-groups:
       - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319
       - 🇺🇸_🗳️ Freenet (5)_320
       - 🇺🇸_@ConfingsFather_1_321
-      - 🇺🇸_t.me/Config_Station_3_322
       - 🇺🇸_4Sarina-8743_323
       - 🇺🇸_🗳️ Freenet (15)_324
       - 🇺🇸_🏁RELAY-104.21.4.29-1446_325
@@ -3784,7 +3782,6 @@ proxy-groups:
       - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319
       - 🇺🇸_🗳️ Freenet (5)_320
       - 🇺🇸_@ConfingsFather_1_321
-      - 🇺🇸_t.me/Config_Station_3_322
       - 🇺🇸_4Sarina-8743_323
       - 🇺🇸_🗳️ Freenet (15)_324
       - 🇺🇸_🏁RELAY-104.21.4.29-1446_325
@@ -5402,7 +5399,6 @@ proxy-groups:
       - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319
       - 🇺🇸_🗳️ Freenet (5)_320
       - 🇺🇸_@ConfingsFather_1_321
-      - 🇺🇸_t.me/Config_Station_3_322
       - 🇺🇸_4Sarina-8743_323
       - 🇺🇸_🗳️ Freenet (15)_324
       - 🇺🇸_🏁RELAY-104.21.4.29-1446_325
@@ -7020,7 +7016,6 @@ proxy-groups:
       - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319
       - 🇺🇸_🗳️ Freenet (5)_320
       - 🇺🇸_@ConfingsFather_1_321
-      - 🇺🇸_t.me/Config_Station_3_322
       - 🇺🇸_4Sarina-8743_323
       - 🇺🇸_🗳️ Freenet (15)_324
       - 🇺🇸_🏁RELAY-104.21.4.29-1446_325
@@ -8639,7 +8634,6 @@ proxy-groups:
       - 🇺🇸_༄ 𝗝𝗼𝗶𝗻 ➪ @V2range ༄ | RELAY🚩 |_2_319
       - 🇺🇸_🗳️ Freenet (5)_320
       - 🇺🇸_@ConfingsFather_1_321
-      - 🇺🇸_t.me/Config_Station_3_322
       - 🇺🇸_4Sarina-8743_323
       - 🇺🇸_🗳️ Freenet (15)_324
       - 🇺🇸_🏁RELAY-104.21.4.29-1446_325
