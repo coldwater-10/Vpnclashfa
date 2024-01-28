@@ -1,5 +1,14 @@
 hy2://----Join-Telegram:%40IP_CF----@79.137.206.126:8080?insecure=1&sni=bing.com&obfs=salamander&obfs-password=----Join-Telegram%3A%40IP_CF----#🔒 HYSTERIA-UDP 🇫🇮 FI-79.137.206.126:8080 📡 PING-000.00-MS
 hy2://----Join-Telegram:%40IP_CF----@79.137.206.126:8080?obfs=salamander&obfs-password=----Join-Telegram%3A%40IP_CF----&insecure=1&sni=bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%AE%20FI-79.137.206.126:8080%20%F0%9F%93%A1%20PING-000.00-MS
+hy2://04979c3cfe2a7945@92.246.139.15:443/?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=205ef172277d3292#%40TUICity%20%7CHYSTERIA%7C
+hy2://04979c3cfe2a7945@92.246.139.15:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=205ef172277d3292#🔒 HYSTERIA-UDP 🇩🇪 DE-92.246.139.15:443 📡 PING-000.00-MS
+hy2://04979c3cfe2a7945@[2a12:5940:9acf::2]:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=205ef172277d3292#🔒 HYSTERIA-UDP 🇳🇱 NL-[2a12:5940:9acf::2]:443 📡 PING-000.00-MS
+hy2://0Kr2YLv3oWPzr2fqawvcrHd0Oo0@89.213.182.241:22746?mport=22746%2C30000-50000&sni=wawa.7070777.xyz#🔒 HYSTERIA-UDP 🇺🇸 US-89.213.182.241:22746 📡 PING-000.00-MS
+hy2://0cf2ecce@46.17.45.133:64707/?insecure=1&sni=www.bing.com#%40TUICity%20%7CTUIC%7C
+hy2://0cf2ecce@46.17.45.133:64707?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇷🇺 RU-46.17.45.133:64707 📡 PING-000.00-MS
+hy2://0eee7250-6927-47d3-92d7-b861bfb958b3@192.227.220.61:11010?insecure=1&sni=bk.888553.xyz#🔒 HYSTERIA-UDP 🇨🇦 CA-192.227.220.61:11010 📡 PING-000.00-MS
+hy2://0eee7250-6927-47d3-92d7-b861bfb958b3@45.8.253.181:6524?insecure=1&sni=uk2.441166.xyz#🔒 HYSTERIA-UDP 🇬🇧 GB-45.8.253.181:6524 📡 PING-000.00-MS
+hy2://0eee7250-6927-47d3-92d7-b861bfb958b3@46.29.166.99:6548?insecure=1&sni=yhhy.441166.xyz#🔒 HYSTERIA-UDP 🇷🇺 RU-46.29.166.99:6548 📡 PING-000.00-MS
 hy2://0f737d73b058c8cf@161.123.69.19:1602?insecure=1&obfs=salamander&obfs-password=2915ed88#🔒 HYSTERIA-UDP 🇳🇱 NL-161.123.69.19:1602 📡 PING-000.00-MS
 hy2://0f737d73b058c8cf@161.123.69.19:1602?obfs=salamander&obfs-password=2915ed88&insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-161.123.69.19:1602%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://123456@167.114.90.239:4433?insecure=1&sni=new.sharecentre.online#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A8%F0%9F%87%A6%20CA-167.114.90.239:4433%20%F0%9F%93%A1%20PING-000.00-MS
@@ -13,11 +22,23 @@ hy2://13185bc123940cfa@5.255.119.232:446?insecure=1&obfs=salamander&obfs-passwor
 hy2://13185bc123940cfa@[2a04:52c0:124:c2e8::1]:446?insecure=1&obfs=salamander&obfs-password=b92a1f1e#🔒 HYSTERIA-UDP 🇳🇱 NL-[2a04:52c0:124:c2e8::1]:446 📡 PING-000.00-MS
 hy2://16eb6b9509341345@45.91.92.191:16402?insecure=1&obfs=salamander&obfs-password=e38d2c51#🔒 HYSTERIA-UDP 🇨🇭 CH-45.91.92.191:16402 📡 PING-000.00-MS
 hy2://16eb6b9509341345@45.91.92.191:16402?obfs=salamander&obfs-password=e38d2c51&insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A8%F0%9F%87%AD%20CH-45.91.92.191:16402%20%F0%9F%93%A1%20PING-000.00-MS
+hy2://1ab02865393bfa6d@5.161.213.184:443/?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=d5a9baeec9b61a44#%40TUICity%20%7CHYSTERIA%7C
+hy2://1ab02865393bfa6d@5.161.213.184:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=d5a9baeec9b61a44#🔒 HYSTERIA-UDP 🇺🇸 US-5.161.213.184:443 📡 PING-019.80-MS
+hy2://1ab02865393bfa6d@[2a01:4ff:f0:c551::1]:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=d5a9baeec9b61a44#🔒 HYSTERIA-UDP 🇺🇸 US-[2a01:4ff:f0:c551::1]:443 📡 PING-000.00-MS
+hy2://2f1b122607f533dc@51.222.12.75:443/?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=7925a5b3071cb35f#%40TUICity%20%7CHYSTERIA%7C
+hy2://2f1b122607f533dc@51.222.12.75:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=7925a5b3071cb35f#🔒 HYSTERIA-UDP 🇨🇦 CA-51.222.12.75:443 📡 PING-000.00-MS
+hy2://2f1b122607f533dc@[2607:5300:205:200::1926]:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=7925a5b3071cb35f#🔒 HYSTERIA-UDP 🇨🇦 CA-[2607:5300:205:200::1926]:443 📡 PING-000.00-MS
 hy2://32242006cd6d9890@194.116.215.65:443/?obfs=salamander&obfs-password=0eb626ab&insecure=1#solapscrypto
 hy2://32242006cd6d9890@194.116.215.65:443?insecure=1&obfs=salamander&obfs-password=0eb626ab#🔒 HYSTERIA-UDP 🇳🇱 NL-194.116.215.65:443 📡 PING-000.00-MS
 hy2://32242006cd6d9890@194.116.215.65:443?insecure=1&obfs=salamander&obfs-password=0eb626ab#🔒 HYSTERIA-UDP 🇳🇱 NL-194.116.215.65:443 📡 PING-105.93-MS
 hy2://32242006cd6d9890@194.116.215.65:443?insecure=1&obfs=salamander&obfs-password=0eb626ab#🔒 HYSTERIA-UDP 🇳🇱 NL-194.116.215.65:443 📡 PING-151.79-MS
 hy2://32242006cd6d9890@194.116.215.65:443?obfs=salamander&obfs-password=0eb626ab&insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-194.116.215.65:443%20%F0%9F%93%A1%20PING-000.00-MS
+hy2://4a52c165e81fa8fc@70.34.213.123:443/?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=a16d0be0#%40TUICity%20%7CHYSTERIA%7C
+hy2://4a52c165e81fa8fc@70.34.213.123:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=a16d0be0#🔒 HYSTERIA-UDP 🇸🇪 SE-70.34.213.123:443 📡 PING-000.00-MS
+hy2://4a52c165e81fa8fc@[2a05:f480:2000:26d7:5400:4ff:feba:2d66]:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=a16d0be0#🔒 HYSTERIA-UDP 🇸🇪 SE-[2a05:f480:2000:26d7:5400:4ff:feba:2d66]:443 📡 PING-000.00-MS
+hy2://536a1e178ea00bf2@95.217.211.216:443/?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=05462d067f21387c#%40TUICity%20%7CHYSTERIA%7C
+hy2://536a1e178ea00bf2@95.217.211.216:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=05462d067f21387c#🔒 HYSTERIA-UDP 🇫🇮 FI-95.217.211.216:443 📡 PING-000.00-MS
+hy2://536a1e178ea00bf2@[2a01:4f9:c012:c3fd::1]:443?insecure=1&sni=www.google.com&obfs=salamander&obfs-password=05462d067f21387c#🔒 HYSTERIA-UDP 🇩🇪 DE-[2a01:4f9:c012:c3fd::1]:443 📡 PING-000.00-MS
 hy2://54a0dcc2-ffac-49c3-905f-932dbb132c5f@37.114.62.254:45565?insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A9%F0%9F%87%AA%20DE-37.114.62.254:45565%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://54a0dcc2-ffac-49c3-905f-932dbb132c5f@37.114.62.254:45565?insecure=1#🔒 HYSTERIA-UDP 🇩🇪 DE-37.114.62.254:45565 📡 PING-000.00-MS
 hy2://628e821d-5151-48d6-8af3-e89cd74e6f4d@185.92.222.227:12453?sni=hdfyhys2.cpionline.co&obfs=salamander&obfs-password=Y7aunTuPJZBCfiDIm#🔒 HYSTERIA-UDP 🇳🇱 NL-185.92.222.227:12453 📡 PING-000.00-MS
@@ -35,6 +56,7 @@ hy2://7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8@65.109.208.100:2795?obfs=salamander&ob
 hy2://7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8@[2a01:4f9:c010:10d7::1]:2795/?insecure=1&sni=
 hy2://7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8@[2a01:4f9:c010:10d7::1]:2795?insecure=1&sni=google.com&obfs=salamander&obfs-password=7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8#🔒 HYSTERIA-UDP 🇫🇮 FI-[2a01:4f9:c010:10d7::1]:2795 📡 PING-000.00-MS
 hy2://7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8@[2a01:4f9:c010:10d7::1]:2795?obfs=salamander&obfs-password=7hftxyg7f6fub8f5dunjctx5d7g8g6xyvv8&insecure=1&sni=google.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%AE%20FI-[2a01:4f9:c010:10d7::1]:2795%20%F0%9F%93%A1%20PING-000.00-MS
+hy2://81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:42855?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇨🇦 CA-107.173.15.52:42855 📡 PING-000.00-MS
 hy2://836df238c510df39@194.87.45.119:443?insecure=1&sni=www.google.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AA%F0%9F%87%B8%20ES-194.87.45.119:443%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://836df238c510df39@194.87.45.119:443?insecure=1&sni=www.google.com#🔒 HYSTERIA-UDP 🇪🇸 ES-194.87.45.119:443 📡 PING-000.00-MS
 hy2://855b3ef2-a162-417e-931d-f6a49adf21cf@51.15.53.153:45500?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇫🇷 FR-51.15.53.153:45500 📡 PING-000.00-MS
@@ -63,6 +85,9 @@ hy2://99999@194.5.97.15:443?insecure=1&sni=www.bing.com&obfs=salamander&obfs-pas
 hy2://99999@194.5.97.15:443?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=99999#🔒 HYSTERIA-UDP 🇳🇱 NL-194.5.97.15:443 📡 PING-137.67-MS
 hy2://99999@194.5.97.15:443?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=99999#🔒 HYSTERIA-UDP 🇳🇱 NL-194.5.97.15:443 📡 PING-149.59-MS
 hy2://99999@194.5.97.15:443?obfs=salamander&obfs-password=99999&insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-194.5.97.15:443%20%F0%9F%93%A1%20PING-139.81-MS
+hy2://9f73c619627d6a5d@66.245.192.15:443/?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=bd7f765e#%40TUICity%20%7CHYSTERIA%7C
+hy2://9f73c619627d6a5d@66.245.192.15:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=bd7f765e#🔒 HYSTERIA-UDP 🇬🇧 GB-66.245.192.15:443 📡 PING-132.95-MS
+hy2://9f73c619627d6a5d@[2a05:f480:3400:2fb1:5400:4ff:feba:2d73]:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=bd7f765e#🔒 HYSTERIA-UDP 🇬🇧 GB-[2a05:f480:3400:2fb1:5400:4ff:feba:2d73]:443 📡 PING-000.00-MS
 hy2://GlysitGlysit@165.227.238.198:594?obfs=salamander&obfs-password=GlysitGlysit&insecure=1&sni=bing.com
 hy2://GlysitGlysit@165.227.238.198:594?obfs=salamander&obfs-password=GlysitGlysit&insecure=1&sni=bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AC%F0%9F%87%A7%20GB-165.227.238.198:594%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://GlysitGlysit@165.227.238.198:594?obfs=salamander&obfs-password=GlysitGlysit&insecure=1&sni=bing.com#🔒 HYSTERIA-UDP 🇬🇧 GB-165.227.238.198:594 📡 PING-000.00-MS
@@ -121,8 +146,12 @@ hy2://Telegram:%40v_2ra_y@[2a01:4f8:1c1e:c388::1]:7255?obfs=salamander&obfs-pass
 hy2://azadi@168.138.24.90:443?insecure=1&sni=bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A6%F0%9F%87%BA%20AU-168.138.24.90:443%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://azadi@168.138.24.90:443?insecure=1&sni=bing.com#🔒 HYSTERIA-UDP 🇦🇺 AU-168.138.24.90:443 📡 PING-000.00-MS
 hy2://azadi@azadi-az-inja-migzare-d2.dgi000.store:443/?insecure=1&sni=bing.com
+hy2://b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:15090?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-142.171.174.206:15090 📡 PING-000.00-MS
 hy2://bbf2d7af@185.81.28.11:35052/?insecure=1&sni=www.bing.com#%40EUT_VPN%20%7CHYSTERIA%7C
 hy2://bbf2d7af@185.81.28.11:35052?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇸🇬 SG-185.81.28.11:35052 📡 PING-000.00-MS
+hy2://d2e21fabfe6ddb83@70.34.205.24:443/?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=ca39a177#%40TUICity%20%7CHYSTERIA%7C
+hy2://d2e21fabfe6ddb83@70.34.205.24:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=ca39a177#🔒 HYSTERIA-UDP 🇸🇪 SE-70.34.205.24:443 📡 PING-126.26-MS
+hy2://d2e21fabfe6ddb83@[2a05:f480:2000:23c3:5400:4ff:feba:2d65]:443?insecure=1&sni=www.apple.com&obfs=salamander&obfs-password=ca39a177#🔒 HYSTERIA-UDP 🇸🇪 SE-[2a05:f480:2000:23c3:5400:4ff:feba:2d65]:443 📡 PING-000.00-MS
 hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@154.217.64.155:45565/?insecure=1&sni=us2.xjichang.buzz#%40EUT_VPN%20%7CHYSTERIA%7C
 hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@154.217.64.155:45565?insecure=1&sni=us2.xjichang.buzz#🔒 HYSTERIA-UDP 🇺🇸 US-154.217.64.155:45565 📡 PING-000.00-MS
 hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@216.73.158.127:45570?insecure=1&sni=br01.xjichang.buzz#🔒 HYSTERIA-UDP 🇺🇸 US-216.73.158.127:45570 📡 PING-000.00-MS
@@ -142,6 +171,8 @@ hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@37.114.62.91:45581?insecure=1&sni=tur
 hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@37.114.62.91:45582?insecure=1&sni=mo.xjichang.buzz#🔒 HYSTERIA-UDP 🇩🇪 DE-37.114.62.91:45582 📡 PING-000.00-MS
 hy2://dfbcac72-5efb-4dca-baee-48fb06be3125@37.114.62.91:55565?insecure=1&sni=eg01.xjichang.buzz#🔒 HYSTERIA-UDP 🇩🇪 DE-37.114.62.91:55565 📡 PING-000.00-MS
 hy2://dongtaiwang.com@1.162.130.168:18417?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.130.168:18417 📡 PING-000.00-MS
+hy2://dongtaiwang.com@108.181.22.155:27710/?insecure=1&sni=www.bing.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@108.181.22.155:27710?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.155:27710 📡 PING-000.00-MS
 hy2://dongtaiwang.com@108.181.22.155:44141/?insecure=1&sni=www.bing.com#%40EUT_VPN%20%7CHYSTERIA%7C
 hy2://dongtaiwang.com@108.181.22.155:44141/?insecure=1&sni=www.bing.com#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hy2://dongtaiwang.com@108.181.22.155:44141?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.22.155:44141%20%F0%9F%93%A1%20PING-000.00-MS
@@ -152,6 +183,8 @@ hy2://dongtaiwang.com@108.181.22.205:51443?insecure=1&sni=www.bing.com#%F0%9F%94
 hy2://dongtaiwang.com@108.181.22.205:51443?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.205:51443 📡 PING-000.00-MS
 hy2://dongtaiwang.com@108.181.24.7:30682?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.24.7:30682%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://dongtaiwang.com@108.181.24.7:30682?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.24.7:30682 📡 PING-000.00-MS
+hy2://dongtaiwang.com@167.160.90.252:63530/?insecure=1&sni=www.bing.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@167.160.90.252:63530?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-167.160.90.252:63530 📡 PING-000.00-MS
 hy2://dongtaiwang.com@36.232.3.24:26806?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-36.232.3.24:26806%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://dongtaiwang.com@36.232.3.24:26806?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇹🇼 TW-36.232.3.24:26806 📡 PING-000.00-MS
 hy2://dongtaiwang.com@36.232.3.24:43735?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-36.232.3.24:43735%20%F0%9F%93%A1%20PING-000.00-MS
@@ -160,8 +193,27 @@ hy2://dongtaiwang.com@45.145.72.212:23520/?insecure=1&sni=bing.com#%20%20%40EUT_
 hy2://dongtaiwang.com@45.145.72.212:23520/?insecure=1&sni=bing.com#%20%20%40TUICity%20%7CHYSTERIA%7C
 hy2://dongtaiwang.com@45.145.72.212:23520?insecure=1&sni=bing.com#🇺🇸US%20|%20hy2%20|%20@TUICity%20|%204
 hy2://dongtaiwang.com@45.145.72.212:23520?insecure=1&sni=bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-45.145.72.212:23520 📡 PING-000.00-MS
+hy2://dongtaiwang.com@51.158.54.46:44550/?insecure=1&sni=bing.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@51.158.54.46:44550?insecure=1&sni=bing.com#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:44550 📡 PING-000.00-MS
+hy2://dongtaiwang.com@62.210.101.0:52465/?insecure=1&sni=www.bing.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@62.210.101.0:52465?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇫🇷 FR-62.210.101.0:52465 📡 PING-000.00-MS
+hy2://dongtaiwang.com@64.110.25.11:33337/?insecure=1&sni=www.bing.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://dongtaiwang.com@64.110.25.11:33337?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-64.110.25.11:33337 📡 PING-000.00-MS
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@154.12.81.133:8453/?insecure=1&sni=xg10.441122.xyz#%40TUICity%20%7CHYSTERIA%7C
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@154.12.81.133:8453?insecure=1&sni=xg10.441122.xyz#🔒 HYSTERIA-UDP 🇭🇰 HK-154.12.81.133:8453 📡 PING-000.00-MS
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@185.172.114.88:9651/?insecure=1&sni=djzy.888451.xyz#%40TUICity%20%7CHYSTERIA%7C
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@185.172.114.88:9651?insecure=1&sni=djzy.888451.xyz#🔒 HYSTERIA-UDP 🇯🇵 JP-185.172.114.88:9651 📡 PING-000.00-MS
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@192.166.82.40:6548/?insecure=1&sni=yhhy.441166.xyz#%40TUICity%20%7CHYSTERIA%7C
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@192.166.82.40:6548?insecure=1&sni=yhhy.441166.xyz#🔒 HYSTERIA-UDP 🇺🇸 US-192.166.82.40:6548 📡 PING-000.00-MS
+hy2://e37be73b-4347-439b-a0c9-aa22f8a85226@192.227.220.61:11010/?insecure=1&sni=bk.888553.xyz#%40TUICity%20%7CHYSTERIA%7C
 hy2://ebcbb37b@36.232.23.191:54406?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-36.232.23.191:54406%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://ebcbb37b@36.232.23.191:54406?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇹🇼 TW-36.232.23.191:54406 📡 PING-000.00-MS
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@108.181.22.153:443/?sni=20-24-33-134.nhost.00cdn.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@108.181.22.153:443?sni=20-24-33-134.nhost.00cdn.com#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.153:443 📡 PING-000.00-MS
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@108.181.24.43:443/?sni=20-24-33-134.nhost.00cdn.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@108.181.24.43:443?sni=20-24-33-134.nhost.00cdn.com#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.24.43:443 📡 PING-000.00-MS
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@208.87.243.155:443/?sni=20-24-33-134.nhost.00cdn.com#%40TUICity%20%7CHYSTERIA%7C
+hy2://f34ec9d8-3ae0-46ba-94e7-a03eaf2af651@208.87.243.155:443?sni=20-24-33-134.nhost.00cdn.com#🔒 HYSTERIA-UDP 🇺🇸 US-208.87.243.155:443 📡 PING-000.00-MS
 hy2://f40b1e441addaec3@45.76.44.57:443/?insecure=1&sni=google.co&obfs=salamander&obfs-password=2db7b42a#%40EUT_VPN%20%7C%20HYSTERIA%20%7C
 hy2://f40b1e441addaec3@45.76.44.57:443/?insecure=1&sni=google.co&obfs=salamander&obfs-password=2db7b42a#%40EUT_VPN%20%7CHY2%7C
 hy2://f40b1e441addaec3@45.76.44.57:443/?insecure=1&sni=telegramEUT-VPN.ddns.net&obfs=salamander&obfs-password=2db7b42a#%40EUT_VPN%20%7C%20HYSTERIA%20%7C
@@ -184,6 +236,9 @@ hy2://f40b1e441addaec3@64.176.191.187:443?insecure=1&sni=google.co&obfs=salamand
 hy2://f40b1e441addaec3@64.176.191.187:443?insecure=1&sni=google.co&obfs=salamander&obfs-password=2db7b42a#🔒 HYSTERIA-UDP 🇬🇧 GB-64.176.191.187:443 📡 PING-136.76-MS
 hy2://f40b1e441addaec3@[2001:19f0:6801:1ba7:5400:4ff:fea9:2455]:443?insecure=1&sni=google.co&obfs=salamander&obfs-password=2db7b42a#🔒 HYSTERIA-UDP 🇫🇷 FR-[2001:19f0:6801:1ba7:5400:4ff:fea9:2455]:443 📡 PING-000.00-MS
 hy2://f40b1e441addaec3@hys.cpionline.co:443/?insecure=1&sni=google.co&obfs=salamander&obfs-password=2db7b42a#irancpi2
+hy2://f6e4b19a3110d19d@66.135.28.59:443/?insecure=1&sni=www.apple.com%0A&obfs=salamander&obfs-password=8c3ce17b#%40TUICity%20%7CHYSTERIA%7C
+hy2://f6e4b19a3110d19d@66.135.28.59:443?insecure=1&sni=www.apple.com%0A&obfs=salamander&obfs-password=8c3ce17b#🔒 HYSTERIA-UDP 🇺🇸 US-66.135.28.59:443 📡 PING-047.09-MS
+hy2://f6e4b19a3110d19d@[2001:19f0:1000:6daf:5400:4ff:feba:32c3]:443?insecure=1&sni=www.apple.com%0A&obfs=salamander&obfs-password=8c3ce17b#🔒 HYSTERIA-UDP 🇺🇸 US-[2001:19f0:1000:6daf:5400:4ff:feba:32c3]:443 📡 PING-000.00-MS
 hy2://i2XRv7zj1uWE@167.160.90.251:10981/?insecure=1&sni=www.bing.com#%40EUT_VPN
 hy2://i2XRv7zj1uWE@167.160.90.251:10981/?insecure=1&sni=www.bing.com#%40EUT_VPN%20%7CHYSTERIA%7C
 hy2://i2XRv7zj1uWE@167.160.90.251:10981/?insecure=1&sni=www.bing.com#%40EUT_VPN%20%7CHYSTERIA%7C%20%0ALOCATION%3A%20United%20States%20%7C%F0%9F%87%BA%F0%9F%87%B2%7C
@@ -248,6 +303,8 @@ hy2://y0qochAspE+u-HLfrip-@217.69.9.125:443/?insecure=1&sni=Google.com&obfs=sala
 hy2://y0qochAspE+u-HLfrip-@217.69.9.125:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#SHERVIN%F0%9F%94%AEHYSTERIA%C2%B2
 hy2://y0qochAspE+u-HLfrip-@217.69.9.125:443?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#🔒 HYSTERIA-UDP 🇫🇷 FR-217.69.9.125:443 📡 PING-000.00-MS
 hy2://y0qochAspE+u-HLfrip-@217.69.9.125:443?obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so&insecure=1&sni=Google.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-217.69.9.125:443%20%F0%9F%93%A1%20PING-000.00-MS
+hy2://y0qochAspE+u-HLfrip-@45.32.234.211:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#%40TUICity%20%7CHYSTERIA%7C
+hy2://y0qochAspE+u-HLfrip-@45.32.234.211:443?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#🔒 HYSTERIA-UDP 🇳🇱 NL-45.32.234.211:443 📡 PING-000.00-MS
 hy2://y0qochAspE+u-HLfrip-@45.32.237.246:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#%40EUT_VPN%20%7CHYSTERIA%7C
 hy2://y0qochAspE+u-HLfrip-@45.32.237.246:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-45.32.237.246%3A443%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://y0qochAspE+u-HLfrip-@45.32.237.246:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#SH%CE%9E%D0%AFVIN%E2%84%A2
@@ -262,6 +319,7 @@ hy2://y0qochAspE+u-HLfrip-@[2606:4700:3037::6815:5f1d]:443?insecure=1&sni=Google
 hy2://y0qochAspE+u-HLfrip-@[2606:4700:3037::6815:5f1d]:443?obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so&insecure=1&sni=Google.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-[2606:4700:3037::6815:5f1d]:443%20%F0%9F%93%A1%20PING-000.00-MS
 hy2://y0qochAspE+u-HLfrip-@hys.cpionline.co:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#irancpi
 hy2://y0qochAspE+u-HLfrip-@hys3.cpionline.co:443/?insecure=1&sni=Google.com&obfs=salamander&obfs-password=2pU%21%26Brls%210exuP%2B%214so#irancpi3
+hysteria://1.162.129.119:22334?insecure=1&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.129.119:22334 📡 PING-000.00-MS
 hysteria://1.162.130.168:11223?insecure=1&auth=mqoE9qSoyMFa&upmbps=50&downmbps=80&alpn=h3#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.130.168:11223 📡 PING-000.00-MS
 hysteria://1.162.136.159:11223/?insecure=1&peer=cdn.discordapp.com&auth=mqoE9qSoyMFa&upmbps=11&downmbps=55&alpn=h3#%40EUT_VPN%20%7C%20HYSTERIA%20%7C
 hysteria://1.162.136.159:11223?insecure=1&peer=telegramEUT-VPN.ddns.net&auth=mqoE9qSoyMFa&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.136.159:11223 📡 PING-000.00-MS
@@ -269,6 +327,10 @@ hysteria://1.162.139.149:11223/?insecure=1&peer=www.dtku46.xyz&auth=mqoE9qSoyMFa
 hysteria://1.162.139.149:11223?insecure=1&peer=www.dtku46.xyz&auth=mqoE9qSoyMFa&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.139.149:11223 📡 PING-000.00-MS
 hysteria://1.162.38.231:43250?peer=bing.com&auth=&insecure=1&upmbps=50&downmbps=80&alpn=h3&mport=43250&obfs=&protocol=udp&fastopen=1#🔒 HYSTERIA-UDP 🇹🇼 TW-1.162.38.231:43250 📡 PING-000.00-MS
 hysteria://1.162.38.231:43250?upmbps=50&downmbps=80&auth=&mport=43250&insecure=1&peer=bing.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-1.162.38.231:43250%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://104.234.70.41:57153/?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://104.234.70.41:57153?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-104.234.70.41:57153 📡 PING-000.00-MS
+hysteria://104.234.70.6:11330/?insecure=1&peer=vpnproxy66.online&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://104.234.70.6:11330?insecure=1&peer=vpnproxy66.online&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-104.234.70.6:11330 📡 PING-000.00-MS
 hysteria://104.234.70.6:16117/?insecure=1&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#%20%40EUT_VPN%20%7CHYSTERIA%7C
 hysteria://104.234.70.6:16117/?insecure=1&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#%20%40TUICity%20%7CHYSTERIA%7C
 hysteria://104.234.70.6:16117?insecure=1&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-104.234.70.6:16117 📡 PING-000.00-MS
@@ -279,6 +341,11 @@ hysteria://108.181.22.155:11223?upmbps=50&downmbps=80&auth=O5tQQiW2xKf5&alpn=h3#
 hysteria://108.181.22.205:22334/?auth=lASdKzWK0VxL&upmbps=50&downmbps=80&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C
 hysteria://108.181.22.205:22334?peer=&auth=lASdKzWK0VxL&insecure=0&upmbps=50&downmbps=80&alpn=h3&mport=22334&obfs=&protocol=udp&fastopen=1#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.205:22334 📡 PING-000.00-MS
 hysteria://108.181.22.205:22334?upmbps=50&downmbps=80&auth=lASdKzWK0VxL&mport=22334&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.22.205:22334%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://108.181.22.213:33450/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://108.181.22.213:33450?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.213:33450 📡 PING-000.00-MS
+hysteria://108.181.22.239:39967/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://108.181.22.239:39967/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CTUIC%7C
+hysteria://108.181.22.239:39967?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-108.181.22.239:39967 📡 PING-000.00-MS
 hysteria://108.181.22.239:61561/?insecure=1&peer=cdn.discordapp.com&auth=PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg&upmbps=80&downmbps=100&alpn=h3#%40EUT_VPN%20%7C%20HYSTERIA%20%7C
 hysteria://108.181.22.239:61561/?insecure=1&peer=telegramEUT-VPN.ddns.net&auth=PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg&upmbps=80&downmbps=100&alpn=h3#%40EUT_VPN%20%7C%20HYSTERIA%20%7C
 hysteria://108.181.22.239:61561/?insecure=1&peer=www.bing.com&auth=PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg&upmbps=0&downmbps=0&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C
@@ -325,6 +392,8 @@ hysteria://111.243.99.177:11223/?insecure=1&peer=cmirq.ir&auth=mqoE9qSoyMFa&upmb
 hysteria://111.243.99.177:11223/?insecure=1&peer=film2movie.asia&auth=mqoE9qSoyMFa&upmbps=0&downmbps=0&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hysteria://111.243.99.177:11223?insecure=1&auth=mqoE9qSoyMFa&upmbps=50&downmbps=80&alpn=h3#🔒 HYSTERIA-UDP 🇹🇼 TW-111.243.99.177:11223 📡 PING-000.00-MS
 hysteria://111.243.99.177:11223?upmbps=50&downmbps=80&auth=mqoE9qSoyMFa&insecure=1&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-111.243.99.177:11223%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://140.238.101.151:7228?insecure=1&peer=uk1.shiyuandian.shop&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&upmbps=100&downmbps=200&alpn=h3#🔒 HYSTERIA-UDP 🇬🇧 GB-140.238.101.151:7228 📡 PING-000.00-MS
+hysteria://140.238.200.114:15472?insecure=1&peer=au.shiyuandian.shop&auth=ae845cbd-08fb-4346-929a-e28a6f3960a8&upmbps=100&downmbps=200&alpn=h3#🔒 HYSTERIA-UDP 🇦🇺 AU-140.238.200.114:15472 📡 PING-000.00-MS
 hysteria://149.28.63.245:8443?peer=us-hysteria.racevpn.com&upmbps=10&downmbps=50&obfs=xplus&obfsParam=RMhYH7GNlcAE21X#🔒 HYSTERIA-UDP 🇺🇸 US-149.28.63.245:8443 📡 PING-000.00-MS
 hysteria://155.94.235.109:56600?insecure=1&peer=wechat.com&upmbps=1126&downmbps=1126&alpn=h3&obfs=xplus&obfsParam=1dDS9qxUIQXHmJYq2xitzRecWQTeQUZ8iWTqriKifH8RIWAOhu&protocol=wechat-video#🔒 HYSTERIA-UDP 🇺🇸 US-155.94.235.109:56600 📡 PING-000.00-MS
 hysteria://155.94.235.109:56600?upmbps=1126&downmbps=1126&obfs=xplus&obfsParam=1dDS9qxUIQXHmJYq2xitzRecWQTeQUZ8iWTqriKifH8RIWAOhu&protocol=wechat-video&insecure=1&peer=wechat.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-155.94.235.109:56600%20%F0%9F%93%A1%20PING-000.00-MS
@@ -338,6 +407,8 @@ hysteria://167.160.90.251:48089?insecure=1&peer=cdn.discordapp.com&auth=dongtaiw
 hysteria://167.160.90.251:48089?insecure=1&peer=telegramEUT-VPN.ddns.net&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-167.160.90.251:48089 📡 PING-000.00-MS
 hysteria://167.160.91.115:13928?insecure=1&peer=paypal.com&auth=BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3&upmbps=50&downmbps=100&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-167.160.91.115:13928 📡 PING-000.00-MS
 hysteria://167.160.91.115:13928?upmbps=50&downmbps=100&auth=BF0LL4L2jlqSdW3KxjQv81AiFFjj90vWRHeUoqUuTVPeDAGvq3&insecure=1&peer=paypal.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-167.160.91.115:13928%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://167.160.91.115:41189/?insecure=1&peer=www.amazon.cn&auth=bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://167.160.91.115:41189?insecure=1&peer=www.amazon.cn&auth=bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-167.160.91.115:41189 📡 PING-000.00-MS
 hysteria://172.105.18.102:8443?peer=ca-hysteria.racevpn.com&upmbps=10&downmbps=50&obfs=xplus&obfsParam=qGDBJ7euzN#🔒 HYSTERIA-UDP 🇨🇦 CA-172.105.18.102:8443 📡 PING-000.00-MS
 hysteria://172.232.53.227:36712?insecure=1&upmbps=10&downmbps=50&obfs=xplus&obfsParam=qPaMUjAl3H3Vx0M#🔒 HYSTERIA-UDP 🇫🇷 FR-172.232.53.227:36712 📡 PING-000.00-MS
 hysteria://172.232.53.227:36712?upmbps=10&downmbps=50&obfs=xplus&obfsParam=qPaMUjAl3H3Vx0M&insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-172.232.53.227:36712%20%F0%9F%93%A1%20PING-000.00-MS
@@ -361,6 +432,8 @@ hysteria://173.234.25.52:20164?insecure=1&peer=ELiV2.shop&auth=Ljg6NNEATDqP97hdA
 hysteria://173.234.25.52:20164?insecure=1&peer=telegramEUT-VPN.ddns.net&auth=Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F&upmbps=50&downmbps=100&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-173.234.25.52:20164 📡 PING-000.00-MS
 hysteria://173.234.25.52:20164?insecure=1&peer=www.microsoft.com&auth=Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F&upmbps=50&downmbps=100&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-173.234.25.52:20164 📡 PING-000.00-MS
 hysteria://173.234.25.52:20164?upmbps=50&downmbps=100&auth=Ljg6NNEATDqP97hdAdHe1lJv7ggtKc0h7zmCCZKCX3qY0LR64F&insecure=1&peer=bing.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-173.234.25.52:20164%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://173.234.25.52:30072/?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%40TUICity%20%7CHYSTERIA%7C
+hysteria://173.234.25.52:30072?insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇺🇸 US-173.234.25.52:30072 📡 PING-000.00-MS
 hysteria://185.81.28.11:14222/?insecure=1&peer=wechat.com&upmbps=1126&downmbps=1126&alpn=h3&obfs=xplus&obfsParam=LbWqqW3rh3V3MiGG8STBRe5AoQzmHXAa9eORMV1kTtmtMbAqk1&protocol=wechat-video#%40EUT_VPN%20%7CHYSTERIA%7C
 hysteria://185.81.28.11:14222?insecure=1&peer=wechat.com&upmbps=1126&downmbps=1126&alpn=h3&obfs=xplus&obfsParam=LbWqqW3rh3V3MiGG8STBRe5AoQzmHXAa9eORMV1kTtmtMbAqk1&protocol=wechat-video#🔒 HYSTERIA-UDP 🇸🇬 SG-185.81.28.11:14222 📡 PING-000.00-MS
 hysteria://199.247.7.82:8443?peer=de-hysteria.racevpn.com&upmbps=10&downmbps=50&obfs=xplus&obfsParam=2r6wMYUuXANFDfn#🔒 HYSTERIA-UDP 🇩🇪 DE-199.247.7.82:8443 📡 PING-000.00-MS
@@ -377,6 +450,8 @@ hysteria://37.128.252.101:443?mport=20001-21001&peer=aktw.wusiba.xyz&auth=vvYiU4
 hysteria://37.128.252.101:443?upmbps=220&downmbps=220&auth=vvYiU4nhq2w6dZlbxzQrVtcrJs7KEHwRbUJgYNZZpbrVJOJYs1&mport=20001-21001&peer=aktw.wusiba.xyz&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-37.128.252.101:443%20%F0%9F%93%A1%20PING-139.03-MS
 hysteria://45.152.115.205:15666?insecure=1&upmbps=5&downmbps=12&obfs=xplus&obfsParam=Q_vtX%25%24R#🔒 HYSTERIA-UDP 🇳🇱 NL-45.152.115.205:15666 📡 PING-000.00-MS
 hysteria://45.152.115.205:15666?upmbps=5&downmbps=12&obfs=xplus&obfsParam=Q_vtX%25%24R&insecure=1#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-45.152.115.205:15666%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://5.182.86.167:43223/?insecure=1&peer=www.bing.com&auth=d6b09d56&upmbps=20&downmbps=20&alpn=h3#%40TUICity%20%7C%20HYSTERIA%7C
+hysteria://5.182.86.167:43223?insecure=1&peer=www.bing.com&auth=d6b09d56&upmbps=20&downmbps=20&alpn=h3#🔒 HYSTERIA-UDP 🇳🇱 NL-5.182.86.167:43223 📡 PING-000.00-MS
 hysteria://50.114.40.110:62839/?peer=bing.com&auth=K6MWhE5PP8aKzSGIF1I4Zjb8tpLicSG3NzWckWLsRIGZ9CAOc9&upmbps=1100&downmbps=1100&alpn=h3&protocol=wechat-video#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hysteria://50.114.40.110:62839/?peer=cmirq.ir&auth=K6MWhE5PP8aKzSGIF1I4Zjb8tpLicSG3NzWckWLsRIGZ9CAOc9&upmbps=1100&downmbps=1100&alpn=h3&protocol=wechat-video#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hysteria://50.114.40.110:62839/?peer=ghbi.ir&auth=K6MWhE5PP8aKzSGIF1I4Zjb8tpLicSG3NzWckWLsRIGZ9CAOc9&upmbps=1100&downmbps=1100&alpn=h3&protocol=wechat-video#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
@@ -413,11 +488,13 @@ hysteria://51.158.54.46:11926/?insecure=1&peer=youku.com&auth=Trz2alKwzCImRAXI3n
 hysteria://51.158.54.46:11926/?insecure=1&peer=youku.com&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=11&downmbps=55&alpn=h3#SHERVIN%F0%9F%94%AEHYSTERIA%C2%B9
 hysteria://51.158.54.46:11926/?insecure=1&peer=youku.com&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=11&downmbps=55&alpn=h3#SHΞЯVIN™
 hysteria://51.158.54.46:11926/?insecure=1&peer=youku.com&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=80&downmbps=100&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C
+hysteria://51.158.54.46:11926?insecure=1&peer=cdn.discordapp.com&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=80&downmbps=100&alpn=h3#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:11926 📡 PING-000.00-MS
 hysteria://51.158.54.46:11926?insecure=1&peer=telegramEUT-VPN.ddns.net&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=80&downmbps=100&alpn=h3#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:11926 📡 PING-000.00-MS
 hysteria://51.158.54.46:11926?insecure=1&peer=youku.com&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:11926 📡 PING-000.00-MS
 hysteria://51.158.54.46:11926?upmbps=11&downmbps=55&auth=Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs&insecure=1&peer=youku.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-51.158.54.46:11926%20%F0%9F%93%A1%20PING-000.00-MS
 hysteria://51.158.54.46:49139?peer=www.paypal.com&auth=dongtaiwang.com&insecure=1&upmbps=50&downmbps=100&alpn=h3&obfs=&protocol=udp&fastopen=1#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:49139 📡 PING-000.00-MS
 hysteria://51.158.54.46:49139?upmbps=50&downmbps=100&auth=dongtaiwang.com&insecure=1&peer=www.paypal.com&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-51.158.54.46:49139%20%F0%9F%93%A1%20PING-000.00-MS
+hysteria://51.158.54.46:55396?insecure=1&peer=youku.com&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#🔒 HYSTERIA-UDP 🇫🇷 FR-51.158.54.46:55396 📡 PING-000.00-MS
 hysteria://62.204.54.81:37899/?insecure=1&peer=bing.com&auth=OdHFS3zC3HlSYJmc0GLQNKLAlwDbJqEmonVBXmI07T0Ojb1bQB&upmbps=0&downmbps=0&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hysteria://62.204.54.81:37899/?insecure=1&peer=bing.com&auth=OdHFS3zC3HlSYJmc0GLQNKLAlwDbJqEmonVBXmI07T0Ojb1bQB&upmbps=2&downmbps=10&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 hysteria://62.204.54.81:37899/?insecure=1&peer=cmirq.ir&auth=OdHFS3zC3HlSYJmc0GLQNKLAlwDbJqEmonVBXmI07T0Ojb1bQB&upmbps=0&downmbps=0&alpn=h3#%40EUT_VPN%20%7CHYSTERIA%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
@@ -524,6 +601,9 @@ tuic://3618921b-adeb-4bd3-a2a0-f98b72a674b1:dongtaiwang@108.181.24.7:23450?conge
 tuic://3618921b-adeb-4bd3-a2a0-f98b72a674b1:dongtaiwang@108.181.24.7:23450?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.24.7:23450 📡 PING-000.00-MS
 tuic://36d6136b-8f64-4f71-b83a-5069d853d0e4:yebekhe@168.138.12.115:23233?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%A6%F0%9F%87%BA%20AU-168.138.12.115:23233%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://36d6136b-8f64-4f71-b83a-5069d853d0e4:yebekhe@168.138.12.115:23233?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#🔒 TUIC-UDP 🇦🇺 AU-168.138.12.115:23233 📡 PING-000.00-MS
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@136.244.88.153:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@136.244.88.153:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.apple.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | DE🇩🇪 | 0️⃣3️⃣
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@136.244.88.153:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇩🇪 DE-136.244.88.153:443 📡 PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443/?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7C%20TUIC%20%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=telegramEUT-VPN.ddns.net&udp_relay_mode=native#رایگان | TUIC | @V2rayCollector | CA🇨🇦 | 0️⃣4️⃣
@@ -531,17 +611,26 @@ tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443?c
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇨🇦 CA-149.248.51.37:443 📡 PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🇨🇦CA%20|%20tuic%20|%20@azadi_az_inja_migzare%20|%2021
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@149.248.51.37:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇨🇦 CA-149.248.51.37:443 📡 PING-000.00-MS
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@199.247.1.134:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@199.247.1.134:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇩🇪 DE-199.247.1.134:443 📡 PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=cmirq.ir&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7C%20TUIC%20%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-209.250.254.198%3A443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=telegramEUT-VPN.ddns.net&udp_relay_mode=native#رایگان | TUIC | @EUT_VPN | NL🇳🇱 | 0️⃣1️⃣
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.apple.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | NL🇳🇱 | 0️⃣1️⃣
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.apple.com&udp_relay_mode=native#رایگان | TUIC | @V2rayCollector | NL🇳🇱 | 0️⃣1️⃣
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?congestion_control=bbr&alpn=h3&sni=www.apple.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-209.250.254.198:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🇳🇱NL%20|%20tuic%20|%20@EUT_VPN%20|%2036
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443 📡 PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@209.250.254.198:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇳🇱 NL-209.250.254.198:443 📡 PING-000.00-MS
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@45.76.94.18:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@45.76.94.18:443?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.apple.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | DE🇩🇪 | 0️⃣2️⃣
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@45.76.94.18:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇩🇪 DE-45.76.94.18:443 📡 PING-000.00-MS
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@95.179.167.38:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@95.179.167.38:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇩🇪 DE-95.179.167.38:443 📡 PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@[2001:19f0:5001:3142:5400:4ff:fea5:203c]:443/?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@[2001:19f0:5001:3142:5400:4ff:fea5:203c]:443?congestion_control=bbr&alpn=h3&sni=www.apple.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-[2001:19f0:5001:3142:5400:4ff:fea5:203c]:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://38e38f61-b1dd-4b34-90d0-f6222fd7393f:e7b1c11f0d40cc95@[2001:19f0:5001:3142:5400:4ff:fea5:203c]:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇳🇱 NL-[2001:19f0:5001:3142:5400:4ff:fea5:203c]:443 📡 PING-000.00-MS
@@ -565,6 +654,7 @@ tuic://456521c2-1368-4d96-b772-a137d28e184c:e06766679c9a8be4@45.11.94.83:2083?co
 tuic://456521c2-1368-4d96-b772-a137d28e184c:e06766679c9a8be4@45.11.94.83:2083?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3%2C+spdy%2F3.1&allow_insecure=1#🇺🇸US%20|%20tuic%20|%20@EUT_VPN%20|%2034
 tuic://4576f920-975b-4ab4-b53a-bdcfa623124d:dongtaiwang.com@108.181.22.239:45600/?congestion_control=bbr&udp_relay_mode=native&sni=www.virustotal.com&alpn=h3&allow_insecure=1#%20%40TUICity%20%7CTUIC%7C
 tuic://4576f920-975b-4ab4-b53a-bdcfa623124d:dongtaiwang.com@108.181.22.239:45600/?congestion_control=bbr&udp_relay_mode=native&sni=www.virustotal.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
+tuic://4576f920-975b-4ab4-b53a-bdcfa623124d:dongtaiwang.com@108.181.22.239:45600?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.virustotal.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣7️⃣
 tuic://4576f920-975b-4ab4-b53a-bdcfa623124d:dongtaiwang.com@108.181.22.239:45600?congestion_control=bbr&udp_relay_mode=native&sni=www.virustotal.com&alpn=h3&allow_insecure=1#🇺🇸US%20|%20tuic%20|%20@TUICity%20|%207
 tuic://4576f920-975b-4ab4-b53a-bdcfa623124d:dongtaiwang.com@108.181.22.239:45600?congestion_control=bbr&udp_relay_mode=native&sni=www.virustotal.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.22.239:45600 📡 PING-000.00-MS
 tuic://45e2b23a-1a49-49c4-9422-8d786887ef3d:51UMpwpdw0Kw@36.232.59.228:19881?congestion_control=bbr&alpn=h3&sni=bing.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B9%F0%9F%87%BC%20TW-36.232.59.228:19881%20%F0%9F%93%A1%20PING-000.00-MS
@@ -589,6 +679,10 @@ tuic://628e821d-5151-48d6-8af3-e89cd74e6f4d:628e821d-5151-48d6-8af3-e89cd74e6f4d
 tuic://628e821d-5151-48d6-8af3-e89cd74e6f4d:628e821d-5151-48d6-8af3-e89cd74e6f4d@hdfyhys2.cpionline.co:26288?alpn=h3&congestion_control=cubic&sni=hdfyhys2.cpionline.co&udp_relay_mode=native#رایگان | TUIC | @irancpi_vpn | NL🇳🇱 | 0️⃣2️⃣
 tuic://628e821d-5151-48d6-8af3-e89cd74e6f4d:628e821d-5151-48d6-8af3-e89cd74e6f4d@hdfyhys2.foriran.trade:26289/?congestion_control=cubic&udp_relay_mode=native&sni=hdfyhys2.foriran.trade&alpn=h3#irancpi%20TUIC
 tuic://628e821d-5151-48d6-8af3-e89cd74e6f4d:628e821d-5151-48d6-8af3-e89cd74e6f4d@hdfyhys2.foriran.trade:26289?alpn=h3&congestion_control=cubic&sni=hdfyhys2.foriran.trade&udp_relay_mode=native#رایگان | TUIC | @irancpi_vpn | NL🇳🇱 | 0️⃣1️⃣
+tuic://6313c68a-472b-4999-ba33-094a55ea7549:FRebRlCrO+huXaprEwr6@70.34.214.160:443?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇸🇪 SE-70.34.214.160:443 📡 PING-000.00-MS
+tuic://670998c6-a78f-43cc-86aa-29292476e040:dongtaiwang.com@64.110.25.10:33445/?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://670998c6-a78f-43cc-86aa-29292476e040:dongtaiwang.com@64.110.25.10:33445?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=bing.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣4️⃣
+tuic://670998c6-a78f-43cc-86aa-29292476e040:dongtaiwang.com@64.110.25.10:33445?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:33445 📡 PING-000.00-MS
 tuic://70822694-4e2d-4f0b-8160-a0c4eaf77469:IRVLESS@178.63.218.79:4845/?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1&disable_sni=1#IRVLESS-TUIC
 tuic://70822694-4e2d-4f0b-8160-a0c4eaf77469:IRVLESS@178.63.218.79:4845?congestion_control=bbr&alpn=h3&udp_relay_mode=native&allow_insecure=1&disable_sni=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%A9%F0%9F%87%AA%20DE-178.63.218.79:4845%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://70822694-4e2d-4f0b-8160-a0c4eaf77469:IRVLESS@178.63.218.79:4845?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1&disable_sni=1#🔒 TUIC-UDP 🇩🇪 DE-178.63.218.79:4845 📡 PING-000.00-MS
@@ -614,16 +708,23 @@ tuic://7398dbbc-5538-40bb-bc78-ea7a5b68ee01:e7e87e5bfd77bcb5@139.144.77.210:443?
 tuic://7398dbbc-5538-40bb-bc78-ea7a5b68ee01:e7e87e5bfd77bcb5@139.144.77.210:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#🔒 TUIC-UDP 🇩🇪 DE-139.144.77.210:443 📡 PING-000.00-MS
 tuic://764b539f-2d3c-4772-9731-5ebf6984af98:dongtaiwang.com@64.110.25.10:11227/?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://764b539f-2d3c-4772-9731-5ebf6984af98:dongtaiwang.com@64.110.25.10:11227/?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://764b539f-2d3c-4772-9731-5ebf6984af98:dongtaiwang.com@64.110.25.10:11227?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=bing.com&udp_relay_mode=native#رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣6️⃣
 tuic://764b539f-2d3c-4772-9731-5ebf6984af98:dongtaiwang.com@64.110.25.10:11227?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#🇺🇸US%20|%20tuic%20|%20@TUICity%20|%205
 tuic://764b539f-2d3c-4772-9731-5ebf6984af98:dongtaiwang.com@64.110.25.10:11227?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-64.110.25.10:11227 📡 PING-000.00-MS
+tuic://768dba4b-40e9-43dd-8135-9dec2425cd53:7f36c26f9e5e21ae@136.244.102.244:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&allow_insecure=1#🔒 TUIC-UDP 🇳🇱 NL-136.244.102.244:443 📡 PING-112.73-MS
+tuic://768dba4b-40e9-43dd-8135-9dec2425cd53:7f36c26f9e5e21ae@[2001:19f0:5001:f39:5400:4ff:feba:32ce]:443?congestion_control=bbr&udp_relay_mode=native&sni=www.apple.com&allow_insecure=1#🔒 TUIC-UDP 🇳🇱 NL-[2001:19f0:5001:f39:5400:4ff:feba:32ce]:443 📡 PING-000.00-MS
 tuic://774a9aa2-617f-4fad-a09e-2e3a67cddd93:danialrad@[2a12:5940:71f8::2]:443/?congestion_control=cubic&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#tuicupv6_2
 tuic://7f7447c4-3521-4b7b-9c38-e64f5b18e135:xhxp5Zha@172.232.42.32:28036?congestion_control=bbr&alpn=h3%2Cspdy%2F3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-172.232.42.32:28036%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://7f7447c4-3521-4b7b-9c38-e64f5b18e135:xhxp5Zha@172.232.42.32:28036?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇫🇷 FR-172.232.42.32:28036 📡 PING-000.00-MS
 tuic://7f9a73a3-e455-4053-ae38-f07719753dff:----Join-Telegram%3A%40IP_CF----@79.137.206.126:443?congestion_control=cubic&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇫🇮 FI-79.137.206.126:443 📡 PING-000.00-MS
 tuic://7f9a73a3-e455-4053-ae38-f07719753dff:----Join-Telegram:%40IP_CF----@79.137.206.126:443?congestion_control=cubic&alpn=h3%2Cspdy%2F3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AB%F0%9F%87%AE%20FI-79.137.206.126:443%20%F0%9F%93%A1%20PING-000.00-MS
+tuic://81d527fd-5bbf-40fc-b2b0-be1956133aa6:81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:14758/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://81d527fd-5bbf-40fc-b2b0-be1956133aa6:81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:14758?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.bing.com&udp_relay_mode=native#رایگان | TUIC | @FAKEOFTVC | US🇺🇸 | 0️⃣4️⃣
+tuic://81d527fd-5bbf-40fc-b2b0-be1956133aa6:81d527fd-5bbf-40fc-b2b0-be1956133aa6@107.173.15.52:14758?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇨🇦 CA-107.173.15.52:14758 📡 PING-000.00-MS
 tuic://81ef78ef-721f-443e-aa3f-969072c0b8eb:azadi@46.37.124.122:443?congestion_control=bbr&alpn=h3%2Cspdy%2F3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AC%F0%9F%87%A7%20GB-46.37.124.122:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://81ef78ef-721f-443e-aa3f-969072c0b8eb:azadi@46.37.124.122:443?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇬🇧 GB-46.37.124.122:443 📡 PING-000.00-MS
 tuic://81ef78ef-721f-443e-aa3f-969072c0b8eb:azadi@azadi-az-inja-migzare-d3.dgi000.store:443/?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#%F0%9F%87%AC%F0%9F%87%A7%40inikotesla
+tuic://87bc1693-8860-41d7-acf4-e6edf49abbbb:crivAv10hAdr-fop4Lne@70.34.197.98:443?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇸🇪 SE-70.34.197.98:443 📡 PING-000.00-MS
 tuic://9345e01b-23e9-4a7e-9f85-a2c35e59baa2:6b55724214843451@172.232.132.221:443?congestion_control=bbr&udp_relay_mode=native#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B8%F0%9F%87%AA%20SE-172.232.132.221:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://9345e01b-23e9-4a7e-9f85-a2c35e59baa2:6b55724214843451@172.232.132.221:443?congestion_control=bbr&udp_relay_mode=native#🔒 TUIC-UDP 🇸🇪 SE-172.232.132.221:443 📡 PING-000.00-MS
 tuic://96fb89bd-1f43-4393-9717-6414e7fa5e08:96fb89bd-1f43-4393-9717-6414e7fa5e08@95.179.219.237:14903?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-95.179.219.237:14903%20%F0%9F%93%A1%20PING-000.00-MS
@@ -642,6 +743,9 @@ tuic://9b118259-9640-4302-b50c-a0f406751b3f:bCczjgjl@172.232.121.86:16675?conges
 tuic://9b118259-9640-4302-b50c-a0f406751b3f:bCczjgjl@172.232.121.86:16675?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#🔒 TUIC-UDP 🇮🇳 IN-172.232.121.86:16675 📡 PING-000.00-MS
 tuic://9ffd1367-1808-4eb8-b0d6-043b83a9b5dc:opeta@185.174.137.249:10001?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AB%F0%9F%87%AE%20FI-185.174.137.249:10001%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://9ffd1367-1808-4eb8-b0d6-043b83a9b5dc:opeta@185.174.137.249:10001?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#🔒 TUIC-UDP 🇫🇮 FI-185.174.137.249:10001 📡 PING-000.00-MS
+tuic://a0ebeed3-30ab-44bc-a6dc-33039a164694:a0ebeed3-30ab-44bc-a6dc-33039a164694@146.235.218.148:29337/?congestion_control=bbr&udp_relay_mode=native&sni=sanjose-live.biny.eu.org&alpn=h3#%40TUICity%20%7CTUIC%7C
+tuic://a0ebeed3-30ab-44bc-a6dc-33039a164694:a0ebeed3-30ab-44bc-a6dc-33039a164694@146.235.218.148:29337?alpn=h3&congestion_control=bbr&sni=sanjose-live.biny.eu.org&udp_relay_mode=native#رایگان | TUIC | @FAKEOFTVC | US🇺🇸 | 0️⃣2️⃣
+tuic://a0ebeed3-30ab-44bc-a6dc-33039a164694:a0ebeed3-30ab-44bc-a6dc-33039a164694@146.235.218.148:29337?congestion_control=bbr&udp_relay_mode=native&sni=sanjose-live.biny.eu.org&alpn=h3#🔒 TUIC-UDP 🇺🇸 US-146.235.218.148:29337 📡 PING-000.00-MS
 tuic://a1ce5159-2e1c-45b6-ac25-534aa06aa4c7:b5328d0c70252b13@172.232.33.169:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%AB%F0%9F%87%B7%20FR-172.232.33.169:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://a1ce5159-2e1c-45b6-ac25-534aa06aa4c7:b5328d0c70252b13@172.232.33.169:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#🔒 TUIC-UDP 🇫🇷 FR-172.232.33.169:443 📡 PING-000.00-MS
 tuic://a1d64457-e1e3-41ce-b4de-b4aac188afd3:mmdslmkhobi@172.234.42.77:24052?congestion_control=bbr&alpn=h3,spdy/3.1&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-172.234.42.77:24052%20%F0%9F%93%A1%20PING-000.00-MS
@@ -663,12 +767,16 @@ tuic://a6ccf4f3-2b05-48ff-b440-2e3dce3e216a:iLHa7ogC0RjF@108.181.22.239:26789?al
 tuic://a6ccf4f3-2b05-48ff-b440-2e3dce3e216a:iLHa7ogC0RjF@108.181.22.239:26789?congestion_control=cubic&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.22.239:26789%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://a6ccf4f3-2b05-48ff-b440-2e3dce3e216a:iLHa7ogC0RjF@108.181.22.239:26789?congestion_control=cubic&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.22.239:26789 📡 PING-000.00-MS
 tuic://a6ccf4f3-2b05-48ff-b440-2e3dce3e216a:iLHa7ogC0RjF@108.181.22.239:26789?congestion_control=cubic&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.22.239:26789 📡 PING-000.00-MS
+tuic://b46cb204-5849-4b86-852d-8154fb8eb580:b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:61213/?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#%40TUICity%20%7CTUIC%7C
+tuic://b46cb204-5849-4b86-852d-8154fb8eb580:b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:61213?allow_insecure=1&alpn=h3&congestion_control=bbr&sni=www.bing.com&udp_relay_mode=native#رایگان | TUIC | @FAKEOFTVC | US🇺🇸 | 0️⃣3️⃣
+tuic://b46cb204-5849-4b86-852d-8154fb8eb580:b46cb204-5849-4b86-852d-8154fb8eb580@142.171.174.206:61213?congestion_control=bbr&udp_relay_mode=native&sni=www.bing.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-142.171.174.206:61213 📡 PING-000.00-MS
 tuic://bd8f69f7-30ff-4f63-aa6e-b73d80116b87:ip_cf@79.137.206.126:8443/?congestion_control=new_reno&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#%40SATORU_TEC%20
 tuic://c28f2f1e-265c-4672-ab64-d038254cc362:8264dd9849a38cf8@109.205.214.104:443?congestion_control=bbr&udp_relay_mode=quic#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-109.205.214.104:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://c28f2f1e-265c-4672-ab64-d038254cc362:8264dd9849a38cf8@109.205.214.104:443?congestion_control=bbr&udp_relay_mode=quic#🔒 TUIC-UDP 🇳🇱 NL-109.205.214.104:443 📡 PING-000.00-MS
 tuic://c28f2f1e-265c-4672-ab64-d038254cc362:8264dd9849a38cf8@kuroit.yebekhe.link:443/?congestion_control=bbr&udp_relay_mode=quic#ELENA-TUIC
 tuic://cc4a36f7-fee8-4c66-9e9c-1c59ad25bd85:5412d410@46.30.41.138:38551?congestion_control=bbr&alpn=h3&udp_relay_mode=native&allow_insecure=1&disable_sni=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-46.30.41.138:38551%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://cc4a36f7-fee8-4c66-9e9c-1c59ad25bd85:5412d410@46.30.41.138:38551?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1&disable_sni=1#🔒 TUIC-UDP 🇳🇱 NL-46.30.41.138:38551 📡 PING-000.00-MS
+tuic://d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43:Mahsaamini@64.176.186.193:443?congestion_control=bbr&udp_relay_mode=native&alpn=h3%2Cspdy%2F3.1&allow_insecure=1#🔒 TUIC-UDP 🇬🇧 GB-64.176.186.193:443 📡 PING-000.00-MS
 tuic://d6214437-e1b5-4334-9090-8f66b78bea89:dongtaiwang@108.181.22.205:50987/?congestion_control=bbr&udp_relay_mode=native&sni=bing.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 tuic://d6214437-e1b5-4334-9090-8f66b78bea89:dongtaiwang@108.181.22.205:50987/?congestion_control=bbr&udp_relay_mode=native&sni=cmirq.ir&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
 tuic://d6214437-e1b5-4334-9090-8f66b78bea89:dongtaiwang@108.181.22.205:50987/?congestion_control=bbr&udp_relay_mode=native&sni=film2movie.asia&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C%20%0A%D8%A7%D9%88%D9%84%DB%8C%D9%86%20%D9%85%D8%B1%D8%AC%D8%B9%20%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%87%DB%8C%D8%B3%D8%AA%D8%B1%DB%8C%D8%A7%20%D9%88%20%D8%AA%D9%88%D8%A6%DB%8C%DA%A9%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%F0%9F%91%BB
@@ -749,14 +857,19 @@ tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255/?co
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255/?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7C%20TUIC%20%7C
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255/?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?allow_insecure=1&alpn=h3&congestion_control=bbr&udp_relay_mode=native#رایگان | TUIC | @EUT_VPN | US🇺🇸 | 0️⃣5️⃣
+tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?allow_insecure=1&alpn=h3&congestion_control=bbr&udp_relay_mode=native#رایگان | TUIC | @TUICity | US🇺🇸 | 0️⃣5️⃣
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&alpn=h3&udp_relay_mode=native#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-108.181.22.155:12255%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&udp_relay_mode=native&alpn=h3#🔒 TUIC-UDP 🇺🇸 US-108.181.22.155:12255 📡 PING-000.00-MS
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#🇺🇸US%20|%20tuic%20|%20@TUICity%20|%2012
+tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.22.155:12255 📡 PING-000.00-MS
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🇺🇸US%20|%20tuic%20|%20@EUT_VPN%20|%2041
 tuic://ed6a538a-6e66-4f21-a769-4b389bb2f3ab:dongtaiwang@108.181.22.155:12255?congestion_control=bbr&udp_relay_mode=native&sni=telegramEUT-VPN.ddns.net&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇺🇸 US-108.181.22.155:12255 📡 PING-000.00-MS
 tuic://ee982251-246b-4c5c-b5f2-dbc43d78058e:23fc8eecf7eab4ac@178.236.246.236:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#%F0%9F%94%92%20TUIC-UDP%20%F0%9F%87%B5%F0%9F%87%B1%20PL-178.236.246.236:443%20%F0%9F%93%A1%20PING-000.00-MS
 tuic://ee982251-246b-4c5c-b5f2-dbc43d78058e:23fc8eecf7eab4ac@178.236.246.236:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#🔒 TUIC-UDP 🇵🇱 PL-178.236.246.236:443 📡 PING-000.00-MS
 tuic://ee982251-246b-4c5c-b5f2-dbc43d78058e:23fc8eecf7eab4ac@178.236.246.236:443?congestion_control=bbr&udp_relay_mode=quic&allow_insecure=1#🔒 TUIC-UDP 🇵🇱 PL-178.236.246.236:443 📡 PING-032.81-MS
+tuic://f2843ad2-c87f-4dda-9de1-472381078375:f2843ad2-c87f-4dda-9de1-472381078375@192.9.136.220:12099/?congestion_control=bbr&udp_relay_mode=native&sni=sanjose-google.biny.eu.org&alpn=h3#%40TUICity%20%7CTUIC%7C
+tuic://f2843ad2-c87f-4dda-9de1-472381078375:f2843ad2-c87f-4dda-9de1-472381078375@192.9.136.220:12099?alpn=h3&congestion_control=bbr&sni=sanjose-google.biny.eu.org&udp_relay_mode=native#رایگان | TUIC | @FAKEOFTVC | US🇺🇸 | 0️⃣1️⃣
+tuic://f2843ad2-c87f-4dda-9de1-472381078375:f2843ad2-c87f-4dda-9de1-472381078375@192.9.136.220:12099?congestion_control=bbr&udp_relay_mode=native&sni=sanjose-google.biny.eu.org&alpn=h3#🔒 TUIC-UDP 🇺🇸 US-192.9.136.220:12099 📡 PING-000.00-MS
 tuic://f2ac5977-a4bd-4d09-9ae8-48d0e7c48013:6b71d5ca8ef2efd8@185.113.223.104:9823/?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3&allow_insecure=1#%40EUT_VPN%20%7CTUIC%7C
 tuic://f2ac5977-a4bd-4d09-9ae8-48d0e7c48013:6b71d5ca8ef2efd8@185.113.223.104:9823?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3&allow_insecure=1#🇹🇷TR%20|%20tuic%20|%20@azadi_az_inja_migzare%20|%2023
 tuic://f2ac5977-a4bd-4d09-9ae8-48d0e7c48013:6b71d5ca8ef2efd8@185.113.223.104:9823?congestion_control=bbr&udp_relay_mode=native&sni=www.google.com&alpn=h3&allow_insecure=1#🔒 TUIC-UDP 🇹🇷 TR-185.113.223.104:9823 📡 PING-000.00-MS
