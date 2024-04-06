@@ -279,19 +279,4 @@ vmess://eyJ0eXBlIjoidm1lc3MiLCJwcyI6IjcxLWQzIHRscyBXUyBkaXJlY3Qgdm1lc3Mtd29ya2Vy
 vmess://eyJ0eXBlIjoidm1lc3MiLCJwcyI6IjcyLWMzIHRscyBXUyBDRE4gdm1lc3Mtd29ya2VyIiwiYWRkIjoibm9kZWpzLm9yZyIsInBvcnQiOjQ0MywiaWQiOiJhNGEyMzQ0OS01MjY3LTQxYmMtYjMyYy1jOTAzY2VmNmE2ZTMiLCJhaWQiOjAsImNpcGhlciI6ImF1dG8iLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJjc3ViNi5DUElmT1JQZVJzSWEudUsiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaGRmeThjMS5mb3JpcmFuLm5sL0F2OGN6b3JJbFlpY1U2RDM0OWJyV1V3NmEiLCJob3N0IjoiY3N1YjYuQ1BJZk9SUGVSc0lhLnVLIiwiYWxwbiI6ImgyIiwiZnAiOiJjaHJvbWUiLCJ3cy1vcHRzIjp7InBhdGgiOiIvaGRmeThjMS5mb3JpcmFuLm5sL0F2OGN6b3JJbFlpY1U2RDM0OWJyV1V3NmEiLCJoZWFkZXJzIjp7Ikhvc3QiOiJjc3ViNi5DUElmT1JQZVJzSWEudUsifX0sInVkcCI6dHJ1ZSwibWVyZ2VkIjp0cnVlfQ==
 vmess://eyJ0eXBlIjoidm1lc3MiLCJwcyI6IjczLWQzIHRsc19oMiBXUyBkaXJlY3Qgdm1lc3Mtd29ya2VyIiwiYWRkIjoibm9kZWpzLm9yZyIsInBvcnQiOjQ0MywiaWQiOiJhNGEyMzQ0OS01MjY3LTQxYmMtYjMyYy1jOTAzY2VmNmE2ZTMiLCJhaWQiOjAsImNpcGhlciI6ImF1dG8iLCJ0bHMiOiJ0bHMiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiJjc3ViNi5jcGlmb1JwZXJTSUEuVWsiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaGRmeThkMS5mb3JpcmFuLm5sL0F2OGN6b3JJbFlpY1U2RDM0OWJyV1V3NmEiLCJob3N0IjoiY3N1YjYuY3BpZm9ScGVyU0lBLlVrIiwiYWxwbiI6ImgyIiwiZnAiOiJjaHJvbWUiLCJ3cy1vcHRzIjp7InBhdGgiOiIvaGRmeThkMS5mb3JpcmFuLm5sL0F2OGN6b3JJbFlpY1U2RDM0OWJyV1V3NmEiLCJoZWFkZXJzIjp7Ikhvc3QiOiJjc3ViNi5jcGlmb1JwZXJTSUEuVWsifX0sInVkcCI6dHJ1ZSwibWVyZ2VkIjp0cnVlfQ==
 
-warp://188.114.97.120:1843/?ifp=1-5&&detour=hy2://sTeki1$re5!8swohopro@hys9.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=sTeki1%24re5%218swohopro#irancpi_warp&hys1
 
-warp://162.159.192.181:3138/?ifp=1-5&&detour=hy2://sTeki1$re5!8swohopro@hys9.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=sTeki1%24re5%218swohopro#irancpi_warp&hys2
-
-warp://188.114.97.120:1843/?ifp=1-5&&detour=hy2://9ijufI4LW_ehlst!Pho-@hys7.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=9ijufI4LW_ehlst%21Pho-#irancpi_warp&hys3
-
-warp://162.159.192.181:3138/?ifp=1-5&&detour=hy2://9ijufI4LW_ehlst!Pho-@hys7.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=9ijufI4LW_ehlst%21Pho-#irancpi_warp&hys4
-
-warp://188.114.97.120:1843/?ifp=1-5&&detour=hy2://fokaS4id3bretay-7rit@hys8.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=fokaS4id3bretay-7rit#irancpi_warp&hys5
-
-warp://162.159.192.181:3138/?ifp=1-5&&detour=hy2://fokaS4id3bretay-7rit@hys8.freelines.net:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=fokaS4id3bretay-7rit#irancpi_warp&hys6
-
-warp://188.114.97.120:1843/?ifp=1-5&&detour=warp://188.114.97.120:1843/?ifp=1-5#Irancpi.net_warp1
-warp://162.159.192.181:3138/?ifp=1-5&&detour=warp://162.159.192.181:3138/?ifp=1-5#Irancpi.net_warp2
-warp://188.114.99.56:1843/?ifp=1-5&&detour=warp://188.114.99.56:1843/?ifp=1-5#Irancpi.net_warp3
-warp://188.114.98.224:1843/?ifp=1-5&&detour=warp://188.114.98.224:1843/?ifp=1-5#Irancpi.net_warp4
