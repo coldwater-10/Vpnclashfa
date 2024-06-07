@@ -206,6 +206,8 @@ hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/?insecure=1&sni=us-hy2.org#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-%5B2605%3A8340%3A0%3Ab%3Aa2e9%3Ae4e1%3A3f0a%3A1%5D%3A443
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/?insecure=1&sni=us-hy2.org#@v2rayserverfreenet
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/?insecure=1&sni=us-hy2.org#🆒3@oneclickvpnkeys
+hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/?insecure=1&sni=us-hy2.xlb8.eu.org#%F0%9F%87%BA%F0%9F%87%B2US-Ipv6
+hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/?insecure=1&sni=us-hy2.xlb8.eu.org#🇺🇲US-Ipv6
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443/@ELiV2RAY--@ELiV2RAY--@ELiV2RAY?insecure=1&sni=us-hy2.xlb8.eu.org#🇺🇲US-Ipv6
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443?insecure=1&sni=us-hy2.org#%F0%9F%92%A5%F0%9F%87%BA%F0%9F%87%B8%20US%20141.11.74.11%20%E2%97%88%20udp:443%20%E2%97%88%20Landups%20Limited%20%E2%97%88%202273b
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443?insecure=1&sni=us-hy2.org#🔒 HYSTERIA-UDP 🇺🇸 US-[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443
@@ -257,10 +259,13 @@ hy2://cef1e7a47565b431@147.45.76.99:443?insecure=1&obfs=salamander&obfs-password
 hy2://cef1e7a47565b431@147.45.76.99:443?insecure=1&obfs=salamander&obfs-password=2c5ef5135559d4f5&sni=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc#%F0%9F%92%B0%F0%9F%92%A5%F0%9F%87%B8%F0%9F%87%AA%20SE%20147.45.76.99%20%E2%97%88%20udp:443%20%E2%97%88%20Aeza%20International%20%E2%97%88%2079230
 hy2://cef1e7a47565b431@147.45.76.99:443?insecure=1&sni=google.com&obfs=salamander&obfs-password=2c5ef5135559d4f5#🔒 HYSTERIA-UDP 🇸🇪 SE-147.45.76.99:443
 hy2://cef1e7a47565b431@147.45.76.99:443?obfs=salamander&obfs-password=2c5ef5135559d4f5&insecure=1&sni=google.com#%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20-%20Stockholm%20%F0%9F%8C%8D%20HY2-UDP-TLS%204%E2%83%A3
+hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#%40Oneclickvpnkeys
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#%E2%84%B9%EF%B8%8F6%40oneclickvpnkeys
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#%F0%9F%86%921%40oneclickvpnkeys
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#%F0%9F%87%B8%F0%9F%87%AAELi
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B3%F0%9F%87%B1%20NL-%5B2a12%3A5940%3A42c5%3A%3A2%5D%3A443
+hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#@Oneclickvpnkeys
+hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#Oneclick
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#S1+🇳🇱@ELiV2ray
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#ℹ️6@oneclickvpnkeys
 hy2://cef1e7a47565b431@[2a12:5940:42c5::2]:443/?insecure=1&sni=ELiV2ray.Elena.expert&obfs=salamander&obfs-password=2c5ef5135559d4f5#🆒1@oneclickvpnkeys
