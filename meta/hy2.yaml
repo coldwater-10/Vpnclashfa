@@ -241,7 +241,6 @@ proxies:
   - {"name":"🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30","type":"hysteria2","server":"64.32.22.163","port":8443,"password":"4328e5a3-b325-4154-9e7d-508e16962e40","sni":"hy16.abyssvpn.com","skip-cert-verify":true}
   - {"name":"🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31","type":"hysteria2","server":"70.39.99.160","port":8443,"password":"4328e5a3-b325-4154-9e7d-508e16962e40","sni":"hy18.abyssvpn.com","skip-cert-verify":true}
   - {"name":"🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32","type":"hysteria2","server":"84.252.75.14","port":8443,"password":"4328e5a3-b325-4154-9e7d-508e16962e40","sni":"hy10.abyssvpn.com","skip-cert-verify":true}
-  - {"name":"🏳️‍🌈_defaultName_1_33","type":"hysteria2","server":"[2602","port":null,"password":"490528890","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🇸🇪_irancpihys3_34","type":"hysteria2","server":"hys3.freelines.net","port":443,"password":"4a52c165e81fa8fc","sni":"www.apple.com","skip-cert-verify":true,"obfs-password":"a16d0be0"}
   - {"name":"🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35","type":"hysteria2","server":"146.19.100.138","port":443,"password":"4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH","sni":"google.com","skip-cert-verify":true}
   - {"name":"🇰🇷_ℹ️2@oneclickvpnkeys_36","type":"hysteria2","server":"132.145.80.179","port":443,"password":"529a3d29-fcf2-4879-a580-611d9c027372","sni":"1.nodes.yljc.online","skip-cert-verify":true}
@@ -453,9 +452,6 @@ proxies:
   - {"name":"🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242","type":"hysteria2","server":"158.101.159.25","port":30075,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243","type":"hysteria2","server":"158.180.94.166","port":21020,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244","type":"hysteria2","server":"185.14.47.28","port":30024,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷 FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245","type":"hysteria2","server":"[2001","port":null,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱 PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246","type":"hysteria2","server":"[2001","port":null,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247","type":"hysteria2","server":"[2401","port":null,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248","type":"hysteria2","server":"[2a06","port":8184,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249","type":"hysteria2","server":"[2a0e","port":6,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
   - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0f:5707:aaf1:122d:0:1:2b27:ef20]:25002_250","type":"hysteria2","server":"[2a0f","port":5707,"password":"c04a0848-1cd5-4bdb-94f8-ed9798c3f3cc","sni":"www.bing.com","skip-cert-verify":true}
@@ -668,13 +664,6 @@ proxies:
   - {"name":"🇳🇱_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr Holdings Amsterdam ◈ 45cc4_457","type":"hysteria2","server":"78.141.216.41","port":443,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
   - {"name":"🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr Holdings Amsterdam ◈ 7c70d_458","type":"hysteria2","server":"78.141.216.41","port":443,"password":"fokaS4id3bretay-7rit","sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
   - {"name":"🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459","type":"hysteria2","server":"78.141.216.41","port":443,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_🇳🇱S2+@ELiV2ray_460","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"ELiV2ray.Elena.expert","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_SHΞЯVIN™_4_461","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr Holdings Amsterdam ◈ e41cf_462","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"eliv2ray.elena.expert","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr Holdings Amsterdam ◈ 38557_463","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"eliv2ray.eliv2.top","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr Holdings Amsterdam ◈ c91ba_464","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱 NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"ELiV2ray.Elena.expert","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
-  - {"name":"🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱 NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466","type":"hysteria2","server":"[2a05","port":null,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
   - {"name":"🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467","type":"hysteria2","server":"hys8.freelines.net","port":443,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
   - {"name":"🇳🇱_Irancpi_hys8_468","type":"hysteria2","server":"hys8.freelines.net","port":443,"password":"fokaS4id3bretay-7rit","sni":"google.com","skip-cert-verify":true,"obfs-password":"fokaS4id3bretay-7rit"}
   - {"name":"🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469","type":"hysteria2","server":"147.45.233.149","port":443,"password":"gd25pjkHrU4VA2j53xcbdHEI2C97Sz1JVLtpKP1qVsVDIBGwrli1IMsC8aBj7XEDiIi4KF22WsNoDbIO1l1kylbnpMk6WWYVAqWX","sni":"debiantubelinux.space","skip-cert-verify":true,"obfs-password":"vSgTdUGMVBecw7Pi1fLdpzBbKOCD0WyzzGKsy1HvUCJDZXLYm8b1yXAQvasZa9BYeEVhX81vtWKkf3xW"}
@@ -784,7 +773,6 @@ proxy-groups:
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31
       - 🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32
-      - 🏳️‍🌈_defaultName_1_33
       - 🇸🇪_irancpihys3_34
       - 🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35
       - 🇰🇷_ℹ️2@oneclickvpnkeys_36
@@ -1009,11 +997,6 @@ proxy-groups:
       - 🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242
       - 🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243
       - 🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷
-        FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱
-        PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246
-      - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249
       -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪
@@ -1267,18 +1250,6 @@ proxy-groups:
       -   🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
         Holdings Amsterdam ◈ 7c70d_458
       - 🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459
-      - 🏳️‍🌈_🇳🇱S2+@ELiV2ray_460
-      - 🏳️‍🌈_SHΞЯVIN™_4_461
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ e41cf_462
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ 38557_463
-      -   🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company /
-        Vultr Holdings Amsterdam ◈ c91ba_464
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466
       - 🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467
       - 🇳🇱_Irancpi_hys8_468
       - 🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469
@@ -1378,7 +1349,6 @@ proxy-groups:
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31
       - 🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32
-      - 🏳️‍🌈_defaultName_1_33
       - 🇸🇪_irancpihys3_34
       - 🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35
       - 🇰🇷_ℹ️2@oneclickvpnkeys_36
@@ -1603,11 +1573,6 @@ proxy-groups:
       - 🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242
       - 🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243
       - 🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷
-        FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱
-        PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246
-      - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249
       -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪
@@ -1861,18 +1826,6 @@ proxy-groups:
       -   🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
         Holdings Amsterdam ◈ 7c70d_458
       - 🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459
-      - 🏳️‍🌈_🇳🇱S2+@ELiV2ray_460
-      - 🏳️‍🌈_SHΞЯVIN™_4_461
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ e41cf_462
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ 38557_463
-      -   🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company /
-        Vultr Holdings Amsterdam ◈ c91ba_464
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466
       - 🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467
       - 🇳🇱_Irancpi_hys8_468
       - 🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469
@@ -1972,7 +1925,6 @@ proxy-groups:
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31
       - 🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32
-      - 🏳️‍🌈_defaultName_1_33
       - 🇸🇪_irancpihys3_34
       - 🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35
       - 🇰🇷_ℹ️2@oneclickvpnkeys_36
@@ -2197,11 +2149,6 @@ proxy-groups:
       - 🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242
       - 🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243
       - 🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷
-        FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱
-        PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246
-      - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249
       -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪
@@ -2455,18 +2402,6 @@ proxy-groups:
       -   🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
         Holdings Amsterdam ◈ 7c70d_458
       - 🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459
-      - 🏳️‍🌈_🇳🇱S2+@ELiV2ray_460
-      - 🏳️‍🌈_SHΞЯVIN™_4_461
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ e41cf_462
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ 38557_463
-      -   🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company /
-        Vultr Holdings Amsterdam ◈ c91ba_464
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466
       - 🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467
       - 🇳🇱_Irancpi_hys8_468
       - 🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469
@@ -2566,7 +2501,6 @@ proxy-groups:
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31
       - 🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32
-      - 🏳️‍🌈_defaultName_1_33
       - 🇸🇪_irancpihys3_34
       - 🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35
       - 🇰🇷_ℹ️2@oneclickvpnkeys_36
@@ -2791,11 +2725,6 @@ proxy-groups:
       - 🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242
       - 🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243
       - 🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷
-        FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱
-        PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246
-      - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249
       -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪
@@ -3049,18 +2978,6 @@ proxy-groups:
       -   🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
         Holdings Amsterdam ◈ 7c70d_458
       - 🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459
-      - 🏳️‍🌈_🇳🇱S2+@ELiV2ray_460
-      - 🏳️‍🌈_SHΞЯVIN™_4_461
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ e41cf_462
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ 38557_463
-      -   🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company /
-        Vultr Holdings Amsterdam ◈ c91ba_464
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466
       - 🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467
       - 🇳🇱_Irancpi_hys8_468
       - 🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469
@@ -3161,7 +3078,6 @@ proxy-groups:
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443_30
       - 🇺🇸_🔒 HYSTERIA-UDP 🇺🇸 US-70.39.99.160:8443_31
       - 🇷🇺_🔒 HYSTERIA-UDP 🇷🇺 RU-84.252.75.14:8443_32
-      - 🏳️‍🌈_defaultName_1_33
       - 🇸🇪_irancpihys3_34
       - 🇩🇪_🔒 HYSTERIA-UDP 🇩🇪 DE-146.19.100.138:443_35
       - 🇰🇷_ℹ️2@oneclickvpnkeys_36
@@ -3386,11 +3302,6 @@ proxy-groups:
       - 🇯🇵_🔒 HYSTERIA-UDP 🇯🇵 JP-158.101.159.25:30075_242
       - 🇬🇧_🔒 HYSTERIA-UDP 🇰🇷 KR-158.180.94.166:21020_243
       - 🇭🇰_🔒 HYSTERIA-UDP 🇭🇰 HK-185.14.47.28:30024_244
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇫🇷
-        FR-[2001:bc8:1640:177d:dc00:ff:fe22:b443]:34975_245
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇵🇱
-        PL-[2001:bc8:1d90:6fd:dc00:ff:fe11:b23]:29820_246
-      - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇭🇰 HK-[2401:b60:ffff:0:1:0:953c:8b7c]:20025_247
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇬🇧 GB-[2a06:8184:2:1a::9d0f:5017]:32421_248
       - 🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪 DE-[2a0e:6a80:3:38c:0:1:2ef0:ff2a]:25002_249
       -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇩🇪
@@ -3644,18 +3555,6 @@ proxy-groups:
       -   🇳🇱_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
         Holdings Amsterdam ◈ 7c70d_458
       - 🇳🇱_🔒 HYSTERIA-UDP 🇳🇱 NL-78.141.216.41:443_459
-      - 🏳️‍🌈_🇳🇱S2+@ELiV2ray_460
-      - 🏳️‍🌈_SHΞЯVIN™_4_461
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ e41cf_462
-      -   🏳️‍🌈_💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company / Vultr
-        Holdings Amsterdam ◈ 38557_463
-      -   🏳️‍🌈_💰💥🇳🇱 NL 78.141.216.41 ◈ udp:443 ◈ The Constant Company /
-        Vultr Holdings Amsterdam ◈ c91ba_464
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_1_465
-      -   🏳️‍🌈_🔒 HYSTERIA-UDP 🇳🇱
-        NL-[2a05:f480:1400:2ddc:5400:4ff:fec6:11a]:443_2_466
       - 🇳🇱_🅰LL OPERATORS   🔴⚪🔵   @V2RAYNPLUS🇳🇱_1_467
       - 🇳🇱_Irancpi_hys8_468
       - 🇷🇺_🔒 HYSTERIA-UDP 🇳🇱 NL-147.45.233.149:443_1_469
@@ -3786,6 +3685,7 @@ proxy-groups:
     type: select
     proxies:
       - 🔀 نوع انتخاب پروکسی
+
 
 rule-providers:
   Purification_ip:
