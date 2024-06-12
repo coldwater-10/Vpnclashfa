@@ -251,6 +251,7 @@ hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052/?insecure=1&sni=
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052/?insecure=1&sni=us3.eyujichang.xyz#%F0%9F%94%B44%40oneclickvpnkeys
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052/?insecure=1&sni=us3.eyujichang.xyz#H4
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052/?insecure=1&sni=us3.eyujichang.xyz#🔴4@oneclickvpnkeys
+hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052?insecure=1&sni=us3.eyujichang.xyz#%F0%9F%92%A5%F0%9F%87%BA%F0%9F%87%B8%20US%20193.233.206.176%20%E2%97%88%20udp:2052%20%E2%97%88%20Baxet%20Group%20Inc.%20%E2%97%88%207648e
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@193.233.206.176:2052?insecure=1&sni=us3.eyujichang.xyz#🔒 HYSTERIA-UDP 🇺🇸 US-193.233.206.176:2052
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@213.35.99.16:2052?insecure=1&sni=sg3.eyujichang.xyz#🔒 HYSTERIA-UDP 🇸🇬 SG-213.35.99.16:2052
 hy2://af7911e7-fb22-41b0-8006-a5f2be3495f1@89.168.40.172:2052/?insecure=1&sni=fr1.eyujichang.xyz#%E1%90%AF2%E1%96%87%E1%97%A9Y_T%E1%91%8C%E1%91%8E%E1%91%8EE%E1%92%AA_%E1%91%AD%E1%92%AA%E1%91%8C%E1%94%95%F0%9F%87%B5%F0%9F%87%AD
@@ -514,6 +515,9 @@ hy2://jS7RBX3eQ9QGTDDz9d@107.175.93.166:52200?sni=han.ssudo.x10.mx#🔒 HYSTERIA
 hy2://maniubi114514@34.92.152.163:11451/?insecure=1&sni=www.bing.com#%E2%84%B9%EF%B8%8F7%40oneclickvpnkeys
 hy2://maniubi114514@34.92.152.163:11451/?insecure=1&sni=www.bing.com#ℹ️7@oneclickvpnkeys
 hy2://maniubi114514@34.92.152.163:11451?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇭🇰 HK-34.92.152.163:11451
+hy2://maniubi@123.maniubi.filegear-sg.me:60800/?insecure=1&sni=www.bing.com#%E5%B7%B4%E8%A5%BF%40oneclickvpnkeys
+hy2://maniubi@123.maniubi.filegear-sg.me:60800/?insecure=1&sni=www.bing.com#巴西@oneclickvpnkeys
+hy2://maniubi@168.75.65.36:60800?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇧🇷 BR-168.75.65.36:60800
 hy2://miaoge110.@170.64.183.54:33939?insecure=1&sni=www.bing.com#🇦🇺AU%20|%20hy2%20|%20@TUICity%20|%203
 hy2://miaoge110.@170.64.183.54:33939?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇦🇺 AU-170.64.183.54:33939
 hy2://sTeki1$re5!8swohopro@78.141.215.68:443/?insecure=1&sni=google.com&obfs=salamander&obfs-password=sTeki1$re5!8swohopro#@Zede_filteri 🇳🇱
