@@ -26,6 +26,8 @@ hy2://1bd496a4@154.16.27.143:5433/?insecure=1&sni=warphiddify.expert#us-mci-warp
 hy2://1bd496a4@154.16.27.143:5433/?insecure=1&sni=www.bing.com#%F0%9F%85%B0LL%20OPERATORS%20%20%20%F0%9F%94%B5%E2%9A%AA%F0%9F%94%B4%20%20%20%40V2RAYNPLUS%F0%9F%87%BA%F0%9F%87%B2..
 hy2://1bd496a4@154.16.27.143:5433/?insecure=1&sni=www.bing.com#🇺🇸@warphiddify
 hy2://1bd496a4@154.16.27.143:5433?insecure=1&sni=www.bing.com#🔒 HYSTERIA-UDP 🇺🇸 US-154.16.27.143:5433
+hy2://2fe59b90-3808-4dbc-93fb-bb04598cf80f@107.172.235.75:40443?sni=speedtest.realityforus.com#🔒 HYSTERIA-UDP 🇺🇸 US-107.172.235.75:40443
+hy2://2fe59b90-3808-4dbc-93fb-bb04598cf80f@45.142.113.238:40443?sni=speedtest.realityforus.com#🔒 HYSTERIA-UDP 🇩🇪 DE-45.142.113.238:40443
 hy2://4328e5a3-b325-4154-9e7d-508e16962e40@208.98.39.108:8443?insecure=1&sni=hy20.abyssvpn.com#🔒 HYSTERIA-UDP 🇺🇸 US-208.98.39.108:8443
 hy2://4328e5a3-b325-4154-9e7d-508e16962e40@45.58.188.107:8443?insecure=1&sni=hy19.abyssvpn.com#🔒 HYSTERIA-UDP 🇺🇸 US-45.58.188.107:8443
 hy2://4328e5a3-b325-4154-9e7d-508e16962e40@64.32.22.163:8443?insecure=1&sni=hy16.abyssvpn.com#🔒 HYSTERIA-UDP 🇺🇸 US-64.32.22.163:8443
@@ -49,6 +51,8 @@ hy2://75c2b164-42c9-4a19-bdc3-fdaea1aa8429@141.147.156.213:52773?insecure=1&sni=
 hy2://75c2b164-42c9-4a19-bdc3-fdaea1aa8429@152.69.195.193:52773?insecure=1&sni=h06.trojan.tel#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20-%20Osaka%20%F0%9F%8C%8F%20HY2-UDP-TLS%204%E2%83%A3
 hy2://75c2b164-42c9-4a19-bdc3-fdaea1aa8429@158.180.73.10:52773?insecure=1&sni=h01.trojan.tel#%F0%9F%87%B0%F0%9F%87%B7%20Korea,%20Republic%20of%20-%20Chuncheon%20%F0%9F%8C%8F%20HY2-UDP-TLS%204%E2%83%A3
 hy2://75c2b164-42c9-4a19-bdc3-fdaea1aa8429@45.144.2.154:52773?insecure=1&sni=ssrsub.h04.trojan.tel#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20-%20NA%20%F0%9F%8C%8F%20HY2-UDP-TLS%204%E2%83%A3
+hy2://853d4960-629a-4a65-9569-30349e006f2b@168.75.85.171:443/?insecure=1&sni=www.microsoft.com#%F0%9F%87%A7%F0%9F%87%B7%40oneclickvpnkeys
+hy2://853d4960-629a-4a65-9569-30349e006f2b@168.75.85.171:443?insecure=1&sni=www.microsoft.com#🔒 HYSTERIA-UDP 🇧🇷 BR-168.75.85.171:443
 hy2://8d262934-ff34-4ad4-a1fc-933f114f27f3@157.254.158.7:33133/@ELiV2RAY--@ELiV2RAY--@ELiV2RAY--@ELiV2RAY?sni=akile.nai3.cc#🇺🇲@ELiV2ray
 hy2://8d262934-ff34-4ad4-a1fc-933f114f27f3@157.254.158.7:33133/@ELiV2RAY--@ELiV2RAY--@ELiV2RAY?sni=akile.nai3.cc#MCI-@ELiV2RAY
 hy2://8d262934-ff34-4ad4-a1fc-933f114f27f3@157.254.158.7:33133?sni=akile.nai3.cc#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20-%20Los%20Angeles%20%F0%9F%8C%8E%20HY2-UDP-TLS%204%E2%83%A3
@@ -220,6 +224,7 @@ hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@[2605:8340:0:b:a2e9:e4e1:3f0a:1]:443?
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@us-hy2.xlb8.eu.org:443?insecure=1&sni=us-hy2.org#%F0%9F%92%A5%F0%9F%87%BA%F0%9F%87%B8%20US%20141.11.74.11%20%E2%97%88%20udp:443%20%E2%97%88%20Landups%20Limited%20%E2%97%88%204e6b7
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@us-hy2.xlb8.eu.org:443?insecure=1&sni=us-hy2.xlb8.eu.org#%F0%9F%92%A5%F0%9F%87%BA%F0%9F%87%B8%20US%20141.11.74.11%20%E2%97%88%20udp:443%20%E2%97%88%20Landups%20Limited%20%E2%97%88%20df069
 hy2://a0cd8b88-9f7a-48b4-a40b-d67dc53d3a03@us-hy2.xlb8.eu.org:443?insecure=1&sni=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc#%F0%9F%92%B0%F0%9F%92%A5%F0%9F%87%BA%F0%9F%87%B8%20US%20141.11.74.11%20%E2%97%88%20udp:443%20%E2%97%88%20Landups%20Limited%20%E2%97%88%20fdd71
+hy2://a320446d8596032c@sh.netmh9.xyz:443/?obfs=salamander&obfs-password=d6da8047&insecure=1#test1
 hy2://a40205ed-d045-4a90-90e0-276f09b36009@138.197.44.181:46160/?mport=46160%2C46200&insecure=1#%E2%84%B9%EF%B8%8F8%40oneclickvpnkeys
 hy2://a40205ed-d045-4a90-90e0-276f09b36009@138.197.44.181:46160/?mport=46160%2C46200&insecure=1#AKB 🕊️ 61
 hy2://a40205ed-d045-4a90-90e0-276f09b36009@138.197.44.181:46160/?mport=46160,46200&insecure=1#ℹ️8@oneclickvpnkeys
