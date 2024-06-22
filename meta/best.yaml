@@ -541,7 +541,7 @@ proxy-providers:
   vmess:
     type: http
     url: >-
-     https://api.yebekhe.link/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub3%2Fmain%2FSplit%2FBase64%2Fvmess&type=meta&process=full
+     https://api.yebekhe.link/toClash/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcoldwater-10%2FV2Hub3%2Fmain%2FSplit%2FNormal%2Fvmess&type=meta&process=full
     interval: 86400
     path: ./vmess.yaml
     health-check:
