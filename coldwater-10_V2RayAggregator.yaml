@@ -11,7 +11,7 @@ find-process-mode: always
 ipv6: true
 log-level: info
 cfw-latency-timeout: 8000
-cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-latency-url: https://www.gstatic.com:443
 cfw-proxies-order: latency
 external-controller: 0.0.0.0:9090
 secret: ''
@@ -451,21 +451,21 @@ proxy-groups:
       - proxy
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://www.gstatic.com:443
     interval: 600
     tolerance: 180
     use:
       - proxy
   - name: پشتیبان (بهترین پینگ) ➡️
     type: fallback
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://www.gstatic.com:443
     interval: 600
     tolerance: 180
     use:
       - proxy
   - name: توزیع بار (هش سازگار) ♻️
     type: load-balance
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://www.gstatic.com:443
     strategy: consistent-hashing
     interval: 600
     tolerance: 180
@@ -473,7 +473,7 @@ proxy-groups:
       - proxy
   - name: توزیع بار (یکنواخت) ⏳
     type: load-balance
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://www.gstatic.com:443
     strategy: round-robin
     interval: 600
     tolerance: 180
