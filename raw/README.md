@@ -1,6 +1,12 @@
 # لینک اشتراک رایگان:
 
-[hy2](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/raw/hy2.txt)
+[ایرانسل](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/raw/irc.txt)
+
+[همراه اول](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/raw/mci.txt)
+
+[مخابرات](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/raw/mkb.txt)
+
+[هیستریا2](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/raw/hy2.txt)
 
 
 
