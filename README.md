@@ -3,12 +3,18 @@
 
 ## Clients:
 [Clash Verge Revolutionary](https://github.com/clash-verge-rev/clash-verge-rev/)
+
 [Hiddify Next](https://github.com/hiddify/hiddify-next)
+
 [Nekobox For Android](https://github.com/MatsuriDayo/NekoBoxForAndroid)
+
 [Nekoray](https://github.com/MatsuriDayo/nekoray)
+
 [V2Ray Next Generation](https://github.com/2dust/v2rayNG)
 
-[همه لینک های اشتراک](https://github.com/coldwater-10/free-sub-link)
+
+## Subscribtion Links
+[All](https://github.com/coldwater-10/free-sub-link)
 
 ## کانفیگای کلش با قوانین مخصوص ایران:
 
