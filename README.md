@@ -1,20 +1,17 @@
 # Vpnclashfa
 
 
-## Clients:
-[Clash Verge Revolutionary](https://github.com/clash-verge-rev/clash-verge-rev/)
+## بهترین فیلترشکن برای هر سیستم عامل
 
-[Hiddify Next](https://github.com/hiddify/hiddify-next)
-
-[Nekobox For Android](https://github.com/MatsuriDayo/NekoBoxForAndroid)
-
-[Nekoray](https://github.com/MatsuriDayo/nekoray)
-
-[V2Ray Next Generation](https://github.com/2dust/v2rayNG)
+|    سیستم عامل   |              بهترین کلاینت               | جایگزین |
+|:-------:|:--------------------------------------:|:------------:|
+|   آی او اس   |        [streisand](https://apps.apple.com/ca/app/streisand/id6450534064)       |  [karing](https://apps.apple.com/us/app/karing/id6472431552?platform=iphone) - [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673?platform=iphone) |
+| اندروید |[hiddify](https://github.com/hiddify/hiddify-next/releases) - [MahsaNG](https://github.com/GFW-knocker/MahsaNG/releases) - [oblivion](https://github.com/bepass-org/oblivion/releases) |    [ClashMeta](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
+| ویندوز |   [hiddify](https://github.com/hiddify/hiddify-next/releases) - [oblivion](https://github.com/bepass-org/oblivion-desktop) - [clash verge rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |    [V2RayN PRO](https://github.com/lowercase78/V2RayN-PRO/releases)    |
 
 
-## Subscribtion Links
-[All](https://github.com/coldwater-10/free-sub-link)
+## همه لینک های اشتراک
+[این لینک رو باز کن](https://github.com/coldwater-10/free-sub-link)
 
 ## کانفیگای کلش با قوانین مخصوص ایران:
 
