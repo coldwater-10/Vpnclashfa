@@ -15,6 +15,15 @@
 
 ## کانفیگای کلش با قوانین مخصوص ایران:
 
+
+[V2RayAggregator](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/coldwater-10_V2RayAggregator.yaml)
+
+[V2Hub3](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/V2Hub3.yaml)
+
+[V2Hub4](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/V2Hub4.yaml)
+
+[V2Hub5](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/V2Hub5.yaml)
+
 [yebekhe-mix](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-mix.yaml)
 
 [yebekhe-vmess](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/yebekhe-vmess.yaml)
@@ -83,6 +92,11 @@
 
 
 ## کانفیگای کلش متا با قوانین مخصوص ایران:
+[V2Hub3](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub3.yaml)
+
+[V2Hub4](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub4.yaml)
+
+[V2Hub5](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub5.yaml)
 
 [yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
 
