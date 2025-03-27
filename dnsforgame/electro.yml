@@ -102,10 +102,12 @@ rules:
   - DOMAIN-SUFFIX,o770047.ingest.sentry.io,🔀 DIRECT
   - DOMAIN-SUFFIX,matchmaker-eu.among.us,🔀 DIRECT
   - DOMAIN-SUFFIX,matchmaker-as.among.us,🔀 DIRECT
-  - IP-CIDR,129.227.180.6/8,🔀 DIRECT
-  - IP-CIDR,129.227.249.74/8,🔀 DIRECT
-  - IP-CIDR,188.42.41.182/8,🔀 DIRECT
-  - IP-CIDR,188.42.41.6/8,🔀 DIRECT
-  - IP-CIDR,188.42.42.130/8,🔀 DIRECT
-  - IP-CIDR,209.192.174.6/8,🔀 DIRECT
+  - PROCESS-NAME,Discord.exe,🔀 DIRECT
+  - DOMAIN-KEYWORD,discord,🔀 DIRECT
+  - DOMAIN-SUFFIX,airhorn.solutions,🔀 DIRECT
+  - DOMAIN-SUFFIX,airhornbot.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,bigbeans.solutions,🔀 DIRECT
+  - DOMAIN-SUFFIX,dis.gd,🔀 DIRECT
+  - DOMAIN-SUFFIX,watchanimeattheoffice.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com.io,🔀 DIRECT
   - MATCH,🔀 DIRECT
