@@ -4,7 +4,7 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
-log-level: info
+log-level: debug
 external-controller: 0.0.0.0:9090
 secret: ''
 bind-address: '*'
@@ -63,11 +63,18 @@ tun:
     - "any:53"
     - "tcp://any:53"
 
+proxies:
+  - name: "Fake Proxy"
+    type: http
+    server: 127.0.0.1
+    port: 8080
+
 proxy-groups:
   - name: 🔀 DIRECT
     type: select
     proxies:
       - DIRECT
+      - Fake Proxy
 
 rules:
   - PROCESS-NAME,steam.exe,🔀 DIRECT
