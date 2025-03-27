@@ -4,7 +4,7 @@ redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
 allow-lan: true
-log-level: info
+log-level: debug
 external-controller: 0.0.0.0:9090
 secret: ''
 bind-address: '*'
