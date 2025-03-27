@@ -63,11 +63,18 @@ tun:
     - "any:53"
     - "tcp://any:53"
 
+proxies:
+  - name: "Fake Proxy"
+    type: http
+    server: 127.0.0.1
+    port: 8080
+
 proxy-groups:
   - name: 🔀 DIRECT
     type: select
     proxies:
       - DIRECT
+      - Fake Proxy
 
 rules:
   - PROCESS-NAME,steam.exe,🔀 DIRECT
