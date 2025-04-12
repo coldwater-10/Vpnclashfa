@@ -5,9 +5,10 @@
 
 |    سیستم عامل   |              بهترین کلاینت               | جایگزین |
 |:-------:|:--------------------------------------:|:------------:|
-|   آی او اس   |        [streisand](https://apps.apple.com/ca/app/streisand/id6450534064)       |  [karing](https://apps.apple.com/us/app/karing/id6472431552?platform=iphone) - [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673?platform=iphone) |
-| اندروید |[hiddify](https://github.com/hiddify/hiddify-next/releases) - [MahsaNG](https://github.com/GFW-knocker/MahsaNG/releases) - [oblivion](https://github.com/bepass-org/oblivion/releases) |    [ClashMeta](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
+|   آی او اس   |        [streisand](https://apps.apple.com/ca/app/streisand/id6450534064) - [hiddify](https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone)       |  [karing](https://apps.apple.com/us/app/karing/id6472431552?platform=iphone) - [sing-box](https://apps.apple.com/us/app/sing-box/id6451272673?platform=iphone) |
+| اندروید |[hiddify](https://github.com/hiddify/hiddify-next/releases) - [MahsaNG](https://github.com/GFW-knocker/MahsaNG/releases) - [oblivion](https://github.com/bepass-org/oblivion/releases) |    [ClashMeta](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) - [Begzar](https://github.com/Begzar/BegzarApp/releases)   |
 | ویندوز |   [hiddify](https://github.com/hiddify/hiddify-next/releases) - [oblivion](https://github.com/bepass-org/oblivion-desktop) - [clash verge rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |    [V2RayN PRO](https://github.com/lowercase78/V2RayN-PRO/releases)    |
+
 
 
 ## همه لینک های اشتراک
