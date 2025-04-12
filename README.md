@@ -13,6 +13,113 @@
 ## همه لینک های اشتراک
 [این لینک رو باز کن](https://github.com/coldwater-10/free-sub-link)
 
+# دی ان اس برای گیم
+
+بعضی از نرم افزارا و بازیا از سیستم پروکسی استفاده نمیکنن پس یه سری کانفیگ کلش ساختم که پروکسی نداره فقط دی ان اس داره برای رفع تحریم
+
+[شکن](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shecan.yml)
+
+[الکترو](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/electro.yml)
+
+[رادار بازی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/radar.yml)
+
+[بگذر](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/begzar.yml)
+
+[س403](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/403.yml)
+
+[شلتر](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter.yml)
+
+[شلتر موبایل](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter-mobile.yml)
+
+[ترکیبی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/all.yml)
+
+
+برای ویندوز از [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) استفاده کنین و توی تنظیمات tun رو فعال کنین
+
+برای اندروید هم از [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) استفاده کنین
+
+
+## کانفیگای کلش متا با قوانین مخصوص ایران:
+[free18](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/meta/free18.yaml)
+
+[V2Hub3](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub3.yaml)
+
+[V2Hub4](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub4.yaml)
+
+[V2Hub5](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub5.yaml)
+
+[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
+
+[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS.yaml)
+
+[yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
+
+[yebekhe-VMESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VMESS.yaml)
+
+[yebekhe-TROJAN](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-TROJAN.yaml)
+
+[yebekhe-ShadowSocks](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-SS.yaml)
+
+[mahdibland](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/mahdibland.yaml)
+
+[lonup](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/lonup.yaml)
+
+[azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/azadnet.yaml)
+
+[AlienVPN402](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/AlienVPN402.yaml)
+
+[ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
+
+[GreenFish](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/GreenFish.yaml)
+
+[iam7](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/iam7.yaml)
+
+[221207](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/221207.yaml)
+
+[jingfu](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/jingfu.yaml)
+
+[learnhard-cn](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/learnhard-cn.yaml)
+
+[mfuu](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/mfuu.yaml)
+
+[anaer](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/anaer.yaml)
+
+[moneyfl](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/moneyfl.yaml)
+
+[oslook](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/oslook.yaml)
+
+[peasoft](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/peasoft.yaml)
+
+[pojiezhiyuanjun](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/pojiezhiyuanjun.yaml)
+
+[Rokate](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/Rokate.yaml)
+
+[ronghuaxueleng](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ronghuaxueleng.yaml)
+
+[SnapdragonLe](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/SnapdragonLee.yaml)
+
+[ssrsub](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ssrsub.yaml)
+
+[tbbatbb](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/tbbatbb.yaml)
+
+[tt](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/tt.yaml)
+
+[vveg](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/vveg.yaml)
+
+[yiun](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yiun.yaml)
+
+[yugogo](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yugogo.yaml)
+
+[pmsub](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/pmsub.yaml)
+
+[Auto proxy](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/Auto_proxy.yaml)
+
+[clashnode](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/clashnode.yaml)
+
+[nodefree](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/nodefree.yaml)
+
+
+
 ## کانفیگای کلش با قوانین مخصوص ایران:
 
 
@@ -89,84 +196,6 @@
 [clashnode](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/clashnode.yaml)
 
 [nodefree](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/nodefree.yaml)
-
-
-## کانفیگای کلش متا با قوانین مخصوص ایران:
-[V2Hub3](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub3.yaml)
-
-[V2Hub4](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub4.yaml)
-
-[V2Hub5](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/V2Hub5.yaml)
-
-[yebekhe-REALITY](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-REALITY.yaml)
-
-[yebekhe-VLESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VLESS.yaml)
-
-[yebekhe-ALL](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-ALL.yaml)
-
-[yebekhe-VMESS](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-VMESS.yaml)
-
-[yebekhe-TROJAN](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-TROJAN.yaml)
-
-[yebekhe-ShadowSocks](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yebekhe-SS.yaml)
-
-[mahdibland](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/mahdibland.yaml)
-
-[lonup](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/lonup.yaml)
-
-[azadnet](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/azadnet.yaml)
-
-[AlienVPN402](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/AlienVPN402.yaml)
-
-[ermaozi](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ermaozi.yaml)
-
-[GreenFish](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/GreenFish.yaml)
-
-[iam7](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/iam7.yaml)
-
-[221207](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/221207.yaml)
-
-[jingfu](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/jingfu.yaml)
-
-[learnhard-cn](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/learnhard-cn.yaml)
-
-[mfuu](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/mfuu.yaml)
-
-[anaer](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/anaer.yaml)
-
-[moneyfl](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/moneyfl.yaml)
-
-[oslook](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/oslook.yaml)
-
-[peasoft](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/peasoft.yaml)
-
-[pojiezhiyuanjun](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/pojiezhiyuanjun.yaml)
-
-[Rokate](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/Rokate.yaml)
-
-[ronghuaxueleng](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ronghuaxueleng.yaml)
-
-[SnapdragonLe](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/SnapdragonLee.yaml)
-
-[ssrsub](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/ssrsub.yaml)
-
-[tbbatbb](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/tbbatbb.yaml)
-
-[tt](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/tt.yaml)
-
-[vveg](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/vveg.yaml)
-
-[yiun](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yiun.yaml)
-
-[yugogo](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/yugogo.yaml)
-
-[pmsub](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/pmsub.yaml)
-
-[Auto proxy](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/Auto_proxy.yaml)
-
-[clashnode](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/clashnode.yaml)
-
-[nodefree](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/main/meta/nodefree.yaml)
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 300px;">
