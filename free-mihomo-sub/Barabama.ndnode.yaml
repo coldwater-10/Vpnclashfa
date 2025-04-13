@@ -29,14 +29,14 @@ dns:
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
   nameserver:
-    - https://cloudflare-dns.com/dns-query
+    - 'https://dns.google/dns-query#h3=true'
+    - 'https://cloudflare-dns.com/dns-query#h3=true'
+    - 'https://dns.adguard-dns.com/dns-query#h3=true'
+    - 'https://basic.rethinkdns.com/#h3=true'    
+    - 'https://dns.nextdns.io#h3=true'
     - https://1.1.1.1/dns-query#en0
-    - https://1.1.1.1/dns-query
-    - https://dns.google/dns-query
     - https://dns.quad9.net/dns-query
-    - https://dns.nextdns.io
     - https://doh.opendns.com/dns-query
-    - https://dns.adguard.com/dns-query
     - https://dns.surfshark.com/dns-query
     - https://8.8.8.8/dns-query
     - https://9.9.9.9/dns-query
@@ -46,7 +46,6 @@ dns:
     - https://freedns.controld.com/p2
     - https://dns.dnswarden.com/adblock
     - https://adblock.doh.mullvad.net/dns-query
-    - https://basic.rethinkdns.com/dns-query
     - tls://1.0.0.1:853
     - tls://1.1.1.1:853
     - tls://dns.google:853
