@@ -34,7 +34,7 @@ dns:
     - 'https://dns.adguard-dns.com/dns-query#h3=true'
     - 'https://basic.rethinkdns.com/#h3=true'    
     - 'https://dns.nextdns.io#h3=true'
-    - https://1.1.1.1/dns-query#en0
+    - https://1.1.1.1/dns-query
     - https://dns.quad9.net/dns-query
     - https://doh.opendns.com/dns-query
     - https://dns.surfshark.com/dns-query
@@ -58,7 +58,7 @@ dns:
     - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
     - https://zepto-sto-1.edge.nextdns.io
     - https://doh.dns.sb/dns-query
-    - tls://8.8.8.8#en0
+    - tls://8.8.8.8
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
