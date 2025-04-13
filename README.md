@@ -35,7 +35,7 @@
 [ترکیبی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/all.yml)
 
 
-برای ویندوز از [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) استفاده کنین و توی تنظیمات tun رو فعال کنین
+برای ویندوز از [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) استفاده کنین و از تنظیمات tun رو فعال کنین
 
 برای اندروید هم از [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) استفاده کنین
 
