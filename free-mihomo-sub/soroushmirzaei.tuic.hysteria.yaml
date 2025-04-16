@@ -426,6 +426,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/category-ads-all.yaml"
     path: ./ruleset/ads.yaml
     interval: 86400
+  DownloadManagers:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/refs/heads/main/DownloadManagers.yaml
+    interval: 86400
+    path: ./ruleset/DownloadManagers.yaml
 
 proxy-groups:
   - name: 🔀 نوع انتخاب پروکسی
@@ -496,6 +502,12 @@ proxy-groups:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
       - 🔀 نوع انتخاب پروکسی
+  - name: 📥 دانلود منیجر
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🔀 نوع انتخاب پروکسی
+      - 🚫 اجازه ندادن
   - name: 🏴‍☠️ سایتای تحریمی
     type: select
     proxies:
@@ -606,6 +618,7 @@ proxy-providers:
       url: "https://www.gstatic.com/generate_204"
 
 rules:
+  - RULE-SET,DownloadManagers,📥 دانلود منیجر
   - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
