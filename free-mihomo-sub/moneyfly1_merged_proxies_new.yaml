@@ -595,7 +595,7 @@ rules:
   - RULE-SET,malware,⚠️ سایتای مخرب
   - RULE-SET,phishing,⚠️ سایتای مخرب
   - RULE-SET,cryptominers,⚠️ سایتای مخرب
-  - RULE-SET,ads,REJECT,🆎 تبلیغات
+  - RULE-SET,ads,🆎 تبلیغات
   - RULE-SET,iran_ads,🆎 تبلیغات
   - RULE-SET,PersianBlocker,🆎 تبلیغات
   - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
