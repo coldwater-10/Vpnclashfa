@@ -457,28 +457,29 @@ proxy-groups:
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
-    tolerance: 180
+    timeout: 8000
+    tolerance: 600
     max-failed-times: 5
     include-all: true
+    lazy: true
     use:
       - proxy
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
-    tolerance: 180
-    max-failed-times: 5
-    include-all: true
+    timeout: 8000
+    max-failed-times: 3
+    lazy: true
     use:
       - proxy
   - name: توزیع بار (پایدار) 🧲
     type: load-balance
     url: https://api.v2fly.org/checkConnection.svgz
-    strategy: consistent-hashing
     interval: 600
-    tolerance: 180
+    timeout: 8000
     max-failed-times: 5
-    include-all: true
+    lazy: true
     use:
       - proxy
   - name: توزیع بار (گردشی) 🔁
@@ -486,9 +487,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     strategy: round-robin
     interval: 600
-    tolerance: 180
-    max-failed-times: 5
-    include-all: true
+    timeout: 8000
+    max-failed-times: 3
+    lazy: true
     use:
       - proxy
   - name: 🇮🇷 سایتای ایرانی
@@ -504,6 +505,30 @@ proxy-groups:
       - 🔀 نوع انتخاب پروکسی
       - 🚫 اجازه ندادن
   - name: 🏴‍☠️ سایتای تحریمی
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+  - name: 💬 تلگرام
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+  - name: 🖥️ استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 🔀 نوع انتخاب پروکسی
+  - name: 🎮 گیم
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+  - name: 📡 توییچ
     type: select
     proxies:
       - 🔀 نوع انتخاب پروکسی
@@ -539,50 +564,31 @@ proxy-groups:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
       - 🔀 نوع انتخاب پروکسی
-  - name: 💬 تلگرام
-    type: select
-    proxies:
-      - 🔀 نوع انتخاب پروکسی
-      - 🛡️ بدون فیلترشکن
-      - 🚫 اجازه ندادن
-  - name: 🖥️ استیم
-    type: select
-    proxies:
-      - 🛡️ بدون فیلترشکن
-      - 🚫 اجازه ندادن
-      - 🔀 نوع انتخاب پروکسی
-  - name: 🎮 گیم
-    type: select
-    proxies:
-      - 🔀 نوع انتخاب پروکسی
-      - 🛡️ بدون فیلترشکن
-      - 🚫 اجازه ندادن
-  - name: 📡 توییچ
-    type: select
-    proxies:
-      - 🔀 نوع انتخاب پروکسی
-      - 🛡️ بدون فیلترشکن
-      - 🚫 اجازه ندادن
   - name: 🛡️ بدون فیلترشکن
     type: select
     proxies:
       - DIRECT
+    hidden: true
   - name: ⛔ قطع اینترنت
     type: select
     proxies:
       - REJECT
+    hidden: true
   - name: 🚫 اجازه ندادن
     type: select
     proxies:
       - REJECT
+    hidden: true
   - name: 🔐 فقط سایتای فیلتر شده
     type: select
     proxies:
       - DIRECT
+    hidden: true
   - name: 🌐 همه سایتا
     type: select
     proxies:
       - 🔀 نوع انتخاب پروکسی
+    hidden: true
 
 proxy-providers:
 
