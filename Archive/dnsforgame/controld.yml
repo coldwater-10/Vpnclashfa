@@ -1,0 +1,53 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: true
+log-level: debug
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+find-process-mode: always
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: false
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: true
+  use-host: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - https://freedns.controld.com/uncensored
+    - uncensored.freedns.controld.com
+    - 76.76.2.11
+    - 76.76.10.11
+
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  auto-redir: true
+  dns-hijack:
+    - any:53
+    - "any:53"
+    - "tcp://any:53"
+
+proxies:
+  - name: "Fake Proxy"
+    type: http
+    server: 127.0.0.1
+    port: 8080
+
+proxy-groups:
+  - name: 🔀 DIRECT
+    type: select
+    proxies:
+      - DIRECT
+      - Fake Proxy
+
+rules:
+  - MATCH,🔀 DIRECT

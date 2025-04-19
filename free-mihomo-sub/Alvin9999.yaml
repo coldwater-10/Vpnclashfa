@@ -595,7 +595,7 @@ proxy-providers:
   proxy:
     type: http
     url: >-
-      https://raw.githubusercontent.com/HDYOU/porxy/refs/heads/main/rules/github-clash-all.yaml
+      https://raw.githubusercontent.com/Alvin9999/pac2/refs/heads/master/clash.meta2/15/config.yaml
     interval: 86400
     include-all: true
     path: ./proxy.yaml

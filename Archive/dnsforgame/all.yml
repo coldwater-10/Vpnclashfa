@@ -1,0 +1,110 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+allow-lan: true
+log-level: debug
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+find-process-mode: always
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: false
+dns:
+  enable: true
+  ipv6: true
+  use-host: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 78.157.60.19
+    - 78.157.61.17
+    - 78.157.61.151
+    - 78.157.61.237
+    - 78.157.42.100
+    - 78.157.42.101
+    - 10.202.10.10
+    - 10.202.10.11
+    - 178.22.122.100
+    - 185.51.200.2
+    - https://free.shecan.ir/dns-query
+    - tls://free.shecan.ir
+    - 10.202.10.202
+    - 10.202.10.102
+    - https://dns.403.online/dns-query
+    - tls://dns.403.online
+    - 185.55.226.26
+    - 185.55.225.25
+  fallback:
+    - 64.6.64.6	
+    - 64.6.65.6
+    - 91.92.255.160
+    - 91.92.255.24
+    - 208.67.222.222	
+    - 208.67.222.20
+    - 185.20.226.164
+    - 76.76.2.22
+    - 76.76.10.22
+
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  auto-redir: true
+  dns-hijack:
+    - any:53
+    - "any:53"
+    - "tcp://any:53"
+
+proxies:
+  - name: "Fake Proxy"
+    type: http
+    server: 127.0.0.1
+    port: 8080
+
+proxy-groups:
+  - name: 🔀 DIRECT
+    type: select
+    proxies:
+      - DIRECT
+      - Fake Proxy
+
+rules:
+  - PROCESS-NAME,steam.exe,🔀 DIRECT
+  - PROCESS-NAME,EpicGamesLauncher.exe,🔀 DIRECT
+  - PROCESS-NAME,Brawlhalla.exe,🔀 DIRECT
+  - PROCESS-NAME,Paladins.exe,🔀 DIRECT
+  - PROCESS-NAME,Smite.exe,🔀 DIRECT
+  - PROCESS-NAME,underlords.exe,🔀 DIRECT
+  - PROCESS-NAME,WarRobots.exe,🔀 DIRECT
+  - PROCESS-NAME,Among Us.exe,🔀 DIRECT
+  - DOMAIN-KEYWORD,steam,🔀 DIRECT
+  - DOMAIN-KEYWORD,epicgames,🔀 DIRECT
+  - DOMAIN-KEYWORD,unrealengine,🔀 DIRECT
+  - DOMAIN-KEYWORD,Paladins,🔀 DIRECT
+  - DOMAIN-KEYWORD,Smite,🔀 DIRECT
+  - DOMAIN-KEYWORD,Brawlhalla,🔀 DIRECT
+  - DOMAIN-SUFFIX,app.launchdarkly.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,sentry.io,🔀 DIRECT
+  - DOMAIN-SUFFIX,clientstream.launchdarkly.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,js.hcaptcha.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,newassets.hcaptcha.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,6b8b0d91-4a20-4a00-a3e4-4da4a883a5f0.client-api.unity3dusercontent.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,eos-general.s3.amazonaws.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,backend.innersloth.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,o770047.ingest.sentry.io,🔀 DIRECT
+  - DOMAIN-SUFFIX,matchmaker-eu.among.us,🔀 DIRECT
+  - DOMAIN-SUFFIX,matchmaker-as.among.us,🔀 DIRECT
+  - PROCESS-NAME,Discord.exe,🔀 DIRECT
+  - DOMAIN-KEYWORD,discord,🔀 DIRECT
+  - DOMAIN-SUFFIX,airhorn.solutions,🔀 DIRECT
+  - DOMAIN-SUFFIX,airhornbot.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,bigbeans.solutions,🔀 DIRECT
+  - DOMAIN-SUFFIX,dis.gd,🔀 DIRECT
+  - DOMAIN-SUFFIX,watchanimeattheoffice.com,🔀 DIRECT
+  - DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com.io,🔀 DIRECT
+  - MATCH,🔀 DIRECT

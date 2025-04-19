@@ -1,0 +1,68 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: true
+log-level: warning
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+find-process-mode: strict
+ipv6: true
+unified-delay: false
+disable-keep-alive: false
+keep-alive-idle: 30
+keep-alive-interval: 15
+profile:
+  store-selected: true
+  store-fake-ip: false
+dns:
+  enable: true
+  ipv6: true
+  use-host: true
+  use-system-hosts: false
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 10.202.10.202
+    - 10.202.10.102
+    - https://dns.403.online/dns-query
+    - tls://dns.403.online
+  proxy-server-nameserver:
+    - 10.202.10.202
+    - 10.202.10.102
+    - https://dns.403.online/dns-query
+    - tls://dns.403.online
+
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  auto-detect-interface: true
+  auto-redir: true
+  dns-hijack:
+    - any:53
+    - "any:53"
+    - "tcp://any:53"
+
+proxies:
+  - name: "Fake Proxy"
+    type: http
+    server: 127.0.0.1
+    port: 8080
+
+proxy-groups:
+  - name: 🔀 DIRECT
+    type: select
+    proxies:
+      - DIRECT
+      - Fake Proxy
+
+rules:
+  - MATCH,🔀 DIRECT
+
+ntp:
+  enable: true
+  server: "time.apple.com"
+  port: 123
+  interval: 30
