@@ -27,9 +27,6 @@ dns:
   nameserver:
     - 78.157.61.151
     - 78.157.61.237
-  proxy-server-nameserver:
-    - 78.157.61.151
-    - 78.157.61.237
 
 tun:
   enable: true

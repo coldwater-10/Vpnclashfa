@@ -28,11 +28,6 @@ dns:
     - 10.202.10.102
     - https://dns.403.online/dns-query
     - tls://dns.403.online
-  proxy-server-nameserver:
-    - 10.202.10.202
-    - 10.202.10.102
-    - https://dns.403.online/dns-query
-    - tls://dns.403.online
 
 tun:
   enable: true
@@ -41,7 +36,6 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - any:53
     - "any:53"
     - "tcp://any:53"
 

@@ -27,9 +27,6 @@ dns:
   nameserver:
     - 10.202.10.10
     - 10.202.10.11
-  proxy-server-nameserver:
-    - 10.202.10.10
-    - 10.202.10.11
 
 tun:
   enable: true

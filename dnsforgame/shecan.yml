@@ -29,11 +29,6 @@ dns:
     - 178.22.122.100
     - 185.51.200.2
     - 'tls://free.shecan.ir#h3=true'
-  proxy-server-nameserver:
-    - 'https://free.shecan.ir/dns-query#h3=true'
-    - 178.22.122.100
-    - 185.51.200.2
-    - 'tls://free.shecan.ir#h3=true'
 
 tun:
   enable: true

@@ -26,9 +26,6 @@ dns:
   nameserver:
     - 185.55.226.26
     - 185.55.225.25
-  proxy-server-nameserver:
-    - 185.55.226.26
-    - 185.55.225.25
 
 tun:
   enable: true
