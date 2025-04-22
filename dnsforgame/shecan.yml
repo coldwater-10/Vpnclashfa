@@ -19,16 +19,16 @@ profile:
 dns:
   enable: true
   ipv6: true
+  respect-rules: false
   prefer-h3: true
+  cache-algorithm: arc   
+  use-system-hosts: true
   use-host: true
-  use-system-hosts: false
-  enhanced-mode: fake-ip
-  listen: 0.0.0.0:7874
   nameserver:
-    - 'https://free.shecan.ir/dns-query#h3=true'
-    - 178.22.122.100
-    - 185.51.200.2
-    - 'tls://free.shecan.ir#h3=true'
+    - 'https://free.shecan.ir/dns-query'
+    - 'tls://free.shecan.ir'
+    - '178.22.122.100'
+    - '185.51.200.2'
 
 tun:
   enable: true
@@ -37,7 +37,6 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - any:53
     - "any:53"
     - "tcp://any:53"
 

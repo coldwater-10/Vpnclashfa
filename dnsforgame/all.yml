@@ -16,9 +16,11 @@ profile:
 dns:
   enable: true
   ipv6: true
-  use-host: false
-  enhanced-mode: redir-host
-  listen: 0.0.0.0:7874
+  respect-rules: false
+  prefer-h3: true
+  cache-algorithm: arc   
+  use-system-hosts: true
+  use-host: true
   nameserver:
     - 78.157.60.19
     - 78.157.61.17
@@ -56,7 +58,6 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - any:53
     - "any:53"
     - "tcp://any:53"
 

@@ -46,18 +46,24 @@ dns:
     - 'time.*.com'  
     - '*.ir'
   default-nameserver:
-    - 223.5.5.5
-    - 77.88.8.8
-    - 9.9.9.9
-    - 1.1.1.1
+    - 2606:4700:4700::1111
+    - 2606:4700:4700::1001
+    - 2001:4860:4860::8888
+    - 2001:4860:4860::8844
     - 8.8.8.8
     - 8.8.4.4
+    - 1.0.0.1
+    - 1.1.1.1
+    - 9.9.9.9
+    - 9.9.9.11
+    - 9.9.9.10
+    - 94.140.14.15
+    - 94.140.15.15
+    - 223.5.5.5
+    - 77.88.8.8
     - 2400:3200::1
     - 2a02:6b8::feed:0ff
     - 2620:fe::fe
-    - 2606:4700:4700::1111
-    - 2001:4860:4860::8888
-    - 2001:4860:4860::8844
   nameserver:
     - 'https://basic.rethinkdns.com/#h3=true'
     - 'https://dns.tls-data.de/dns-query#h3=true'
@@ -72,25 +78,16 @@ dns:
     - 'https://xmission-slc-1.edge.nextdns.io/dns-query'
     - 'tls://dns.lavate.ch'
     - 'tls://dns.kerekes.xyz'
-  fallback:
-    - 'tcp://9.9.9.9:53'
-    - 'tcp://9.9.9.10:53'
-    - 'tcp://8.8.4.4:53'
-    - 'tcp://64.6.65.6:53'
-    - 'tcp://64.6.64.6:53'
-    - 'tcp://8.8.8.8:53'
-    - 'tcp://9.9.9.11:53'
-    - 'tcp://1.0.0.1:53'
-    - 'tcp://1.1.1.1:53'
-  fallback-filter:
-    geoip: true
-    geoip-code: IR
   direct-nameserver:
     - 78.157.42.100
     - 78.157.42.101
     - 178.22.122.100
     - 185.51.200.2
   proxy-server-nameserver:
+    - '2606:4700:4700::1111'
+    - '2606:4700:4700::1001'
+    - '2001:4860:4860::8888'
+    - '2001:4860:4860::8844'
     - '223.5.5.5'
     - '2400:3200::1'
     - '77.88.8.8'
@@ -98,11 +95,8 @@ dns:
     - '9.9.9.9'
     - '2620:fe::fe'
     - '1.1.1.1'
-    - '2606:4700:4700::1111'
     - '8.8.8.8'
-    - '2001:4860:4860::8888'
     - '8.8.4.4'
-    - '2001:4860:4860::8844'
 
 sniffer:
   enable: true
@@ -122,7 +116,6 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - any:53
     - "any:53"
     - "tcp://any:53"
 
@@ -234,10 +227,38 @@ rule-providers:
     interval: 86400
   irasn:
     type: http
-    format: text
+    format: yaml
     behavior: classical
-    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/irasn.txt"
-    path: ./ruleset/irasn.txt
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/irasn.yaml"
+    path: ./ruleset/irasn.yaml
+    interval: 86400
+  arvancloud:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/arvancloud.yaml"
+    path: ./ruleset/arvancloud.yaml
+    interval: 86400
+  derakcloud:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/derakcloud.yaml"
+    path: ./ruleset/derakcloud.yaml
+    interval: 86400
+  iranserver:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/iranserver.yaml"
+    path: ./ruleset/iranserver.yaml
+    interval: 86400
+  parspack:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/parspack.yaml"
+    path: ./ruleset/parspack.yaml
     interval: 86400
   malware:
     type: http
@@ -372,8 +393,7 @@ rule-providers:
     interval: 86400
   xiaomi_white_list:
     type: http
-    format: yaml
-    behavior: domain
+    behavior: classical
     url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/refs/heads/main/xiaomi_white_list.yaml"
     path: ./ruleset/xiaomi_white_list.yaml
     interval: 86400
@@ -395,6 +415,18 @@ rule-providers:
     url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/whatsapp.yaml
     interval: 86400
     path: ./ruleset/whatsapp.yaml
+  LiteAds:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/refs/heads/main/LiteAds.yaml"
+    path: ./ruleset/LiteAds.yaml
+    interval: 86400
+  discord:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/coldwater-10/clash_rules/refs/heads/main/discord.yaml"
+    path: ./ruleset/discord.yaml
+    interval: 86400
 
 proxies:
   - name: "VLESS - Domain 1 : 443"
@@ -1191,6 +1223,12 @@ proxy-groups:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
       - 🔀 نوع انتخاب پروکسی
+  - name: 🗣️ دیسکورد
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
   - name: 🤬 سایتای سانسوری
     type: select
     proxies:
@@ -1212,11 +1250,6 @@ proxy-groups:
     proxies:
       - REJECT
     hidden: true
-  - name: 🔐 فقط سایتای فیلتر شده
-    type: select
-    proxies:
-      - DIRECT
-    hidden: true
   - name: 🌐 همه سایتا
     type: select
     proxies:
@@ -1235,9 +1268,10 @@ rules:
   - RULE-SET,cryptominers,⚠️ سایتای مخرب
   - RULE-SET,warninglist,⚠️ سایتای مخرب
   - RULE-SET,Ponzi,⚠️ سایتای مخرب
-  - RULE-SET,ads,🆎 تبلیغات
+  - RULE-SET,LiteAds,🆎 تبلیغات
   - RULE-SET,iran_ads,🆎 تبلیغات
   - RULE-SET,PersianBlocker,🆎 تبلیغات
+  - RULE-SET,ads,🆎 تبلیغات
   - RULE-SET,BanEasyList,🆎 تبلیغات
   - RULE-SET,twitch,📡 توییچ
   - PROCESS-NAME,Telegram.exe,💬 تلگرام
@@ -1247,12 +1281,16 @@ rules:
   - RULE-SET,youtube,▶️ یوتیوب
   - RULE-SET,YouTubeMusic,▶️ یوتیوب
   - RULE-SET,censor,🤬 سایتای سانسوری
-  - RULE-SET,iran,🇮🇷 سایتای ایرانی
-  - RULE-SET,ircidr,🇮🇷 سایتای ایرانی
-  - RULE-SET,irasn,🇮🇷 سایتای ایرانی
-  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
-  - RULE-SET,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,apps,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - RULE-SET,arvancloud,🇮🇷 سایتای ایرانی
+  - RULE-SET,derakcloud,🇮🇷 سایتای ایرانی
+  - RULE-SET,iranserver,🇮🇷 سایتای ایرانی
+  - RULE-SET,parspack,🇮🇷 سایتای ایرانی
+  - RULE-SET,irasn,🇮🇷 سایتای ایرانی
+  - RULE-SET,ircidr,🇮🇷 سایتای ایرانی
+  - RULE-SET,ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
   - RULE-SET,whatsapp,🟢 واتس آپ
   - RULE-SET,steam,🖥️ استیم
   - RULE-SET,SteamRegionCheck,🖥️ استیم
@@ -1260,6 +1298,7 @@ rules:
   - RULE-SET,GameDownload,🎮 گیم
   - RULE-SET,category-games,🎮 گیم
   - RULE-SET,Xbox,🎮 گیم
+  - RULE-SET,discord,🗣️ دیسکورد
   - RULE-SET,xiaomi_white_list,🔀 نوع انتخاب پروکسی
   - RULE-SET,xiaomi-ads,🍃 تبلیغات اپ ها
   - RULE-SET,xiaomi_block_list,🍃 تبلیغات اپ ها

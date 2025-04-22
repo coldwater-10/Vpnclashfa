@@ -19,15 +19,16 @@ profile:
 dns:
   enable: true
   ipv6: true
+  respect-rules: false
+  prefer-h3: true
+  cache-algorithm: arc   
+  use-system-hosts: true
   use-host: true
-  use-system-hosts: false
-  enhanced-mode: fake-ip
-  listen: 0.0.0.0:7874
   nameserver:
-    - 10.202.10.202
-    - 10.202.10.102
-    - https://dns.403.online/dns-query
-    - tls://dns.403.online
+    - 'https://dns.403.online/dns-query'
+    - 'tls://dns.403.online'
+    - '10.202.10.202'
+    - '10.202.10.102'
 
 tun:
   enable: true

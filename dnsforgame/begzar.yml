@@ -19,10 +19,11 @@ profile:
 dns:
   enable: true
   ipv6: true
+  respect-rules: false
+  prefer-h3: true
+  cache-algorithm: arc   
+  use-system-hosts: true
   use-host: true
-  use-system-hosts: false
-  enhanced-mode: fake-ip
-  listen: 0.0.0.0:7874
   nameserver:
     - 185.55.226.26
     - 185.55.225.25
@@ -34,7 +35,6 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - any:53
     - "any:53"
     - "tcp://any:53"
 
