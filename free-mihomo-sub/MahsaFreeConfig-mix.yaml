@@ -24,8 +24,8 @@ profile:
 dns:
   enable: true
   ipv6: true
-  respect-rules: true
-  prefer-h3: false
+  respect-rules: false
+  prefer-h3: true
   cache-algorithm: arc   
   use-system-hosts: true
   use-host: true
@@ -46,10 +46,6 @@ dns:
     - 'time.*.com'  
     - '*.ir'
   default-nameserver:
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
-    - 2001:4860:4860::8888
-    - 2001:4860:4860::8844
     - 8.8.8.8
     - 8.8.4.4
     - 1.0.0.1
@@ -61,14 +57,17 @@ dns:
     - 94.140.15.15
     - 223.5.5.5
     - 77.88.8.8
-    - 2400:3200::1
-    - 2a02:6b8::feed:0ff
-    - 2620:fe::fe
   nameserver:
-    - 'https://basic.rethinkdns.com'
+    - 'https://sky.rethinkdns.com/1:sIMQAAAFMAAAEQgAAgA='
+    - 'tls://1-wcbraaaaauyaaaarbaaaeaa.max.rethinkdns.com'
+    - 'https://dns.nextdns.io/f1d647'
+    - 'tls://f1d647.dns.nextdns.io'
+    - 'https://dns.adguard-dns.com/dns-query'
+    - 'quic://dns.adguard-dns.com'
+    - 'tls://dns.adguard-dns.com'
     - 'https://dns.tls-data.de/dns-query'
     - 'https://dns0.eu/dns-query'
-    - 'https://dns.kerekes.xyz/dns-query#'
+    - 'https://dns.kerekes.xyz/dns-query'
     - 'https://abel.waringer-atg.de/dns-query'
     - 'https://3dns.eu/dns-query'
     - 'https://doh-own-recursion.nicolas-dorriere.fr/dns-query'
@@ -79,24 +78,24 @@ dns:
     - 'tls://dns.lavate.ch'
     - 'tls://dns.kerekes.xyz'
   direct-nameserver:
-    - 78.157.42.100
-    - 78.157.42.101
-    - 178.22.122.100
-    - 185.51.200.2
+    - '78.157.42.100'
+    - '78.157.42.101'
+    - '178.22.122.100'
+    - '185.51.200.2'
   proxy-server-nameserver:
     - '2606:4700:4700::1111'
     - '2606:4700:4700::1001'
     - '2001:4860:4860::8888'
     - '2001:4860:4860::8844'
-    - '223.5.5.5'
-    - '2400:3200::1'
-    - '77.88.8.8'
-    - '2a02:6b8::feed:0ff'
-    - '9.9.9.9'
-    - '2620:fe::fe'
     - '1.1.1.1'
     - '8.8.8.8'
     - '8.8.4.4'
+    - '9.9.9.9'
+    - '223.5.5.5'
+    - '77.88.8.8'
+    - '2400:3200::1'
+    - '2a02:6b8::feed:0ff'
+    - '2620:fe::fe'
 
 sniffer:
   enable: true
@@ -428,480 +427,6 @@ rule-providers:
     path: ./ruleset/discord.yaml
     interval: 86400
 
-proxies:
-  - name: "VLESS - Domain 1 : 443"
-    server: bpb-worker-panel0-e4p.pages.dev
-    port: 443
-    type: vless
-    uuid: 4045e84e-5e3c-4f70-8ff5-c1097882a55a
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: bPb-workER-panel0-e4p.paGES.DEv
-    network: ws
-    ws-opts:
-      path: /vfs9PAJTXmhQHgUm/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
-      headers:
-        Host: bpb-worker-panel0-e4p.pages.dev
-    udp: true
-
-
-  - name: "🇮🇷 Warp - IPv4-1"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.99.137
-    port: 943
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-1"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.99.5
-    port: 945
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-1"
-
-  - name: "🇮🇷 Warp - IPv4-2"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 188.114.98.4
-    port: 1843
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-2"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1/128
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.236
-    port: 1701
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-2"
-
-  - name: "🇮🇷 Warp - IPv4-3"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.97.79
-    port: 880
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-3"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.134
-    port: 4198
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-3"
-
-  - name: "🇮🇷 Warp - IPv6-1"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇸🇪 Warp - IPv6-1"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.97.89
-    port: 946
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6-1"
-
-  - name: "🇮🇷 Warp - IPv4-4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.126
-    port: 7152
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-4"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.179
-    port: 864
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-4"
-
-  - name: "🇮🇷 Warp - IPv4-5"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 188.114.96.157
-    port: 880
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-5"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1/128
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.135
-    port: 942
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-5"
-
-  - name: "🇮🇷 Warp - IPv4-6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.99.137
-    port: 4198
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-6"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.134
-    port: 4198
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-6"
-
-  - name: "🇮🇷 Warp - IPv6-2"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇸🇪 Warp - IPv6-2"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.97.89
-    port: 946
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6-2"
-
-  - name: "🇮🇷 Warp - IPv4-7"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.97.126
-    port: 7152
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-7"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.98.179
-    port: 864
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-7"
-
-  - name: "🇮🇷 Warp - IPv4-8"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 188.114.96.157
-    port: 880
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-8"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1/128
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.135
-    port: 942
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-8"
-
-  - name: "🇮🇷 Warp - IPv4-9"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "wbdzf5P8GQTujsFGQBXh6ipmDRkFSRypXRPSHvVSL5E="
-    server: 188.114.99.137
-    port: 4198
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇩🇪 Warp - IPv4-9"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.96.134
-    port: 4198
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-9"
-
-  - name: "🇮🇷 Warp - IPv6-3"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: ""
-    amnezia-wg-option:
-      jc: 4
-      jmin: 40
-      jmax: 250
-      s1: 0
-      s2: 0
-      h1: 1
-      h2: 2
-      h4: 3
-      h3: 4
-
-  - name: "🇸🇪 Warp - IPv6-3"
-    type: wireguard
-    ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
-    private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.97.89
-    port: 946
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    allowed-ips: ["0.0.0.0/0", "::/0"]
-    reserved: "AAAA"
-    udp: true
-    mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6-3"
-
 proxy-groups:
   - name: 🔀 نوع انتخاب پروکسی
     type: select
@@ -917,32 +442,15 @@ proxy-groups:
       - 🛡️ بدون فیلترشکن
   - name: دستی 🤏🏻
     type: select
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -952,69 +460,35 @@ proxy-groups:
     max-failed-times: 5
     include-all: true
     lazy: true
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://www.gstatic.com/generate_204
     interval: 600
     timeout: 6000
     tolerance: 300
     max-failed-times: 3
     lazy: true
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: اتصال پایدار 🔗
     type: url-test
-    url: https://api.v2fly.org/checkConnection.svgz
+    url: https://cp.cloudflare.com/generate_204
     interval: 30
     timeout: 3000
     tolerance: 200
@@ -1032,32 +506,15 @@ proxy-groups:
     timeout: 6000
     max-failed-times: 5
     lazy: true
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     url: https://api.v2fly.org/checkConnection.svgz
@@ -1067,32 +524,15 @@ proxy-groups:
     timeout: 6000
     max-failed-times: 3
     lazy: true
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     url: https://api.v2fly.org/checkConnection.svgz
@@ -1101,32 +541,15 @@ proxy-groups:
     timeout: 6000
     max-failed-times: 5
     lazy: true
-    proxies:
-      - "VLESS - Domain 1 : 443"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇩🇪 Warp - IPv4-4"
-      - "🇩🇪 Warp - IPv4-5"
-      - "🇩🇪 Warp - IPv4-6"
-      - "🇩🇪 Warp - IPv4-7"
-      - "🇩🇪 Warp - IPv4-8"
-      - "🇩🇪 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇮🇷 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv4-4"
-      - "🇮🇷 Warp - IPv4-5"
-      - "🇮🇷 Warp - IPv4-6"
-      - "🇮🇷 Warp - IPv4-7"
-      - "🇮🇷 Warp - IPv4-8"
-      - "🇮🇷 Warp - IPv4-9"
-      - "🇮🇷 Warp - IPv6-1"
-      - "🇮🇷 Warp - IPv6-2"
-      - "🇮🇷 Warp - IPv6-3"
-      - "🇸🇪 Warp - IPv6-1"
-      - "🇸🇪 Warp - IPv6-2"
-      - "🇸🇪 Warp - IPv6-3"
+    use:
+      - mtn1
+      - mtn2
+      - mtn3
+      - mtn4
+      - mci1
+      - mci2
+      - mci3
+      - mci4
   - name: 📥 دانلود منیجر
     type: select
     proxies:
@@ -1255,6 +678,112 @@ proxy-groups:
     proxies:
       - 🔀 نوع انتخاب پروکسی
     hidden: true
+
+proxy-providers:
+
+  mtn1:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmtn%2Fsub_1.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mtn1.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mtn2:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmtn%2Fsub_2.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mtn2.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mtn3:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmtn%2Fsub_3.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mtn3.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mtn4:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmtn%2Fsub_4.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mtn4.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mci1:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmci%2Fsub_1.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mci1.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mci2:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmci%2Fsub_2.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mci2.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mci3:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmci%2Fsub_3.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mci3.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
+
+  mci4:
+    type: http
+    url: >-
+      https://url.v1.mk/sub?&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmahsanet%2FMahsaFreeConfig%2Frefs%2Fheads%2Fmain%2Fmci%2Fsub_4.txt&target=clash&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSleepyHeeead%2Fsubconverter-config%40master%2Fremote-config%2Funiversal%2Furltest.ini&emoji=false&append_type=true&append_info=true&scv=true&udp=true&list=true&sort=false&fdn=true&insert=false
+    interval: 86400
+    include-all: true
+    path: ./mci4.yaml
+    health-check:
+      enable: true
+      interval: 1800
+      lazy: true
+      url: "https://www.gstatic.com/generate_204"
 
 rules:
   - RULE-SET,DownloadManagers,📥 دانلود منیجر
